@@ -18,6 +18,7 @@ services:
         define('WP_SITEURL','http://localhost:8080');
     volumes:
       - ./wordpress:/var/www/html
+      - ./files/wp-content:/var/www/html/wp-content
 
   db:
     image: mysql:5.7
