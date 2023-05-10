@@ -1,0 +1,1679 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 08:57:13
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Linux
+PHP VERSION_________: 7.4.30                                |7.4.30
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.30 | SAPI: fpm-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache
+DOC ROOT____________: "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+REQUEST URL_________: "http://ny.sverigeshopping.se"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[cpnl-dbaction]
+********************************************************************************
+SELECT USERS SELECT `KsjdvaWM_users`.`id` AS id, `KsjdvaWM_users`.`user_login` AS user_login FROM `KsjdvaWM_users` INNER JOIN `KsjdvaWM_usermeta` ON ( `KsjdvaWM_users`.`id` = `KsjdvaWM_usermeta`.`user_id` ) WHERE `KsjdvaWM_usermeta`.`meta_key` = "KsjdvaWM_capabilities" AND `KsjdvaWM_usermeta`.`meta_value` LIKE "%\"administrator\"%" ORDER BY user_login ASC
+GET DUPLICATOR VERSION ON CURRENT DATABASE FAILED. OVERWRITE VERSION NOT FOUND
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+URL_NEW_____________: "http://ny.sverigeshopping.se"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/var/www/vhosts/ny.sverigeshopping.se/httpdocs/20220824_sverigeshopping_[HASH]_20220824084329_archive.daf"
+ARCHIVE SIZE________: 450.64MB
+CREATED_____________: 2022-08-24 08:43:29
+WP VERSION__________: 6.0.1
+DUP VERSION_________: 4.0.5.3
+LICENSE_____________: Business or Gold
+DB VERSION__________: 10.3.34
+DB FILE SIZE________: 49.03MB
+DB TABLES___________: 130
+DB ROWS_____________: 73817
+URL HOME____________: https://sverigeshopping.se
+URL CORE____________: https://sverigeshopping.se
+URL CONTENT_________: https://sverigeshopping.se/wp-content
+URL UPLOAD__________: https://sverigeshopping.se/wp-content/uploads
+URL PLUGINS_________: https://sverigeshopping.se/wp-content/plugins
+URL MU PLUGINS______: https://sverigeshopping.se/wp-content/mu-plugins
+URL THEMES__________: https://sverigeshopping.se/wp-content/themes
+PATH HOME___________: /var/www/vhosts/sverigeshopping.se/httpdocs
+PATH ABS____________: /var/www/vhosts/sverigeshopping.se/httpdocs
+PATH WPCONFIG_______: /var/www/vhosts/sverigeshopping.se/httpdocs
+PATH WPCONTENT______: /var/www/vhosts/sverigeshopping.se/httpdocs/wp-content
+PATH UPLOADS________: /var/www/vhosts/sverigeshopping.se/httpdocs/wp-content/uploads
+PATH PLUGINS________: /var/www/vhosts/sverigeshopping.se/httpdocs/wp-content/plugins
+PATH MUPLUGINS______: /var/www/vhosts/sverigeshopping.se/httpdocs/wp-content/mu-plugins
+PATH THEMES_________: /var/www/vhosts/sverigeshopping.se/httpdocs/wp-content/themes
+
+PLUGINS
+PLUGIN [SLUG:cleantalk-spam-protect/cleantalk.php              ][ON:true ]  Anti-Spam by CleanTalk
+PLUGIN [SLUG:woo-checkout-field-editor-pro/checkout-form-designer.php][ON:true ]  Checkout Field Editor for WooCommerce
+PLUGIN [SLUG:child-theme-configurator/child-theme-configurator.php][ON:true ]  Child Theme Configurator
+PLUGIN [SLUG:content-views-query-and-display-post-page/content-views.php][ON:true ]  Content Views
+PLUGIN [SLUG:pt-content-views-pro/content-views.php            ][ON:true ]  Content Views Pro
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ]  Duplicator Pro
+PLUGIN [SLUG:fluent-smtp/fluent-smtp.php                       ][ON:true ]  FluentSMTP
+PLUGIN [SLUG:cookie-law-info/cookie-law-info.php               ][ON:true ]  GDPR Cookie Consent
+PLUGIN [SLUG:gravityforms/gravityforms.php                     ][ON:true ]  Gravity Forms
+PLUGIN [SLUG:landell-coupon/landell-coupon.php                 ][ON:true ]  Landell Coupon
+PLUGIN [SLUG:worker/init.php                                   ][ON:true ]  ManageWP - Worker
+PLUGIN [SLUG:pods/init.php                                     ][ON:true ]  Pods - Custom Content Types and Fields
+PLUGIN [SLUG:post-expirator/post-expirator.php                 ][ON:false]  PublishPress Future
+PLUGIN [SLUG:seo-by-rank-math/rank-math.php                    ][ON:true ]  Rank Math SEO
+PLUGIN [SLUG:seo-by-rank-math-pro/rank-math-pro.php            ][ON:true ]  Rank Math SEO PRO
+PLUGIN [SLUG:wp-smushit/wp-smush.php                           ][ON:true ]  Smush
+PLUGIN [SLUG:translatepress-multilingual/index.php             ][ON:true ]  TranslatePress - Multilingual
+PLUGIN [SLUG:user-role-editor/user-role-editor.php             ][ON:false]  User Role Editor
+PLUGIN [SLUG:user-role-editor-pro/user-role-editor-pro.php     ][ON:true ]  User Role Editor Pro
+PLUGIN [SLUG:wc-frontend-manager/wc_frontend_manager.php       ][ON:true ]  WCFM - WooCommerce Frontend Manager
+PLUGIN [SLUG:wc-frontend-manager-groups-staffs/wc_frontend_manager_groups_staffs.php][ON:true ]  WCFM - WooCommerce Frontend Manager - Groups & Staffs
+PLUGIN [SLUG:wc-frontend-manager-ultimate/wc_frontend_manager_ultimate.php][ON:true ]  WCFM - WooCommerce Frontend Manager - Ultimate
+PLUGIN [SLUG:wc-multivendor-marketplace/wc-multivendor-marketplace.php][ON:true ]  WCFM - WooCommerce Multivendor Marketplace
+PLUGIN [SLUG:wc-multivendor-membership/wc-multivendor-membership.php][ON:true ]  WCFM - WooCommerce Multivendor Membership
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:true ]  WooCommerce
+PLUGIN [SLUG:woocommerce-memberships/woocommerce-memberships.php][ON:true ]  WooCommerce Memberships
+PLUGIN [SLUG:woocommerce-pdf-invoices-packing-slips/woocommerce-pdf-invoices-packingslips.php][ON:true ]  WooCommerce PDF Invoices & Packing Slips
+PLUGIN [SLUG:woocommerce-product-vendors/woocommerce-product-vendors.php][ON:false]  WooCommerce Product Vendors
+PLUGIN [SLUG:wp-qrcode/wp-qrcode.php                           ][ON:false]  Wp qrcode
+PLUGIN [SLUG:wp-rocket/wp-rocket.php                           ][ON:true ]  WP Rocket
+PLUGIN [SLUG:0-worker.php                                      ][ON:false]  ManageWP - Worker Loader
+PLUGIN [SLUG:advanced-cache.php                                ][ON:false]  advanced-cache.php
+PLUGIN [SLUG:maintenance.php                                   ][ON:false]  maintenance.php
+
+********************************************************************************
+SECURE CHECK -> GO TO SECURE PAGE
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/ctrls/ctrl.base.php:231][DELTA:   0.37667]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [pwdcheck] START
+AJAX ACTION [pwdcheck] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+STEP ACTION: "initialized"
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/ctrls/ctrl.base.php:231][DELTA:   0.12389]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+SELECT USERS SELECT `KsjdvaWM_users`.`id` AS id, `KsjdvaWM_users`.`user_login` AS user_login FROM `KsjdvaWM_users` INNER JOIN `KsjdvaWM_usermeta` ON ( `KsjdvaWM_users`.`id` = `KsjdvaWM_usermeta`.`user_id` ) WHERE `KsjdvaWM_usermeta`.`meta_key` = "KsjdvaWM_capabilities" AND `KsjdvaWM_usermeta`.`meta_value` LIKE "%\"administrator\"%" ORDER BY user_login ASC
+GET DUPLICATOR VERSION ON CURRENT DATABASE FAILED. OVERWRITE VERSION NOT FOUND
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/ctrls/ctrl.base.php:231][DELTA:   0.14982]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: soft warning
+
+START TEST "Recovery URL" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery URL" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.05678]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+--------------------------------------
+LOG-TIME[DELTA:   0.90717]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00031]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Sufficient Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00043]  MESSAGE:TEST "Sufficient Disk Space" RESULT: good
+
+START TEST "Permissions" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.12316]  MESSAGE:TEST "Permissions" RESULT: passed
+
+START TEST "Configs Files Permissions" [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Configs Files Permissions" RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host Name Check" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Host Name Check" RESULT: passed
+
+START TEST "Verify Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00216]  MESSAGE:TEST "Verify Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00469]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00591]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: soft warning
+
+START TEST "Confirm Database Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Confirm Database Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Test User Table Privileges" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.05471]  MESSAGE:TEST "Test User Table Privileges" RESULT: passed
+
+START TEST "Test User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+DB QUERY [ERROR][/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/classes/database/class.db.php:634] MSG: SELECT command denied to user 'dbu-jg7m'@'localhost' for table 'user'
+	SQL: SELECT max_questions, max_updates, max_connections FROM mysql.user WHERE user = 'dbu-jg7m' AND host = 'localhost:3306'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/classes/validation/class.validation.database.service.php[886]
+TRACE[2] CLASS___: DUPX_Validation_database_service->getUserResources FILE: /var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/classes/validation/database-tests/class.validation.test.db.user.resources.php[28]
+TRACE[3] CLASS___: DUPX_Validation_test_db_user_resources->runTest FILE: /var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/classes/validation/class.validation.abstract.item.php[46]
+TRACE[4] CLASS___: DUPX_Validation_abstract_item->test FILE: /var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/classes/validation/class.validation.manager.php[229]
+TRACE[5] CLASS___: DUPX_Validation_manager->runTests FILE: /var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/classes/validation/class.validation.manager.php[202]
+TRACE[6] CLASS___: DUPX_Validation_manager->getValidateData FILE: /var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/ctrls/classes/class.ctrl.ajax.php[155]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/ctrls/classes/class.ctrl.ajax.php[91]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::controller FILE: /var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/main.installer.php[46]
+
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Test User Resources" RESULT: passed
+
+START TEST "Test SHOW VARIABLES query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00098]  MESSAGE:TEST "Test SHOW VARIABLES query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Default Character set and Collation support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00112]  MESSAGE:TEST "Default Character set and Collation support" RESULT: passed
+
+START TEST "Check Character set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Check Character set and  Collation Capability" RESULT: passed
+
+START TEST "Check MySQL Engine support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00018]  MESSAGE:TEST "Check MySQL Engine support" RESULT: passed
+
+START TEST "Check GTID mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Check GTID mode" RESULT: passed
+
+START TEST "Table Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00101]  MESSAGE:TEST "Table Case Sensitivity" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+SELECT USERS SELECT `KsjdvaWM_users`.`id` AS id, `KsjdvaWM_users`.`user_login` AS user_login FROM `KsjdvaWM_users` INNER JOIN `KsjdvaWM_usermeta` ON ( `KsjdvaWM_users`.`id` = `KsjdvaWM_usermeta`.`user_id` ) WHERE `KsjdvaWM_usermeta`.`meta_key` = "KsjdvaWM_capabilities" AND `KsjdvaWM_usermeta`.`meta_value` LIKE "%\"administrator\"%" ORDER BY user_login ASC
+GET DUPLICATOR VERSION ON CURRENT DATABASE FAILED. OVERWRITE VERSION NOT FOUND
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 08:58:03
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Sverigeshopping"
+HOME URL NEW________: "http://ny.sverigeshopping.se"
+SITE URL NEW________: "http://ny.sverigeshopping.se"
+CONTENT URL NEW_____: "http://ny.sverigeshopping.se/wp-content"
+UPLOAD URL NEW______: "http://ny.sverigeshopping.se/wp-content/uploads"
+PLUGINS URL NEW_____: "http://ny.sverigeshopping.se/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://ny.sverigeshopping.se/wp-content/mu-plugins"
+HOME PATH NEW_______: "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+SITE PATH NEW_______: "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+CONTENT PATH NEW____: "/var/www/vhosts/ny.sverigeshopping.se/httpdocs/wp-content"
+UPLOAD PATH NEW_____: "/var/www/vhosts/ny.sverigeshopping.se/httpdocs/wp-content/uploads"
+PLUGINS PATH NEW____: "/var/www/vhosts/ny.sverigeshopping.se/httpdocs/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/var/www/vhosts/ny.sverigeshopping.se/httpdocs/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer"
+	FILE: "/var/www/vhosts/ny.sverigeshopping.se/httpdocs/20220824_sverigeshopping_[HASH]_20220824084329_installer-backup.php"
+	FILE: "/var/www/vhosts/ny.sverigeshopping.se/httpdocs/20220824_sverigeshopping_[HASH]_20220824084329_archive.daf"
+	FILE: "/var/www/vhosts/ny.sverigeshopping.se/httpdocs/installer.php"
+	FILE: "/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer-bootlog__8b3c570-24084329.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20220824_sverigeshopping_[HASH]_20220824084329_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: DUP ARCHIVE >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING
+RESET CONFIG FILES: I'M GOING TO MOVE CONFIG FILE "wp-config.php" IN ORIGINAL FOLDER
+	CONFIG FILE HAS BEEN RESET
+RESET CONFIG FILES: I'M GOING TO MOVE CONFIG FILE ".htaccess" IN ORIGINAL FOLDER
+	CONFIG FILE HAS BEEN RESET
+*** RESET CONFIG FILES END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+DAWN START EXPAND
+DUP EXPAND OFFSET 32
+CHUNK COMPLETE - RUNTIME: 4.5418 sec. - Files processed: 12,531 of 27,927
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 79575024
+DAWN CONTINUE EXPAND
+#### seeking archive offset 79575024
+DUP EXPAND OFFSET 79575024
+--------------------------------------
+PATHS MAPPING : "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9710 sec. - Files processed: 23,965 of 27,927
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 466004447
+DAWN CONTINUE EXPAND
+#### seeking archive offset 466004447
+DUP EXPAND OFFSET 466004447
+--------------------------------------
+PATHS MAPPING : "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+--------------------------------------
+DUP EXPAND DONE
+
+
+EXTRACTION: DUP ARCHIVE >>> DONE
+
+EXTRACTION COMPLETE @ 08:58:13 - RUNTIME: 10.2100 sec. - Files processed: 27,927 of 27,927
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 08:58:13
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+KEEP USERS__________: 0
+CONTENT OWNER_______: 0
+TABLE PREFIX________: "KsjdvaWM_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+NON-BREAKING SPACES_: false
+CHARSET_____________: "utf8"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "KsjdvaWM_actionscheduler_actions"________________[ROWS:    2367] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_actionscheduler_actions]
+TABLE "KsjdvaWM_actionscheduler_claims"_________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_actionscheduler_claims]
+TABLE "KsjdvaWM_actionscheduler_groups"_________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_actionscheduler_groups]
+TABLE "KsjdvaWM_actionscheduler_logs"___________________[ROWS:    7109] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_actionscheduler_logs]
+TABLE "KsjdvaWM_cleantalk_ac_log"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_cleantalk_ac_log]
+TABLE "KsjdvaWM_cleantalk_sessions"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_cleantalk_sessions]
+TABLE "KsjdvaWM_cleantalk_sfw"__________________________[ROWS:   13833] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_cleantalk_sfw]
+TABLE "KsjdvaWM_cleantalk_sfw_logs"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_cleantalk_sfw_logs]
+TABLE "KsjdvaWM_cleantalk_spamscan_logs"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_cleantalk_spamscan_logs]
+TABLE "KsjdvaWM_cleantalk_ua_bl"________________________[ROWS:      62] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_cleantalk_ua_bl]
+TABLE "KsjdvaWM_cli_cookie_scan"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_cli_cookie_scan]
+TABLE "KsjdvaWM_cli_cookie_scan_categories"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_cli_cookie_scan_categories]
+TABLE "KsjdvaWM_cli_cookie_scan_cookies"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_cli_cookie_scan_cookies]
+TABLE "KsjdvaWM_cli_cookie_scan_url"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_cli_cookie_scan_url]
+TABLE "KsjdvaWM_cli_scripts"____________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_cli_scripts]
+TABLE "KsjdvaWM_commentmeta"____________________________[ROWS:     201] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_commentmeta]
+TABLE "KsjdvaWM_comments"_______________________________[ROWS:     310] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_comments]
+TABLE "KsjdvaWM_duplicator_pro_entities"________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_duplicator_pro_entities]
+TABLE "KsjdvaWM_duplicator_pro_packages"________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_duplicator_pro_packages]
+TABLE "KsjdvaWM_fsmpt_email_logs"_______________________[ROWS:      48] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_fsmpt_email_logs]
+TABLE "KsjdvaWM_gf_draft_submissions"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_gf_draft_submissions]
+TABLE "KsjdvaWM_gf_entry"_______________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_gf_entry]
+TABLE "KsjdvaWM_gf_entry_meta"__________________________[ROWS:      59] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_gf_entry_meta]
+TABLE "KsjdvaWM_gf_entry_notes"_________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_gf_entry_notes]
+TABLE "KsjdvaWM_gf_form"________________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_gf_form]
+TABLE "KsjdvaWM_gf_form_meta"___________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_gf_form_meta]
+TABLE "KsjdvaWM_gf_form_revisions"______________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_gf_form_revisions]
+TABLE "KsjdvaWM_gf_form_view"___________________________[ROWS:     287] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_gf_form_view]
+TABLE "KsjdvaWM_gf_rest_api_keys"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_gf_rest_api_keys]
+TABLE "KsjdvaWM_links"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_links]
+TABLE "KsjdvaWM_options"________________________________[ROWS:    1516] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_options]
+TABLE "KsjdvaWM_podsrel"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_podsrel]
+TABLE "KsjdvaWM_postmeta"_______________________________[ROWS:   10186] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_postmeta]
+TABLE "KsjdvaWM_posts"__________________________________[ROWS:     922] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_posts]
+TABLE "KsjdvaWM_rank_math_404_logs"_____________________[ROWS:      48] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_rank_math_404_logs]
+TABLE "KsjdvaWM_rank_math_analytics_gsc"________________[ROWS:      61] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_rank_math_analytics_gsc]
+TABLE "KsjdvaWM_rank_math_analytics_inspections"________[ROWS:      80] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_rank_math_analytics_inspections]
+TABLE "KsjdvaWM_rank_math_analytics_keyword_manager"____[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_rank_math_analytics_keyword_manager]
+TABLE "KsjdvaWM_rank_math_analytics_objects"____________[ROWS:     113] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_rank_math_analytics_objects]
+TABLE "KsjdvaWM_rank_math_internal_links"_______________[ROWS:     420] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_rank_math_internal_links]
+TABLE "KsjdvaWM_rank_math_internal_meta"________________[ROWS:     130] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_rank_math_internal_meta]
+TABLE "KsjdvaWM_rank_math_redirections"_________________[ROWS:      11] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_rank_math_redirections]
+TABLE "KsjdvaWM_rank_math_redirections_cache"___________[ROWS:      11] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_rank_math_redirections_cache]
+TABLE "KsjdvaWM_smush_dir_images"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_smush_dir_images]
+TABLE "KsjdvaWM_term_relationships"_____________________[ROWS:    1420] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_term_relationships]
+TABLE "KsjdvaWM_term_taxonomy"__________________________[ROWS:     492] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_term_taxonomy]
+TABLE "KsjdvaWM_termmeta"_______________________________[ROWS:     435] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_termmeta]
+TABLE "KsjdvaWM_terms"__________________________________[ROWS:     492] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_terms]
+TABLE "KsjdvaWM_trp_dictionary_sv_se_en_us"_____________[ROWS:    1982] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_trp_dictionary_sv_se_en_us]
+TABLE "KsjdvaWM_trp_gettext_en_us"______________________[ROWS:    6501] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_trp_gettext_en_us]
+TABLE "KsjdvaWM_trp_gettext_sv_se"______________________[ROWS:   12062] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_trp_gettext_sv_se]
+TABLE "KsjdvaWM_trp_original_meta"______________________[ROWS:     782] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_trp_original_meta]
+TABLE "KsjdvaWM_trp_original_strings"___________________[ROWS:    1982] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_trp_original_strings]
+TABLE "KsjdvaWM_usermeta"_______________________________[ROWS:    1135] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_usermeta]
+TABLE "KsjdvaWM_users"__________________________________[ROWS:      24] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_users]
+TABLE "KsjdvaWM_wc_admin_note_actions"__________________[ROWS:     101] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_admin_note_actions]
+TABLE "KsjdvaWM_wc_admin_notes"_________________________[ROWS:      92] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_admin_notes]
+TABLE "KsjdvaWM_wc_booking_relationships"_______________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_booking_relationships]
+TABLE "KsjdvaWM_wc_bookings_availability"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_bookings_availability]
+TABLE "KsjdvaWM_wc_bookings_availabilitymeta"___________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_bookings_availabilitymeta]
+TABLE "KsjdvaWM_wc_category_lookup"_____________________[ROWS:     110] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_category_lookup]
+TABLE "KsjdvaWM_wc_customer_lookup"_____________________[ROWS:      15] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_customer_lookup]
+TABLE "KsjdvaWM_wc_download_log"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_download_log]
+TABLE "KsjdvaWM_wc_order_coupon_lookup"_________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_order_coupon_lookup]
+TABLE "KsjdvaWM_wc_order_product_lookup"________________[ROWS:      77] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_order_product_lookup]
+TABLE "KsjdvaWM_wc_order_stats"_________________________[ROWS:      64] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_order_stats]
+TABLE "KsjdvaWM_wc_order_tax_lookup"____________________[ROWS:      15] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_order_tax_lookup]
+TABLE "KsjdvaWM_wc_product_attributes_lookup"___________[ROWS:     436] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_product_attributes_lookup]
+TABLE "KsjdvaWM_wc_product_download_directories"________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_product_download_directories]
+TABLE "KsjdvaWM_wc_product_meta_lookup"_________________[ROWS:     160] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_product_meta_lookup]
+TABLE "KsjdvaWM_wc_rate_limits"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_rate_limits]
+TABLE "KsjdvaWM_wc_reserved_stock"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_reserved_stock]
+TABLE "KsjdvaWM_wc_tax_rate_classes"____________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_tax_rate_classes]
+TABLE "KsjdvaWM_wc_webhooks"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wc_webhooks]
+TABLE "KsjdvaWM_wcfm_daily_analysis"____________________[ROWS:    2700] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_daily_analysis]
+TABLE "KsjdvaWM_wcfm_detailed_analysis"_________________[ROWS:    6909] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_detailed_analysis]
+TABLE "KsjdvaWM_wcfm_enquiries"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_enquiries]
+TABLE "KsjdvaWM_wcfm_enquiries_meta"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_enquiries_meta]
+TABLE "KsjdvaWM_wcfm_enquiries_response"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_enquiries_response]
+TABLE "KsjdvaWM_wcfm_enquiries_response_meta"___________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_enquiries_response_meta]
+TABLE "KsjdvaWM_wcfm_fbc_chat_rows"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_fbc_chat_rows]
+TABLE "KsjdvaWM_wcfm_fbc_chat_sessions"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_fbc_chat_sessions]
+TABLE "KsjdvaWM_wcfm_fbc_chat_visitors"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_fbc_chat_visitors]
+TABLE "KsjdvaWM_wcfm_fbc_offline_messages"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_fbc_offline_messages]
+TABLE "KsjdvaWM_wcfm_following_followers"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_following_followers]
+TABLE "KsjdvaWM_wcfm_marketplace_orders"________________[ROWS:      66] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_marketplace_orders]
+TABLE "KsjdvaWM_wcfm_marketplace_orders_meta"___________[ROWS:     594] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_marketplace_orders_meta]
+TABLE "KsjdvaWM_wcfm_marketplace_product_multivendor"___[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_marketplace_product_multivendor]
+TABLE "KsjdvaWM_wcfm_marketplace_refund_request"________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_marketplace_refund_request]
+TABLE "KsjdvaWM_wcfm_marketplace_refund_request_meta"___[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_marketplace_refund_request_meta]
+TABLE "KsjdvaWM_wcfm_marketplace_reverse_withdrawal"____[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_marketplace_reverse_withdrawal]
+TABLE "KsjdvaWM_wcfm_marketplace_reverse_withdrawal_meta"[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_marketplace_reverse_withdrawal_meta]
+TABLE "KsjdvaWM_wcfm_marketplace_review_rating_meta"____[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_marketplace_review_rating_meta]
+TABLE "KsjdvaWM_wcfm_marketplace_reviews"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_marketplace_reviews]
+TABLE "KsjdvaWM_wcfm_marketplace_reviews_response"______[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_marketplace_reviews_response]
+TABLE "KsjdvaWM_wcfm_marketplace_reviews_response_meta"_[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_marketplace_reviews_response_meta]
+TABLE "KsjdvaWM_wcfm_marketplace_shipping_zone_locations"[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_marketplace_shipping_zone_locations]
+TABLE "KsjdvaWM_wcfm_marketplace_shipping_zone_methods"_[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_marketplace_shipping_zone_methods]
+TABLE "KsjdvaWM_wcfm_marketplace_store_taxonomies"______[ROWS:    1836] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_marketplace_store_taxonomies]
+TABLE "KsjdvaWM_wcfm_marketplace_vendor_ledger"_________[ROWS:      67] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_marketplace_vendor_ledger]
+TABLE "KsjdvaWM_wcfm_marketplace_withdraw_request"______[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_marketplace_withdraw_request]
+TABLE "KsjdvaWM_wcfm_marketplace_withdraw_request_meta"_[ROWS:      10] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_marketplace_withdraw_request_meta]
+TABLE "KsjdvaWM_wcfm_membership_subscription"___________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_membership_subscription]
+TABLE "KsjdvaWM_wcfm_messages"__________________________[ROWS:      93] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_messages]
+TABLE "KsjdvaWM_wcfm_messages_modifier"_________________[ROWS:      32] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_messages_modifier]
+TABLE "KsjdvaWM_wcfm_messages_stat"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_messages_stat]
+TABLE "KsjdvaWM_wcfm_support"___________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_support]
+TABLE "KsjdvaWM_wcfm_support_meta"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_support_meta]
+TABLE "KsjdvaWM_wcfm_support_response"__________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_support_response]
+TABLE "KsjdvaWM_wcfm_support_response_meta"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcfm_support_response_meta]
+TABLE "KsjdvaWM_wcpdf_invoice_number"___________________[ROWS:      29] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcpdf_invoice_number]
+TABLE "KsjdvaWM_wcpdf_packing_slip_number"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcpdf_packing_slip_number]
+TABLE "KsjdvaWM_wcpv_commissions"_______________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcpv_commissions]
+TABLE "KsjdvaWM_wcpv_per_product_shipping_rules"________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wcpv_per_product_shipping_rules]
+TABLE "KsjdvaWM_woocommerce_api_keys"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_woocommerce_api_keys]
+TABLE "KsjdvaWM_woocommerce_attribute_taxonomies"_______[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_woocommerce_attribute_taxonomies]
+TABLE "KsjdvaWM_woocommerce_downloadable_product_permissions"[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_woocommerce_downloadable_product_permissions]
+TABLE "KsjdvaWM_woocommerce_log"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_woocommerce_log]
+TABLE "KsjdvaWM_woocommerce_order_itemmeta"_____________[ROWS:     952] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_woocommerce_order_itemmeta]
+TABLE "KsjdvaWM_woocommerce_order_items"________________[ROWS:      92] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_woocommerce_order_items]
+TABLE "KsjdvaWM_woocommerce_payment_tokenmeta"__________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_woocommerce_payment_tokenmeta]
+TABLE "KsjdvaWM_woocommerce_payment_tokens"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_woocommerce_payment_tokens]
+TABLE "KsjdvaWM_woocommerce_sessions"___________________[ROWS:      15] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_woocommerce_sessions]
+TABLE "KsjdvaWM_woocommerce_shipping_zone_locations"____[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_woocommerce_shipping_zone_locations]
+TABLE "KsjdvaWM_woocommerce_shipping_zone_methods"______[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_woocommerce_shipping_zone_methods]
+TABLE "KsjdvaWM_woocommerce_shipping_zones"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_woocommerce_shipping_zones]
+TABLE "KsjdvaWM_woocommerce_tax_rate_locations"_________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_woocommerce_tax_rate_locations]
+TABLE "KsjdvaWM_woocommerce_tax_rates"__________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_woocommerce_tax_rates]
+TABLE "KsjdvaWM_wpr_rucss_resources"____________________[ROWS:      56] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wpr_rucss_resources]
+TABLE "KsjdvaWM_wpr_rucss_used_css"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: KsjdvaWM_wpr_rucss_used_css]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.48 -- Build Server: 10.3.34
+FILE SIZE:	dup-database__[HASH].sql (17.83MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	IGNORE_SPACE,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+
+NOTICE: This servers version [10.1.48] is less than the build version [10.3.34].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+DROP  ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+QUERY FIXES Array
+(
+    [search] => Array
+        (
+            [0] => /\xC2\xA0/
+            [1] => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+            [2] => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+        )
+
+    [replace] => Array
+        (
+            [0] =>  
+            [1] => $1`dbu-jg7m`@`%`$3
+            [2] => $1SQL SECURITY INVOKER
+$2$3
+        )
+
+)
+
+DB QUERY [ERROR][/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/classes/database/class.db.php:634] MSG: Specified key was too long; max key length is 767 bytes
+	SQL: CREATE TABLE `KsjdvaWM_cli_cookie_scan_cookies` (
+  `id_cli_cookie_scan_cookies` int(11) NOT NULL AUTO_INCREMENT,
+  `id_cli_cookie_scan` int(11) NOT NULL DEFAULT 0,
+  `id_cli_cookie_scan_url` int(11) NOT NULL DEFAULT 0,
+  `cookie_id` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `expiry` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `type` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `category` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `category_id` int(11) NOT NULL,
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[1146]
+TRACE[2] CLASS___: DUPX_DBInstall->writeQueryInDB FILE: /var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[805]
+TRACE[3] CLASS___: DUPX_DBInstall->deployDatabaseChunkMode FILE: /var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[298]
+TRACE[4] CLASS___: DUPX_DBInstall->insertDatabase FILE: /var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/ctrls/classes/class.ctrl.dbinstall.php[272]
+TRACE[5] CLASS___: DUPX_DBInstall->deploy     FILE: /var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/ctrls/classes/class.ctrl.ajax.php[199]
+TRACE[6] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/ctrls/classes/class.ctrl.ajax.php[91]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::controller FILE: /var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/main.installer.php[46]
+
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 12110426
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+QUERY FIXES Array
+(
+    [search] => Array
+        (
+            [0] => /\xC2\xA0/
+            [1] => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+            [2] => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+        )
+
+    [replace] => Array
+        (
+            [0] =>  
+            [1] => $1`dbu-jg7m`@`%`$3
+            [2] => $1SQL SECURITY INVOKER
+$2$3
+        )
+
+)
+
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+CLEANUP ROUTINE START
+CLEAN PACKAGES
+CLEAN EXTRA
+/t - SKIP DROP VIEWS
+/t - SKIP DROP PROCS
+/t - SKIP DROP FUNCS
+CLEAN OPTIONS [KsjdvaWM_options]Array
+(
+    [0] => `option_name` LIKE "\_transient%"
+    [1] => `option_name` LIKE "\_site\_transient%"
+    [2] => `option_name` IN ("duplicator_pro_ui_view_state","duplicator_pro_package_active","duplicator_pro_settings")
+)
+
+CLEANUP ROUTINE COMPLETE
+ERRORS FOUND:	1
+DROPPED TABLES:	129
+RENAMED TABLES:	0
+QUERIES RAN:	308
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "KsjdvaWM_actionscheduler_actions"________________[ROWS:  2367]
+TABLE "KsjdvaWM_actionscheduler_claims"_________________[ROWS:     1]
+TABLE "KsjdvaWM_actionscheduler_groups"_________________[ROWS:     9]
+TABLE "KsjdvaWM_actionscheduler_logs"___________________[ROWS:  7109]
+TABLE "KsjdvaWM_cleantalk_ac_log"_______________________[ROWS:     0]
+TABLE "KsjdvaWM_cleantalk_sessions"_____________________[ROWS:     0]
+TABLE "KsjdvaWM_cleantalk_sfw"__________________________[ROWS: 13833]
+TABLE "KsjdvaWM_cleantalk_sfw_logs"_____________________[ROWS:     0]
+TABLE "KsjdvaWM_cleantalk_spamscan_logs"________________[ROWS:     0]
+TABLE "KsjdvaWM_cleantalk_ua_bl"________________________[ROWS:    62]
+TABLE "KsjdvaWM_cli_cookie_scan"________________________[ROWS:     0]
+TABLE "KsjdvaWM_cli_cookie_scan_categories"_____________[ROWS:     0]
+TABLE "KsjdvaWM_cli_cookie_scan_url"____________________[ROWS:     0]
+TABLE "KsjdvaWM_cli_scripts"____________________________[ROWS:     4]
+TABLE "KsjdvaWM_commentmeta"____________________________[ROWS:   201]
+TABLE "KsjdvaWM_comments"_______________________________[ROWS:   310]
+TABLE "KsjdvaWM_duplicator_pro_entities"________________[ROWS:     5]
+TABLE "KsjdvaWM_duplicator_pro_packages"________________[ROWS:     0]
+TABLE "KsjdvaWM_fsmpt_email_logs"_______________________[ROWS:    48]
+TABLE "KsjdvaWM_gf_draft_submissions"___________________[ROWS:     0]
+TABLE "KsjdvaWM_gf_entry"_______________________________[ROWS:     3]
+TABLE "KsjdvaWM_gf_entry_meta"__________________________[ROWS:    59]
+TABLE "KsjdvaWM_gf_entry_notes"_________________________[ROWS:     3]
+TABLE "KsjdvaWM_gf_form"________________________________[ROWS:     4]
+TABLE "KsjdvaWM_gf_form_meta"___________________________[ROWS:     4]
+TABLE "KsjdvaWM_gf_form_revisions"______________________[ROWS:     2]
+TABLE "KsjdvaWM_gf_form_view"___________________________[ROWS:   287]
+TABLE "KsjdvaWM_gf_rest_api_keys"_______________________[ROWS:     0]
+TABLE "KsjdvaWM_links"__________________________________[ROWS:     0]
+TABLE "KsjdvaWM_options"________________________________[ROWS:   778]
+TABLE "KsjdvaWM_podsrel"________________________________[ROWS:     0]
+TABLE "KsjdvaWM_postmeta"_______________________________[ROWS: 10186]
+TABLE "KsjdvaWM_posts"__________________________________[ROWS:   922]
+TABLE "KsjdvaWM_rank_math_404_logs"_____________________[ROWS:    48]
+TABLE "KsjdvaWM_rank_math_analytics_gsc"________________[ROWS:    61]
+TABLE "KsjdvaWM_rank_math_analytics_inspections"________[ROWS:    80]
+TABLE "KsjdvaWM_rank_math_analytics_keyword_manager"____[ROWS:     0]
+TABLE "KsjdvaWM_rank_math_analytics_objects"____________[ROWS:   113]
+TABLE "KsjdvaWM_rank_math_internal_links"_______________[ROWS:   420]
+TABLE "KsjdvaWM_rank_math_internal_meta"________________[ROWS:   130]
+TABLE "KsjdvaWM_rank_math_redirections"_________________[ROWS:    11]
+TABLE "KsjdvaWM_rank_math_redirections_cache"___________[ROWS:    11]
+TABLE "KsjdvaWM_smush_dir_images"_______________________[ROWS:     0]
+TABLE "KsjdvaWM_term_relationships"_____________________[ROWS:  1420]
+TABLE "KsjdvaWM_term_taxonomy"__________________________[ROWS:   492]
+TABLE "KsjdvaWM_termmeta"_______________________________[ROWS:   435]
+TABLE "KsjdvaWM_terms"__________________________________[ROWS:   492]
+TABLE "KsjdvaWM_trp_dictionary_sv_se_en_us"_____________[ROWS:  1982]
+TABLE "KsjdvaWM_trp_gettext_en_us"______________________[ROWS:  6501]
+TABLE "KsjdvaWM_trp_gettext_sv_se"______________________[ROWS: 12062]
+TABLE "KsjdvaWM_trp_original_meta"______________________[ROWS:   782]
+TABLE "KsjdvaWM_trp_original_strings"___________________[ROWS:  1982]
+TABLE "KsjdvaWM_usermeta"_______________________________[ROWS:  1135]
+TABLE "KsjdvaWM_users"__________________________________[ROWS:    24]
+TABLE "KsjdvaWM_wc_admin_note_actions"__________________[ROWS:   101]
+TABLE "KsjdvaWM_wc_admin_notes"_________________________[ROWS:    92]
+TABLE "KsjdvaWM_wc_booking_relationships"_______________[ROWS:     1]
+TABLE "KsjdvaWM_wc_bookings_availability"_______________[ROWS:     0]
+TABLE "KsjdvaWM_wc_bookings_availabilitymeta"___________[ROWS:     0]
+TABLE "KsjdvaWM_wc_category_lookup"_____________________[ROWS:   110]
+TABLE "KsjdvaWM_wc_customer_lookup"_____________________[ROWS:    15]
+TABLE "KsjdvaWM_wc_download_log"________________________[ROWS:     0]
+TABLE "KsjdvaWM_wc_order_coupon_lookup"_________________[ROWS:     1]
+TABLE "KsjdvaWM_wc_order_product_lookup"________________[ROWS:    77]
+TABLE "KsjdvaWM_wc_order_stats"_________________________[ROWS:    64]
+TABLE "KsjdvaWM_wc_order_tax_lookup"____________________[ROWS:    15]
+TABLE "KsjdvaWM_wc_product_attributes_lookup"___________[ROWS:   436]
+TABLE "KsjdvaWM_wc_product_download_directories"________[ROWS:     2]
+TABLE "KsjdvaWM_wc_product_meta_lookup"_________________[ROWS:   160]
+TABLE "KsjdvaWM_wc_rate_limits"_________________________[ROWS:     0]
+TABLE "KsjdvaWM_wc_reserved_stock"______________________[ROWS:     0]
+TABLE "KsjdvaWM_wc_tax_rate_classes"____________________[ROWS:     4]
+TABLE "KsjdvaWM_wc_webhooks"____________________________[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_daily_analysis"____________________[ROWS:  2700]
+TABLE "KsjdvaWM_wcfm_detailed_analysis"_________________[ROWS:  6909]
+TABLE "KsjdvaWM_wcfm_enquiries"_________________________[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_enquiries_meta"____________________[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_enquiries_response"________________[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_enquiries_response_meta"___________[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_fbc_chat_rows"_____________________[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_fbc_chat_sessions"_________________[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_fbc_chat_visitors"_________________[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_fbc_offline_messages"______________[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_following_followers"_______________[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_marketplace_orders"________________[ROWS:    66]
+TABLE "KsjdvaWM_wcfm_marketplace_orders_meta"___________[ROWS:   594]
+TABLE "KsjdvaWM_wcfm_marketplace_product_multivendor"___[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_marketplace_refund_request"________[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_marketplace_refund_request_meta"___[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_marketplace_reverse_withdrawal"____[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_marketplace_reverse_withdrawal_meta"[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_marketplace_review_rating_meta"____[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_marketplace_reviews"_______________[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_marketplace_reviews_response"______[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_marketplace_reviews_response_meta"_[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_marketplace_shipping_zone_locations"[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_marketplace_shipping_zone_methods"_[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_marketplace_store_taxonomies"______[ROWS:  1836]
+TABLE "KsjdvaWM_wcfm_marketplace_vendor_ledger"_________[ROWS:    67]
+TABLE "KsjdvaWM_wcfm_marketplace_withdraw_request"______[ROWS:     1]
+TABLE "KsjdvaWM_wcfm_marketplace_withdraw_request_meta"_[ROWS:    10]
+TABLE "KsjdvaWM_wcfm_membership_subscription"___________[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_messages"__________________________[ROWS:    93]
+TABLE "KsjdvaWM_wcfm_messages_modifier"_________________[ROWS:    32]
+TABLE "KsjdvaWM_wcfm_messages_stat"_____________________[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_support"___________________________[ROWS:     1]
+TABLE "KsjdvaWM_wcfm_support_meta"______________________[ROWS:     0]
+TABLE "KsjdvaWM_wcfm_support_response"__________________[ROWS:     1]
+TABLE "KsjdvaWM_wcfm_support_response_meta"_____________[ROWS:     0]
+TABLE "KsjdvaWM_wcpdf_invoice_number"___________________[ROWS:    29]
+TABLE "KsjdvaWM_wcpdf_packing_slip_number"______________[ROWS:     0]
+TABLE "KsjdvaWM_wcpv_commissions"_______________________[ROWS:     4]
+TABLE "KsjdvaWM_wcpv_per_product_shipping_rules"________[ROWS:     0]
+TABLE "KsjdvaWM_woocommerce_api_keys"___________________[ROWS:     0]
+TABLE "KsjdvaWM_woocommerce_attribute_taxonomies"_______[ROWS:     4]
+TABLE "KsjdvaWM_woocommerce_downloadable_product_permissions"[ROWS:     0]
+TABLE "KsjdvaWM_woocommerce_log"________________________[ROWS:     0]
+TABLE "KsjdvaWM_woocommerce_order_itemmeta"_____________[ROWS:   952]
+TABLE "KsjdvaWM_woocommerce_order_items"________________[ROWS:    92]
+TABLE "KsjdvaWM_woocommerce_payment_tokenmeta"__________[ROWS:     0]
+TABLE "KsjdvaWM_woocommerce_payment_tokens"_____________[ROWS:     0]
+TABLE "KsjdvaWM_woocommerce_sessions"___________________[ROWS:    15]
+TABLE "KsjdvaWM_woocommerce_shipping_zone_locations"____[ROWS:     0]
+TABLE "KsjdvaWM_woocommerce_shipping_zone_methods"______[ROWS:     0]
+TABLE "KsjdvaWM_woocommerce_shipping_zones"_____________[ROWS:     0]
+TABLE "KsjdvaWM_woocommerce_tax_rate_locations"_________[ROWS:     0]
+TABLE "KsjdvaWM_woocommerce_tax_rates"__________________[ROWS:     3]
+TABLE "KsjdvaWM_wpr_rucss_resources"____________________[ROWS:    56]
+TABLE "KsjdvaWM_wpr_rucss_used_css"_____________________[ROWS:     0]
+
+DATABASE CACHE/TRANSITIENT [ROWS:   739]
+
+INSERT DATA RUNTIME: 9.5688 sec.
+STEP-2 COMPLETE @ 08:58:23 - RUNTIME: 9.5689 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+====================================
+ACTION INSTALL TYPE single site START
+====================================
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [init][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:58:23
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+url_old_______________: "https://sverigeshopping.se"
+url_new_______________: "http://ny.sverigeshopping.se"
+siteurl_______________: "http://ny.sverigeshopping.se"
+path_new______________: "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+path_old______________: "/var/www/vhosts/sverigeshopping.se/httpdocs"
+replace_mode__________: "legacy"
+empty_schedule_storage: true
+mode_chunking_________: 2
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+cross_search__________: true
+postguid______________: false
+fullsearch____________: false
+replaceMail___________: false
+maxSerializeStrlen____: 4000000
+auth_keys_and_salts___: false
+mu_replace____________: Array
+(
+)
+
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = 1], [inWpConfig = 1]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = ]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 1024M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+
+EVALUATE TABLE: "KsjdvaWM_actionscheduler_actions"________________[ROWS:  2367][PG:   3][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_actionscheduler_actions][0]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_actionscheduler_actions][1]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_actionscheduler_actions][2]
+
+EVALUATE TABLE: "KsjdvaWM_actionscheduler_claims"_________________[ROWS:     1][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_actionscheduler_groups"_________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_actionscheduler_groups][0]
+
+EVALUATE TABLE: "KsjdvaWM_actionscheduler_logs"___________________[ROWS:  7109][PG:   8][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_actionscheduler_logs][0]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_actionscheduler_logs][1]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_actionscheduler_logs][2]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_actionscheduler_logs][3]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_actionscheduler_logs][4]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_actionscheduler_logs][5]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_actionscheduler_logs][6]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_actionscheduler_logs][7]
+
+EVALUATE TABLE: "KsjdvaWM_cleantalk_ac_log"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_cleantalk_sessions"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_cleantalk_sfw"__________________________[ROWS: 13833][PG:  14][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_cleantalk_sfw_logs"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_cleantalk_spamscan_logs"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_cleantalk_ua_bl"________________________[ROWS:    62][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_cleantalk_ua_bl][0]
+
+EVALUATE TABLE: "KsjdvaWM_cli_cookie_scan"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_cli_cookie_scan_categories"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_cli_cookie_scan_url"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_cli_scripts"____________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_cli_scripts][0]
+
+EVALUATE TABLE: "KsjdvaWM_commentmeta"____________________________[ROWS:   201][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_commentmeta][0]
+
+EVALUATE TABLE: "KsjdvaWM_comments"_______________________________[ROWS:   310][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_comments][0]
+
+EVALUATE TABLE: "KsjdvaWM_duplicator_pro_entities"________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_duplicator_pro_entities][0]
+
+EVALUATE TABLE: "KsjdvaWM_duplicator_pro_packages"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_fsmpt_email_logs"_______________________[ROWS:    48][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_fsmpt_email_logs][0]
+
+EVALUATE TABLE: "KsjdvaWM_gf_draft_submissions"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_gf_entry"_______________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_gf_entry][0]
+
+EVALUATE TABLE: "KsjdvaWM_gf_entry_meta"__________________________[ROWS:    59][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_gf_entry_meta][0]
+
+EVALUATE TABLE: "KsjdvaWM_gf_entry_notes"_________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_gf_entry_notes][0]
+
+EVALUATE TABLE: "KsjdvaWM_gf_form"________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_gf_form][0]
+
+EVALUATE TABLE: "KsjdvaWM_gf_form_meta"___________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_gf_form_meta][0]
+
+EVALUATE TABLE: "KsjdvaWM_gf_form_revisions"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_gf_form_revisions][0]
+
+EVALUATE TABLE: "KsjdvaWM_gf_form_view"___________________________[ROWS:   287][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_gf_form_view][0]
+
+EVALUATE TABLE: "KsjdvaWM_gf_rest_api_keys"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_links"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_options"________________________________[ROWS:   778][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_options][0]
+
+EVALUATE TABLE: "KsjdvaWM_podsrel"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_postmeta"_______________________________[ROWS: 10186][PG:  11][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_postmeta][3]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_postmeta][4]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_postmeta][5]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_postmeta][6]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_postmeta][7]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_postmeta][8]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_postmeta][9]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_postmeta][10]
+
+EVALUATE TABLE: "KsjdvaWM_posts"__________________________________[ROWS:   922][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_posts][0]
+
+EVALUATE TABLE: "KsjdvaWM_rank_math_404_logs"_____________________[ROWS:    48][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_rank_math_404_logs][0]
+
+EVALUATE TABLE: "KsjdvaWM_rank_math_analytics_gsc"________________[ROWS:    61][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_rank_math_analytics_gsc][0]
+
+EVALUATE TABLE: "KsjdvaWM_rank_math_analytics_inspections"________[ROWS:    80][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_rank_math_analytics_inspections][0]
+
+EVALUATE TABLE: "KsjdvaWM_rank_math_analytics_keyword_manager"____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_rank_math_analytics_objects"____________[ROWS:   113][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_rank_math_analytics_objects][0]
+
+EVALUATE TABLE: "KsjdvaWM_rank_math_internal_links"_______________[ROWS:   420][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_rank_math_internal_links][0]
+	
+STEP-3 CHUNK STOP @ 08:58:28 - RUNTIME: 5.1162 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "KsjdvaWM_rank_math_internal_meta"________________[ROWS:   130][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_rank_math_redirections"_________________[ROWS:    11][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_rank_math_redirections][0]
+
+EVALUATE TABLE: "KsjdvaWM_rank_math_redirections_cache"___________[ROWS:    11][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_rank_math_redirections_cache][0]
+
+EVALUATE TABLE: "KsjdvaWM_smush_dir_images"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_term_relationships"_____________________[ROWS:  1420][PG:   2][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_term_taxonomy"__________________________[ROWS:   492][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_term_taxonomy][0]
+
+EVALUATE TABLE: "KsjdvaWM_termmeta"_______________________________[ROWS:   435][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_termmeta][0]
+
+EVALUATE TABLE: "KsjdvaWM_terms"__________________________________[ROWS:   492][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_terms][0]
+
+EVALUATE TABLE: "KsjdvaWM_trp_dictionary_sv_se_en_us"_____________[ROWS:  1982][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_dictionary_sv_se_en_us][0]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_dictionary_sv_se_en_us][1]
+
+EVALUATE TABLE: "KsjdvaWM_trp_gettext_en_us"______________________[ROWS:  6501][PG:   7][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_en_us][0]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_en_us][1]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_en_us][2]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_en_us][3]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_en_us][4]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_en_us][5]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_en_us][6]
+
+EVALUATE TABLE: "KsjdvaWM_trp_gettext_sv_se"______________________[ROWS: 12062][PG:  13][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_sv_se][0]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_sv_se][1]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_sv_se][2]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_sv_se][3]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_sv_se][4]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_sv_se][5]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_sv_se][6]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_sv_se][7]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_sv_se][8]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_sv_se][9]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_sv_se][10]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_sv_se][11]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_gettext_sv_se][12]
+
+EVALUATE TABLE: "KsjdvaWM_trp_original_meta"______________________[ROWS:   782][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_original_meta][0]
+
+EVALUATE TABLE: "KsjdvaWM_trp_original_strings"___________________[ROWS:  1982][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_original_strings][0]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_trp_original_strings][1]
+
+EVALUATE TABLE: "KsjdvaWM_usermeta"_______________________________[ROWS:  1135][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_usermeta][0]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_usermeta][1]
+
+EVALUATE TABLE: "KsjdvaWM_users"__________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_users][0]
+
+EVALUATE TABLE: "KsjdvaWM_wc_admin_note_actions"__________________[ROWS:   101][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "KsjdvaWM_wc_admin_notes"_________________________[ROWS:    92][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wc_admin_notes][0]
+
+EVALUATE TABLE: "KsjdvaWM_wc_booking_relationships"_______________[ROWS:     1][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wc_bookings_availability"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wc_bookings_availabilitymeta"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wc_category_lookup"_____________________[ROWS:   110][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wc_customer_lookup"_____________________[ROWS:    15][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wc_customer_lookup][0]
+
+EVALUATE TABLE: "KsjdvaWM_wc_download_log"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wc_order_coupon_lookup"_________________[ROWS:     1][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wc_order_product_lookup"________________[ROWS:    77][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wc_order_stats"_________________________[ROWS:    64][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wc_order_stats][0]
+
+EVALUATE TABLE: "KsjdvaWM_wc_order_tax_lookup"____________________[ROWS:    15][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wc_product_attributes_lookup"___________[ROWS:   436][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wc_product_attributes_lookup][0]
+
+EVALUATE TABLE: "KsjdvaWM_wc_product_download_directories"________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wc_product_download_directories][0]
+
+EVALUATE TABLE: "KsjdvaWM_wc_product_meta_lookup"_________________[ROWS:   160][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wc_product_meta_lookup][0]
+
+EVALUATE TABLE: "KsjdvaWM_wc_rate_limits"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wc_reserved_stock"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wc_tax_rate_classes"____________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "KsjdvaWM_wc_webhooks"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_daily_analysis"____________________[ROWS:  2700][PG:   3][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_detailed_analysis"_________________[ROWS:  6909][PG:   7][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wcfm_detailed_analysis][0]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wcfm_detailed_analysis][1]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wcfm_detailed_analysis][2]
+	
+STEP-3 CHUNK STOP @ 08:58:34 - RUNTIME: 6.1648 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wcfm_detailed_analysis][3]
+CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wcfm_detailed_analysis][4]
+CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wcfm_detailed_analysis][5]
+CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wcfm_detailed_analysis][6]
+
+STEP-3 CHUNK STOP @ 08:58:40 - RUNTIME: 5.3817 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_enquiries"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_enquiries_meta"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_enquiries_response"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_enquiries_response_meta"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_fbc_chat_rows"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_fbc_chat_sessions"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_fbc_chat_visitors"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_fbc_offline_messages"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_following_followers"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_marketplace_orders"________________[ROWS:    66][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wcfm_marketplace_orders][0]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_marketplace_orders_meta"___________[ROWS:   594][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wcfm_marketplace_orders_meta][0]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_marketplace_product_multivendor"___[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_marketplace_refund_request"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_marketplace_refund_request_meta"___[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_marketplace_reverse_withdrawal"____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_marketplace_reverse_withdrawal_meta"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_marketplace_review_rating_meta"____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_marketplace_reviews"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_marketplace_reviews_response"______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_marketplace_reviews_response_meta"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_marketplace_shipping_zone_locations"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_marketplace_shipping_zone_methods"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_marketplace_store_taxonomies"______[ROWS:  1836][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wcfm_marketplace_store_taxonomies][0]
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wcfm_marketplace_store_taxonomies][1]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_marketplace_vendor_ledger"_________[ROWS:    67][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wcfm_marketplace_vendor_ledger][0]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_marketplace_withdraw_request"______[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wcfm_marketplace_withdraw_request][0]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_marketplace_withdraw_request_meta"_[ROWS:    10][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wcfm_marketplace_withdraw_request_meta][0]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_membership_subscription"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_messages"__________________________[ROWS:    93][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wcfm_messages][0]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_messages_modifier"_________________[ROWS:    32][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_messages_stat"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_support"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wcfm_support][0]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_support_meta"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_support_response"__________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wcfm_support_response][0]
+
+EVALUATE TABLE: "KsjdvaWM_wcfm_support_response_meta"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcpdf_invoice_number"___________________[ROWS:    29][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcpdf_packing_slip_number"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_wcpv_commissions"_______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wcpv_commissions][0]
+
+EVALUATE TABLE: "KsjdvaWM_wcpv_per_product_shipping_rules"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_woocommerce_api_keys"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_woocommerce_attribute_taxonomies"_______[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_woocommerce_attribute_taxonomies][0]
+
+EVALUATE TABLE: "KsjdvaWM_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_woocommerce_log"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_woocommerce_order_itemmeta"_____________[ROWS:   952][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_woocommerce_order_itemmeta][0]
+
+EVALUATE TABLE: "KsjdvaWM_woocommerce_order_items"________________[ROWS:    92][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_woocommerce_order_items][0]
+
+EVALUATE TABLE: "KsjdvaWM_woocommerce_payment_tokenmeta"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_woocommerce_payment_tokens"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_woocommerce_sessions"___________________[ROWS:    15][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_woocommerce_sessions][0]
+
+EVALUATE TABLE: "KsjdvaWM_woocommerce_shipping_zone_locations"____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_woocommerce_shipping_zone_methods"______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_woocommerce_shipping_zones"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_woocommerce_tax_rate_locations"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "KsjdvaWM_woocommerce_tax_rates"__________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_woocommerce_tax_rates][0]
+
+EVALUATE TABLE: "KsjdvaWM_wpr_rucss_resources"____________________[ROWS:    56][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/vhosts/sverigeshopping.se/httpdocs" =====> "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+	SEARCH[urlnd]  2:"https://sverigeshopping.se" ======================> "http://ny.sverigeshopping.se"
+	CHUNK ACTION: CURRENT [search_replace][KsjdvaWM_wpr_rucss_resources][0]
+
+EVALUATE TABLE: "KsjdvaWM_wpr_rucss_used_css"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:129 	|	 Rows:60572 	|	 Cells:385485 
+UPDATED:	Tables:24 	|	 Rows:8229 	|	 Cells:8478 
+ERRORS:		0 
+RUNTIME:	17.550000 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/var/www/vhosts/ny.sverigeshopping.se/httpdocs/wp-config.php
+New htaccess file created:/var/www/vhosts/ny.sverigeshopping.se/httpdocs/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	TRANSFORMER[no wpmu]: WP_ALLOW_MULTISITE constant removed from WP config file
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""db-jg7m""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost:3306""
+	UPDATE DB_CHARSET "utf8"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_CACHE true
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+ - REMOVED 0 storage items
+ - REMOVED 0 schedule items
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/var/www/vhosts/ny.sverigeshopping.se/httpdocs"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:58:41 - RUNTIME: 0.5536 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/src/Core/Bootstrap.php:72] RESET TIME
+
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[WARNING] DATABASE ERROR: database error write
+	LONG MSG: DATABASE ERROR: 'Specified key was too long; max key length is 767 bytes'
+	[SQL=CREATE TABLE `KsjdvaWM_cli_cookie_scan_cookies` (
+  `id_cli_cookie_scan_cookies` int(11) NOT NULL AUTO_INCREMENT,
+  `id_cli_cookie_scan` int(11) NOT NULL DEFAULT 0,
+  `id_cli_cookie_scan_url` int(11) ...]
+
+
+-----------------------
+[NOTICE] Plugin WP Rocket disabled by default
+	SECTIONS: plugins
+	LONG MSG: This plugin is deactivated by default automatically due to issues that one may encounter when migrating. You must reactivate from the WordPress admin panel after completing the installation or from the plugins tab. Your site's frontend will render properly after reactivating the plugin.
+
+====================================
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[WARNING] DB EXTRACTION - INSTALL NOTICES (1)
+	SECTIONS: database
+	LONG MSG: Queries that error during the deploy step are logged to the         installer-log.txt
+                installer-log.txt
+        file and
+and marked with an **ERROR** status.   If you experience a few errors (under 5), in many cases they can be ignored as long as your site is working correctly.
+However if you see a large amount of errors or you experience an issue with your site then the error messages in the log file will need to be investigated.
+COMMON FIXES:
+        Unknown collation: See Online FAQ:
+        What is Compatibility mode & 'Unknown collation' errors?
+        Query Limits: Update MySQL server with the max_allowed_packet
+        setting for larger payloads.
+
+
+-----------------------
+[WARNING] Table KsjdvaWM_cli_cookie_scan_cookies doesn't exist in the database
+	SECTIONS: search_replace
+	LONG MSG: The table could not be found in the database.
+If the "Manual SQL Execution (Advanced)" option was chosen in step 2, make sure you insert the database manually before continuing to step 3.
+Also, verify the database that was inserted contains the urls and paths of the original site before step 3 for proper migration.
+
+-----------------------
+[WARNING] DATABASE ERROR: Specified key was too long; max key length is 767 bytes
+	SECTIONS: database
+	LONG MSG: DATABASE ERROR: 'Specified key was too long; max key length is 767 bytes'
+	[SQL=CREATE TABLE `KsjdvaWM_cli_cookie_scan_cookies` (
+  `id_cli_cookie_scan_cookies` int(11) NOT NULL AUTO_INCREMENT,
+  `id_cli_cookie_scan` int(11) NOT NULL DEFAULT 0,
+  `id_cli_cookie_scan_url` int(11) ...]
+
+
+-----------------------
+[NOTICE] WP Rocket has been deactivated
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Activate WP Rocket after you login.
+	SECTIONS: plugins
+
+====================================
+LOG-TIME[/var/www/vhosts/ny.sverigeshopping.se/httpdocs/dup-installer/ctrls/ctrl.base.php:231][DELTA:   0.44931]  MESSAGE:END RENDER PAGE

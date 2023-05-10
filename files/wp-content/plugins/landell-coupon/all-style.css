@@ -1,0 +1,719 @@
+/*
+  FileVersion: 1.0.50
+*/
+
+html, body {
+    background: none !important;
+}
+
+/*
+#sidebar {
+  float: initial!important;
+}
+*/
+
+.hidden {
+  display: none;
+}
+
+.login h1 {
+    display: none !important;
+}
+
+#backtoblog {
+    display: none !important;
+}
+
+#registerform > p:first-child {
+    display: none !important;
+}
+
+#main {
+    padding:0!important;
+}
+
+.message.register, .floating_welcome_message {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: auto;
+    max-width: initial;
+    left: 15px !important;
+    height: 20px;
+    text-align: center;
+    left: 0;
+    border-left: none !important;
+}
+
+.floating_welcome_message h2 {
+    font-size: small !important;
+    font-weight: bold;
+}
+
+#reg_passmail {
+    display:none;
+}
+
+.wp-login {
+    border: none !important;
+}
+
+.wp-login {
+    z-index: 9;
+    position: absolute;
+    left: 25vw;
+    top: 10vh;
+    min-width: 50vw;
+    padding-top: 20vh;
+    width: 100%;
+    height: 90vh;
+}
+
+.voucher-code {
+    font-size: 26px;
+}
+
+.card-filler-1 {
+    top: 40px;
+    left: 40%;
+    z-index: 300;
+}
+
+.card-filler-2 {
+    top: 40px;
+    left: 51%;
+    z-index: 301;
+}
+
+.card-filler-3 {
+    top: 40px;
+    left: 62%;
+    z-index: 302;
+}
+
+.card-filler-4 {
+    top: 40px;
+    left: 73%;
+    z-index: 303;
+}
+
+.card-filler-5 {
+    top: 40px;
+    left: 84%;
+    z-index: 304;
+}
+
+.card-filler-6 {
+    top: 120px;
+    left: 40%;
+}
+
+.card-filler-7 {
+    top: 120px;
+    left: 51%;
+}
+
+.card-filler-8 {
+    top: 120px;
+    left: 62%;
+}
+
+.card-filler-9 {
+    top: 120px;
+    left: 73%;
+}
+
+.card-filler-10 {
+    top: 120px;
+    left: 84%;
+}
+
+.landell-modal {
+    z-index: 99999;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    opacity: 0.90;
+}
+
+
+.card-wrap {
+  width: 660px;
+  height: 350px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin:0;
+  max-height: 80vh;
+  max-width: 82vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-filler-6, .card-filler-7, .card-filler-8, .card-filler-9, .card-filler-10 {
+        top: 80px !important;
+    }
+
+    .card-filler-6 {
+        margin-right:10px;
+    }
+    .card-filler {
+        max-width: 64px;
+        max-height: 64px;
+    }
+
+    .landell.modal {
+        left: 0 !important;
+    }
+
+    .card-wrap, .card-wrap-outer { /* new */
+        margin-left: -5.5%;
+    }
+
+    .card-wrap.card-wrap-list-coupons { /* new */
+        margin-left: 5.5%;
+    }
+
+    .list-voucher-codes .card-wrap, .list-voucher-codes .card-wrap-outer { /* new */
+        margin-left: 5.5%;
+    }
+
+
+}
+
+@media only screen and (max-height: 400px) {
+
+    .card-filler-6, .card-filler-7, .card-filler-8, .card-filler-9, .card-filler-10 {
+        top: 100px !important;
+    }
+
+    .card-filler {
+        margin-left: -10px;
+    }
+
+    .card-wrap-outer {
+        left: -5.5%;
+        margin-bottom: 10% !important;
+    }
+}
+
+/* new code */
+.page-id-749 #main-content {
+  padding-left: 5vw;
+}
+
+/* CUSTOM CSS */
+.et_fullwidth_nav #main-header .container,
+body:not(.et-tb) #main-content .container, body:not(.et-tb-has-header) #main-content .container,
+.container.et_search_form_container {
+    margin-top: 0 !important;
+}
+.et_non_fixed_nav.et_transparent_nav.et_show_nav #page-container, .et_fixed_nav.et_show_nav #page-container {
+    padding-top: 80px !important;
+}
+.landell-modal {
+    top: 25%;
+    left: 0;
+    right: 0;
+}
+.card {
+    margin: auto;
+}
+.card-wrap {
+    margin-bottom: 20px !important;
+}
+.cross {
+    display: none;
+}
+.card_text {
+    margin-bottom: 80px;
+    width: auto;
+    text-align: left;
+    margin-top: 0;
+    height: auto;
+    font-size: x-large;
+    background-color: #fff;
+}
+.card-filler {
+    width: 88px;
+    height: 80px;
+}
+.card-filler-1 {
+    top: 95px;
+    left: 247px;
+}
+.card-filler-2 {
+    top: 95px;
+    left: 318px;
+}
+.card-filler-3 {
+    top: 95px;
+    left: 388px;
+}
+.card-filler-4 {
+    top: 95px;
+    left: 458px;
+}
+.card-filler-5 {
+    top: 95px;
+    left: 528px;
+}
+.card-filler-6 {
+    top: 165px;
+    left: 247px;
+}
+.card-filler-7 {
+    top: 165px;
+    left: 318px;
+}
+.card-filler-8 {
+    top: 165px;
+    left: 389px;
+}
+.card-filler-9 {
+    top: 165px;
+    left: 458px;
+}
+.card-filler-10 {
+    top: 165px;
+    left: 529px;
+}
+
+@media only screen and (max-width: 540px) {
+    .card-filler {
+        width: 52px;
+        height: 44px;
+    }
+    .card-filler-1 {
+        top: 69px;
+        left: 196px;
+    }
+    .card-filler-2 {
+        top: 69px;
+        left: 243px;
+    }
+    .card-filler-3 {
+        top: 69px;
+        left: 291px;
+    }
+    .card-filler-4 {
+        top: 69px;
+        left: 338px;
+    }
+    .card-filler-5 {
+        top: 69px;
+        left: 386px;
+    }
+    .card-filler-6 {
+        top: 116px !important;
+        left: 196px;
+    }
+    .card-filler-7 {
+        top: 116px !important;
+        left: 243px;
+    }
+    .card-filler-8 {
+        top: 116px !important;
+        left: 291px;
+    }
+    .card-filler-9 {
+        top: 116px !important;
+        left: 337px;
+    }
+    .card-filler-10 {
+        top: 116px !important;
+        left: 385px;
+    }
+    .landell-modal {
+        top: 10%;
+    }
+    .card {
+        width: 100% !important;
+    }
+    .card-wrap {
+        height: 260px !important;
+        margin-bottom: 0 !important;
+        width: 100% !important;
+    }
+    .card .card-body {
+        text-align: center;
+    }
+    .card .card-body img {
+        float: none !important;
+    }
+    .card-right {
+        max-width: 100% !important;
+        float: none !important;
+    }
+}
+
+@media only screen and (max-width: 424px) {
+    .card-filler {
+        width: 48px;
+        height: 40px;
+    }
+    .card-filler-1 {
+        top: 50px;
+        left: 151px;
+    }
+    .card-filler-2 {
+        top: 50px;
+        left: 189px;
+    }
+    .card-filler-3 {
+        top: 50px;
+        left: 226px;
+    }
+    .card-filler-4 {
+        top: 50px;
+        left: 263px;
+    }
+    .card-filler-5 {
+        top: 50px;
+        left: 301px;
+    }
+    .card-filler-6 {
+        top: 87px !important;
+        left: 152px;
+    }
+    .card-filler-7 {
+        top: 87px !important;
+        left: 189px;
+    }
+    .card-filler-8 {
+        top: 87px !important;
+        left: 226px;
+    }
+    .card-filler-9 {
+        top: 87px !important;
+        left: 263px;
+    }
+    .card-filler-10 {
+        top: 87px !important;
+        left: 301px;
+    }
+    .card-wrap {
+        height: 210px !important;
+    }
+    .card-wrap {
+        height: 210px !important;
+    }
+}
+
+/* pixel 2 */
+@media only screen and (min-width: 400px) and (max-width: 415px) {
+    .card-filler {
+        width: 60px;
+        height: 50px;
+    }
+    .card-filler-1 {
+        top: 38px;
+        left: 136px;
+    }
+    .card-filler-2 {
+        top: 38px;
+        left: 175px;
+    }
+    .card-filler-3 {
+        top: 38px;
+        left: 204px;
+    }
+    .card-filler-4 {
+        top: 38px;
+        left: 241px;
+    }
+    .card-filler-5 {
+        top: 38px;
+        left: 275px;
+    }
+    .card-filler-6 {
+        top: 73px !important;
+        left: 136px;
+    }
+    .card-filler-7 {
+        top: 73px !important;
+        left: 175px;
+    }
+    .card-filler-8 {
+        top: 73px !important;
+        left: 204px;
+    }
+    .card-filler-9 {
+        top: 73px !important;
+        left: 241px;
+    }
+    .card-filler-10 {
+        top: 73px  !important;
+        left: 275px;
+    }
+}
+
+/* iPhone 12 Pro */
+
+/* NOPE: @media only screen and (min-width: 1150px) and (max-width: 1171px) { */
+/* YEP:  @media only screen and (min-width: 300px) and (max-width: 1171px) { */
+/* YEP: @media only screen and (min-width: 300px) and (max-width: 400px) { */
+/* OK : @media only screen and (min-width: 375px) and (max-width: 539px) { */
+
+@media only screen and (min-width: 375px) and (max-width: 400px) {
+    .card-filler {
+        width: 55px;
+        height: 47px;
+    }
+    .card-filler-1 {
+        top: 38px;
+        left: 134px;
+    }
+    .card-filler-2 {
+        top: 38px;
+        left: 173px;
+    }
+    .card-filler-3 {
+        top: 38px;
+        left: 202px;
+    }
+    .card-filler-4 {
+        top: 38px;
+        left: 239px;
+    }
+    .card-filler-5 {
+        top: 38px;
+        left: 273px;
+    }
+    .card-filler-6 {
+        top: 73px !important;
+        left: 134px;
+    }
+    .card-filler-7 {
+        top: 73px !important;
+        left: 173px;
+    }
+    .card-filler-8 {
+        top: 73px !important;
+        left: 202px;
+    }
+    .card-filler-9 {
+        top: 73px !important;
+        left: 239px;
+    }
+    .card-filler-10 {
+        top: 73px  !important;
+        left: 273px;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    .card-filler {
+        width: 38px;
+        height: 30px;
+    }
+    .card-filler-1 {
+        top: 40px;
+        left: 135px;
+    }
+    .card-filler-2 {
+        top: 40px;
+        left: 170px;
+    }
+    .card-filler-3 {
+        top: 40px;
+        left: 200px;
+    }
+    .card-filler-4 {
+        top: 40px;
+        left: 235px;
+    }
+    .card-filler-5 {
+        top: 40px;
+        left: 268px;
+    }
+    .card-filler-6 {
+        top: 76px !important;
+        left: 135px;
+    }
+    .card-filler-7 {
+        top: 76px !important;
+        left: 170px;
+    }
+    .card-filler-8 {
+        top: 76px !important;
+        left: 200px;
+    }
+    .card-filler-9 {
+        top: 76px !important;
+        left: 235px;
+    }
+    .card-filler-10 {
+        top: 76px !important;
+        left: 268px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .card-filler {
+        width: 38px;
+        height: 30px;
+    }
+    .card-filler-1 {
+        top: 45px;
+        left: 133px;
+    }
+    .card-filler-2 {
+        top: 45px;
+        left: 166px;
+    }
+    .card-filler-3 {
+        top: 45px;
+        left: 198px;
+    }
+    .card-filler-4 {
+        top: 45px;
+        left: 230px;
+    }
+    .card-filler-5 {
+        top: 45px;
+        left: 263px;
+    }
+    .card-filler-6 {
+        top: 78px !important;
+        left: 134px;
+    }
+    .card-filler-7 {
+        top: 78px !important;
+        left: 166px;
+    }
+    .card-filler-8 {
+        top: 78px !important;
+        left: 198px;
+    }
+    .card-filler-9 {
+        top: 78px !important;
+        left: 230px;
+    }
+    .card-filler-10 {
+        top: 78px !important;
+        left: 263px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .card-filler {
+        width: 30px;
+        height: 22px;
+    }
+    .card-filler-1 {
+        top: 44px;
+        left: 119px;
+    }
+    .card-filler-2 {
+        top: 44px;
+        left: 148px;
+    }
+    .card-filler-3 {
+        top: 44px;
+        left: 177px;
+    }
+    .card-filler-4 {
+        top: 44px;
+        left: 206px;
+    }
+    .card-filler-5 {
+        top: 44px;
+        left: 235px;
+    }
+    .card-filler-6 {
+        top: 74px !important;
+        left: 121px;
+    }
+    .card-filler-7 {
+        top: 74px !important;
+        left: 148px;
+    }
+    .card-filler-8 {
+        top: 74px !important;
+        left: 178px;
+    }
+    .card-filler-9 {
+        top: 74px !important;
+        left: 207px;
+    }
+    .card-filler-10 {
+        top: 74px !important;
+        left: 236px;
+    }
+    .card-wrap {
+        max-height: 30vh !important;
+    }
+    .landell-modal {
+        top: 5%;
+    }
+}
+
+
+@media only screen and (max-width: 280px) {
+    .card-filler {
+        width: 28px;
+        height: 20px;
+    }
+    .card-filler-1 {
+        top: 34px;
+        left: 100px;
+    }
+    .card-filler-2 {
+        top: 34px;
+        left: 122px;
+    }
+    .card-filler-3 {
+        top: 34px;
+        left: 145px;
+    }
+    .card-filler-4 {
+        top: 34px;
+        left: 170px;
+    }
+    .card-filler-5 {
+        top: 34px;
+        left: 195px;
+    }
+    .card-filler-6 {
+        top: 60px !important;
+        left: 100px;
+    }
+    .card-filler-7 {
+        top: 60px !important;
+        left: 122px;
+    }
+    .card-filler-8 {
+        top: 60px !important;
+        left: 145px;
+    }
+    .card-filler-9 {
+        top: 60px !important;
+        left: 170px;
+    }
+    .card-filler-10 {
+        top: 60px !important;
+        left: 195px;
+    }
+    .card-wrap {
+        max-height: 30vh !important;
+    }
+    .landell-modal {
+        top: 5%;
+    }
+}
+
+.text-red {
+  color:red !important;
+}
+
+.text-orange {
+  color:orange !important;
+}
+
+.text-white {
+  color:white !important;
+}
+
+.text-black {
+  color:black !important;
+}

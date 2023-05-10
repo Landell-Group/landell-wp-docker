@@ -1,0 +1,924 @@
+# Translation of Plugins - Spam protection, AntiSpam, FireWall by CleanTalk - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Spam protection, AntiSpam, FireWall by CleanTalk - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-12-01 19:34:13+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Spam protection, AntiSpam, FireWall by CleanTalk - Stable (latest release)\n"
+
+#: inc/cleantalk-settings.php:820
+msgid "Shortcode"
+msgstr "Kortkod"
+
+#: inc/cleantalk-settings.php:848
+msgid "Add under forms."
+msgstr "Lägg till under formulär"
+
+#: inc/cleantalk-settings.php:837
+msgid "Add to the footer"
+msgstr "Lägg till i sidfot"
+
+#: inc/cleantalk-public-integrations.php:3569
+msgid "Spam <span class=\"count\">(%s)</span>"
+msgid_plural "Spam <span class=\"count\">(%s)</span>"
+msgstr[0] "Skräppost <span class=\"count\">(%s)</span>"
+msgstr[1] "Skräppost <span class=\"count\">(%s)</span>"
+
+#: lib/Cleantalk/ApbctWP/Antispam/EmailEncoder.php:74
+msgid "Blocked"
+msgstr "Blockerad"
+
+#: lib/Cleantalk/ApbctWP/Antispam/EmailEncoder.php:73
+msgid "Allowed"
+msgstr "Tillåten"
+
+#: inc/cleantalk-settings.php:3113
+msgid "Image"
+msgstr "Bild"
+
+#: inc/cleantalk-settings.php:1446
+msgid "Notifications"
+msgstr "Aviseringar"
+
+#: inc/cleantalk-settings.php:1972
+msgid "Send new report"
+msgstr "Skicka ny rapport"
+
+#: inc/cleantalk-settings.php:1964
+msgid "All the reports already have been sent."
+msgstr "Alla rapporter har redan skickats."
+
+#: lib/Cleantalk/ApbctWP/Firewall/SFW.php:389
+msgid "IP in the whitelist"
+msgstr "IP i vitlistan"
+
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:177
+msgid "Extended view"
+msgstr "Utökad vy"
+
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:176
+msgid "Compact view"
+msgstr "Kompakt vy"
+
+#: lib/Cleantalk/ApbctWP/AdminNotices.php:219
+msgid "SHARE"
+msgstr "DELA"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/UsersChecker.php:70
+msgid "Please, select a date range."
+msgstr "Välj ett datumintervall."
+
+#: lib/Cleantalk/ApbctWP/FindSpam/UsersChecker.php:69
+msgid "Please, specify a date range."
+msgstr "Specificera ett datumintervall."
+
+#: inc/cleantalk-settings.php:2943 inc/cleantalk-settings.php:2954
+msgid "here."
+msgstr "här."
+
+#: inc/cleantalk-settings.php:1718
+msgid "Enter the Access key"
+msgstr "Ange åtkomstnyckeln"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/BadUsers.php:90
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/BadUsers.php:93
+msgid "No IP address"
+msgstr "Ingen IP-adress"
+
+#: inc/cleantalk-settings.php:2915 inc/cleantalk-settings.php:2922
+#: inc/cleantalk-settings.php:2929 inc/cleantalk-settings.php:2936
+#: inc/cleantalk-settings.php:2961
+msgid "Learn more."
+msgstr "Lär dig mer."
+
+#: inc/cleantalk-settings.php:2908
+msgid "Learn more about suboptions"
+msgstr "Lär dig mer om underalternativ."
+
+#: inc/cleantalk-admin.php:1263
+msgid "Debug"
+msgstr "Felsök"
+
+#: inc/cleantalk-settings.php:3046
+msgid "save"
+msgstr "spara"
+
+#: inc/cleantalk-settings.php:3043 inc/cleantalk-settings.php:3048
+msgid "change email"
+msgstr "ändra e-post"
+
+#: inc/cleantalk-settings.php:1673
+msgid "The Access key is not required."
+msgstr "Åtkomstnyckeln är inte obligatoriskt."
+
+#: inc/cleantalk-settings.php:3021
+msgid "UNKNOWN"
+msgstr "OKÄND"
+
+#: inc/cleantalk-settings.php:3017
+msgid "REST API"
+msgstr "REST API"
+
+#: inc/cleantalk-settings.php:1394
+msgid "Unknown error type: "
+msgstr "Okänd feltyp: "
+
+#: inc/cleantalk-settings.php:731
+msgid "Miscellaneous"
+msgstr "Övrigt"
+
+#: inc/cleantalk-settings.php:936
+msgid "Copy the Access key from your %sCleanTalk Profile%s"
+msgstr "Kopiera åtkomstnyckeln från din %sCleanTalk-profil%s"
+
+#: inc/cleantalk-public-integrations.php:2985
+msgid "This entry has been marked as spam."
+msgstr "Detta inlägg har markerats som skräppost."
+
+#: inc/cleantalk-admin.php:991
+msgid "Logins:"
+msgstr "Inloggningar:"
+
+#: inc/cleantalk-admin.php:1027
+msgid "Users online:"
+msgstr "Användare online:"
+
+#: inc/cleantalk-admin.php:681 inc/cleantalk-admin.php:688
+msgid "Security"
+msgstr "Säkerhet"
+
+#: inc/cleantalk-admin.php:1059
+msgid "Start scan"
+msgstr "Starta skanning"
+
+#: inc/cleantalk-admin.php:1057
+msgid "Scanner"
+msgstr "Skanner"
+
+#: inc/cleantalk-admin.php:684
+msgid "Renew Security"
+msgstr "Förnya säkerhet"
+
+#: inc/cleantalk-public.php:866 inc/cleantalk-public.php:916
+msgid "Back"
+msgstr "Tillbaka"
+
+#: inc/cleantalk-settings.php:530
+msgid "Via JavaScript"
+msgstr "Via JavaScript"
+
+#: lib/Cleantalk/ApbctWP/CleantalkSettingsTemplates.php:209
+msgid "You are currently using:"
+msgstr "Du använder för närvarande:"
+
+#: lib/Cleantalk/ApbctWP/CleantalkSettingsTemplates.php:189
+msgid "Enter a template name"
+msgstr "Ange ett mallnamn"
+
+#: inc/cleantalk-settings.php:201
+msgid "Import/Export settings"
+msgstr "Inställningar för export/import"
+
+#: lib/Cleantalk/ApbctWP/CleantalkSettingsTemplates.php:179
+msgid "Export settings"
+msgstr "Exportera inställningar"
+
+#: lib/Cleantalk/ApbctWP/CleantalkSettingsTemplates.php:145
+msgid "Import settings"
+msgstr "Importera inställningar"
+
+#: lib/Cleantalk/ApbctWP/CleantalkSettingsTemplates.php:49
+#: lib/Cleantalk/ApbctWP/CleantalkSettingsTemplates.php:66
+#: lib/Cleantalk/ApbctWP/CleantalkSettingsTemplates.php:90
+#: lib/Cleantalk/ApbctWP/CleantalkSettingsTemplates.php:104
+msgid "Success. Reloading..."
+msgstr "Lyckades. Laddar om …"
+
+#: lib/Cleantalk/ApbctWP/CleantalkSettingsTemplates.php:235
+msgid "Reset settings to defaults"
+msgstr "Återställ inställningar till standard"
+
+#: lib/Cleantalk/ApbctWP/CleantalkSettingsTemplates.php:226
+msgid "Import settings from selected template"
+msgstr "Importera inställningar från vald mall"
+
+#: lib/Cleantalk/ApbctWP/CleantalkSettingsTemplates.php:217
+msgid "Export settings to selected template"
+msgstr "Exportera inställningar till vald mall"
+
+#: inc/cleantalk-settings.php:75
+msgid "contact to our support."
+msgstr "kontakt till vår support."
+
+#: inc/cleantalk-settings.php:1915
+msgid "Under updating now:"
+msgstr "Uppdateras nu:"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Comments.php:209
+msgid "Move to trash"
+msgstr "Flytta till papperskorgen"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/UsersChecker.php:297
+msgid "No users found."
+msgstr "Inga användare hittades."
+
+#: lib/Cleantalk/ApbctWP/FindSpam/CommentsChecker.php:190
+msgid "No comments found."
+msgstr "Inga kommentarer hittades."
+
+#: inc/cleantalk-settings.php:1207
+msgid "Synchronize with Cloud"
+msgstr "Synkronisera med moln"
+
+#: templates/translate_banner.php:17
+msgid "TRANSLATE"
+msgstr "ÖVERSÄTT"
+
+#: templates/translate_banner.php:7
+msgid "Help others use the plugin in your language."
+msgstr "Hjälp andra att använda tillägget på ditt språk."
+
+#: inc/cleantalk-settings.php:1734
+msgid "Show the Access key"
+msgstr "Visa åtkomstnyckeln"
+
+#: inc/cleantalk-settings.php:1656
+msgid "Auto update"
+msgstr "Automatisk uppdatering"
+
+#: inc/cleantalk-settings.php:1635
+msgid "Comments forms"
+msgstr "Kommentarsformulär"
+
+#: inc/cleantalk-settings.php:969
+msgid "Plugin name"
+msgstr "Tilläggets namn"
+
+#: inc/cleantalk-settings.php:1879 inc/cleantalk-settings.php:1882
+#: inc/cleantalk-settings.php:1891 inc/cleantalk-settings.php:1898
+#: inc/cleantalk-settings.php:1901 inc/cleantalk-settings.php:1908
+#: inc/cleantalk-settings.php:1922 inc/cleantalk-settings.php:1926
+msgid "unknown"
+msgstr "okänd"
+
+#: inc/cleantalk-settings.php:1844 inc/cleantalk-settings.php:1861
+msgid "Statistics & Reports"
+msgstr "Statistisk och rapporter"
+
+#: inc/cleantalk-settings.php:1014
+msgid "Apply for current sites."
+msgstr "Tillämpa för nuvarande webbplatser."
+
+#: inc/cleantalk-settings.php:807
+msgid "Complete deactivation"
+msgstr "Fullständig inaktivering"
+
+#: inc/cleantalk-settings.php:1462
+msgid "You can get support any time here: %s."
+msgstr "Du kan få support när som helst här: %s."
+
+#: inc/cleantalk-settings.php:1154
+msgid "GDPR compliance"
+msgstr "GDPR-efterlevnad"
+
+#: inc/cleantalk-settings.php:808
+msgid "Leave no trace in the system after deactivation."
+msgstr "Lämnar inga spår i systemet efter inaktivering."
+
+#: inc/cleantalk-settings.php:737
+msgid "Send connection reports"
+msgstr "Skicka anslutningsrapporter"
+
+#: inc/cleantalk-settings.php:491
+msgid "Use SSL"
+msgstr "Använd SSL"
+
+#: inc/cleantalk-settings.php:435 inc/cleantalk-settings.php:481
+#: inc/cleantalk-settings.php:531 inc/cleantalk-settings.php:672
+msgid "Auto"
+msgstr "Automatisk"
+
+#: inc/cleantalk-settings.php:293 inc/cleantalk-settings.php:319
+#: inc/cleantalk-settings.php:340 inc/cleantalk-settings.php:434
+#: inc/cleantalk-settings.php:482 inc/cleantalk-settings.php:532
+#: inc/cleantalk-settings.php:550 inc/cleantalk-settings.php:671
+#: inc/cleantalk-settings.php:1057
+msgid "Off"
+msgstr "Av"
+
+#: inc/cleantalk-settings.php:292 inc/cleantalk-settings.php:318
+#: inc/cleantalk-settings.php:339 inc/cleantalk-settings.php:433
+#: inc/cleantalk-settings.php:472 inc/cleantalk-settings.php:549
+#: inc/cleantalk-settings.php:670 inc/cleantalk-settings.php:1056
+msgid "On"
+msgstr "På"
+
+#: inc/cleantalk-settings.php:332
+msgid "Disabling comments for all types of content."
+msgstr "Inaktiverar kommentarer för alla typer av innehåll."
+
+#: inc/cleantalk-settings.php:331
+msgid "Disable all comments"
+msgstr "Inaktivera alla kommentarer"
+
+#: inc/cleantalk-settings.php:327
+msgid "Comments and Messages"
+msgstr "Kommentarer och meddelanden"
+
+#: inc/cleantalk-settings.php:283
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/cleantalk-settings.php:272
+msgid "Protect internal forms"
+msgstr "Skydda interna formulär"
+
+#: inc/cleantalk-settings.php:219
+msgid "Registration Forms"
+msgstr "Registreringsformulär"
+
+#: inc/cleantalk-settings.php:187
+msgid "Forms to protect"
+msgstr "Formulär att skydda"
+
+#: inc/cleantalk-settings.php:23
+msgid "settings"
+msgstr "inställningar"
+
+#: inc/cleantalkWidget.php:134
+msgid "Dark"
+msgstr "Mörk"
+
+#: inc/cleantalkWidget.php:117
+msgid "Style:"
+msgstr "Stil:"
+
+#: inc/cleantalkWidget.php:84
+msgid "spam"
+msgstr "skräppost"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Users.php:45
+msgid "Posts"
+msgstr "Inlägg"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Users.php:44
+msgid "Role"
+msgstr "Roll"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Users.php:42
+msgid "E-mail"
+msgstr "E-post"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Users.php:41
+msgid "Name"
+msgstr "Namn"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/UsersScan.php:70
+msgid "Download results in CSV"
+msgstr "Ladda ner resultat i CSV"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/UsersChecker.php:59
+msgid "users."
+msgstr "användare."
+
+#: lib/Cleantalk/ApbctWP/FindSpam/CommentsChecker.php:50
+msgid "comments"
+msgstr "kommentarer"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Comments.php:97
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Users.php:110
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Users.php:113
+msgid "No IP adress"
+msgstr "Ingen IP-adress"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/CommentsLogs.php:14
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/UsersLogs.php:14
+msgid "Start time"
+msgstr "Starttid"
+
+#: inc/cleantalk-public.php:1476
+msgid "Marked as not spam."
+msgstr "Markerad som inte skräppost."
+
+#: inc/cleantalk-public.php:1470
+msgid "Marked as spam."
+msgstr "Markerad som skräppost."
+
+#: inc/cleantalk-public-integrations.php:3615 inc/cleantalk-public.php:1457
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Comments.php:208
+msgid "Mark as spam"
+msgstr "Markera som skräppost"
+
+#: inc/cleantalk-public.php:1452
+msgid "No IP"
+msgstr "Inget IP"
+
+#: inc/cleantalk-public.php:1441
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/BadUsers.php:73
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Comments.php:83
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Users.php:93
+msgid "No email"
+msgstr "Ingen e-post"
+
+#: inc/cleantalk-public.php:1430
+msgid "by"
+msgstr "av"
+
+#: inc/cleantalk-settings.php:609
+msgid "Admin bar"
+msgstr "Adminlist"
+
+#: inc/cleantalk-settings.php:564
+msgid "Exclusions"
+msgstr "Exkluderingar"
+
+#: inc/cleantalk-settings.php:573
+msgid "URL exclusions"
+msgstr "URL-exkluderingar"
+
+#: inc/cleantalk-settings.php:401
+msgid "Protect logged in Users"
+msgstr "Skydda inloggade användare"
+
+#: inc/cleantalk-settings.php:385
+msgid "Manage comments on public pages"
+msgstr "Hantera kommentarer på offentliga sidor"
+
+#: inc/cleantalk-settings.php:370
+msgid "Remove links from approved comments"
+msgstr "Ta bort länkar från godkända kommentarer"
+
+#: inc/cleantalk-settings.php:354
+msgid "Disable comments for all media"
+msgstr "Inaktivera kommentarer för alla medier"
+
+#: inc/cleantalk-settings.php:349
+msgid "Disable comments for all pages"
+msgstr "Inaktivera kommentarer för alla sidor"
+
+#: inc/cleantalk-settings.php:344
+msgid "Disable comments for all posts"
+msgstr "Inaktivera kommentarer för alla inlägg"
+
+#: inc/cleantalk-settings.php:246
+msgid "Spam protection for Search form."
+msgstr "Skräppostskydd för sökformulät."
+
+#: lib/Cleantalk/ApbctWP/FindSpam/Page.php:112
+msgid "Show per page"
+msgstr "Visa per sida"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/Page.php:93
+msgid "Plugin Settings"
+msgstr "Inställningar för tillägg"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Comments.php:261
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Users.php:217
+msgid "No spam found."
+msgstr "Ingen skräppost hittades."
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Comments.php:39
+msgid "Comment"
+msgstr "Kommentar"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/CommentsLogs.php:66
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/UsersLogs.php:66
+msgid "No logs found."
+msgstr "Inga loggar hittades."
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/CommentsLogs.php:16
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/UsersLogs.php:16
+msgid "Found spam"
+msgstr "Hittade skräppost"
+
+#: inc/cleantalk-settings.php:498
+msgid "Use WordPress HTTP API"
+msgstr "Använd WordPress HTTP API"
+
+#: inc/cleantalk-settings.php:447
+msgid "CleanTalk Dashboard"
+msgstr "CleanTalk-adminpanel"
+
+#: inc/cleantalk-settings.php:408
+msgid "Don't check trusted user's comments"
+msgstr "Kontrollera inte betrodda användares kommentarer"
+
+#: inc/cleantalk-settings.php:397
+msgid "Data Processing"
+msgstr "Databearbetning"
+
+#: inc/cleantalk-settings.php:360
+msgid "Check buddyPress private messages."
+msgstr "Kontrollera buddyPress privata meddelanden."
+
+#: inc/cleantalk-settings.php:359
+msgid "BuddyPress Private Messages"
+msgstr "BuddyPress privata meddelanden"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Users.php:43
+msgid "Signed up"
+msgstr "Registrerade sig"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/Checker.php:141
+msgid "Specify date range"
+msgstr "Specificera datumintervall"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/Checker.php:118
+msgid "Continue check"
+msgstr "Fortsätt kontrollera"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/Checker.php:114
+msgid "Start check"
+msgstr "Starta kontroll"
+
+#: inc/cleantalk-public.php:1270
+msgid "Error occurred while sending feedback."
+msgstr "Fel uppstod vid sändning av feedback."
+
+#: inc/cleantalk-public.php:819
+msgid "Check for spam:"
+msgstr "Kontrollera efter skräppost:"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/CommentsChecker.php:305
+#: lib/Cleantalk/ApbctWP/FindSpam/UsersChecker.php:416
+msgid "Never checked yet or no new spam."
+msgstr "Aldrig kontrollerat ännu eller ingen ny skräppost."
+
+#: lib/Cleantalk/ApbctWP/FindSpam/CommentsChecker.php:55
+#: lib/Cleantalk/ApbctWP/FindSpam/CommentsChecker.php:312
+#: lib/Cleantalk/ApbctWP/FindSpam/UsersChecker.php:65
+#: lib/Cleantalk/ApbctWP/FindSpam/UsersChecker.php:423
+msgid "Please do backup of WordPress database before delete any accounts!"
+msgstr "Säkerhetskopiera WordPress-databas innan du tar bort några konton!"
+
+#: inc/cleantalk-admin.php:852
+msgid "Day"
+msgstr "Dag"
+
+#: inc/cleantalk-admin.php:403
+msgid "Start here"
+msgstr "Börja här"
+
+#: inc/cleantalk-admin.php:398
+msgid "Translate"
+msgstr "Översätt"
+
+#: inc/cleantalk-admin.php:173
+msgid "Country"
+msgstr "Land"
+
+#: inc/cleantalk-admin.php:171
+msgid "IP"
+msgstr "IP"
+
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:1210
+msgid "Select All"
+msgstr "Välj alla"
+
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:983
+msgid "Last page"
+msgstr "Sista sidan"
+
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:972
+msgid "Next page"
+msgstr "Nästa sida"
+
+#. translators: 1: Current page, 2: Total pages.
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:961
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s av %2$s"
+
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:949
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:953
+msgid "Current Page"
+msgstr "Nuvarande sida"
+
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:942
+msgid "Previous page"
+msgstr "Förgående sida"
+
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:931
+msgid "First page"
+msgstr "Första sidan"
+
+#. translators: %s: Number of comments.
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:733
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s kommentar"
+msgstr[1] "%s kommentarer"
+
+#. translators: 1: Month name, 2: 4-digit year.
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:676
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:753
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:783
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:806
+msgid "No comments"
+msgstr "Inga kommentarer"
+
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:661
+msgid "All dates"
+msgstr "Alla datum"
+
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:579
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:1476
+msgid "Show more details"
+msgstr "Visa fler detaljer"
+
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:520
+msgid "Apply"
+msgstr "Tillämpa"
+
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:499
+msgid "Bulk actions"
+msgstr "Massåtgärder"
+
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:497
+msgid "Select bulk action"
+msgstr "Välj massåtgärd"
+
+#: lib/Cleantalk/Antispam/DisableComments.php:152
+#: lib/Cleantalk/Antispam/DisableComments.php:185
+msgid "Comments are closed."
+msgstr "Kommentarer är stängda."
+
+#: inc/cleantalk-admin.php:814
+msgid "Since"
+msgstr "Sedan"
+
+#: lib/Cleantalk/ApbctWP/AdminNotices.php:131
+msgid "Get the Access key"
+msgstr "Skaffa åtkomstnyckeln"
+
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:783
+msgid "No approved comments"
+msgstr "Inga godkända kommentarer"
+
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:806
+msgid "No pending comments"
+msgstr "Inga kommentarer inväntar granskning"
+
+#. translators: %s: Number of comments.
+#: lib/Cleantalk/ApbctWP/CleantalkListTable.php:739
+msgid "%s approved comment"
+msgid_plural "%s approved comments"
+msgstr[0] "%s godkänd kommentar"
+msgstr[1] "%s godkända kommentarer"
+
+#: inc/cleantalk-admin.php:156
+msgid "Please, visit your Dashboard."
+msgstr "Besök din adminpanel."
+
+#: inc/cleantalk-admin.php:114
+msgid "%sConfigure%s"
+msgstr "%sKonfigurera%s"
+
+#: inc/cleantalk-admin.php:108
+msgid "%sRefresh%s"
+msgstr "%sUppdatera%s"
+
+#: inc/cleantalk-admin.php:900 inc/cleantalk-admin.php:901
+msgid "Reset all counters"
+msgstr "Återställ alla räknare"
+
+#: inc/cleantalk-admin.php:929 inc/cleantalk-settings.php:1836
+#: lib/Cleantalk/ApbctWP/FindSpam/CommentsChecker.php:15
+msgid "Check comments for spam"
+msgstr "Kontrollera kommentarer för skräppost"
+
+#: inc/cleantalk-admin.php:604
+msgid "%sGet premium%s"
+msgstr "%sSkaffa premium%s"
+
+#: inc/cleantalk-admin.php:553
+msgid "The sender has been blacklisted."
+msgstr "Avsändaren har svartlistats."
+
+#: inc/cleantalk-admin.php:552
+msgid "The sender has been whitelisted."
+msgstr "Avsändaren har vitlistats."
+
+#: inc/cleantalk-admin.php:238 inc/cleantalk-settings.php:1160
+msgid "Do you like CleanTalk? %sPost your feedback here%s."
+msgstr "Gillar du CleanTalk? %sPublicera din feedback här%s."
+
+#: inc/cleantalk-admin.php:150
+msgid "Something went wrong! Error: \"%s\"."
+msgstr "Något gick fel! Fel: ”%s”."
+
+#: inc/cleantalk-admin.php:407 inc/cleantalk-admin.php:953
+#: inc/cleantalk-admin.php:1066 inc/cleantalk-settings.php:1234
+msgid "Support"
+msgstr "Support"
+
+#: inc/cleantalk-settings.php:1252 inc/cleantalk-settings.php:1309
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: inc/cleantalk-admin.php:347 inc/cleantalk-admin.php:918
+#: inc/cleantalk-admin.php:1049
+msgid "Settings"
+msgstr "Inställningar"
+
+#: inc/cleantalk-settings.php:1697
+msgid "Access key"
+msgstr "Åtkomstnyckel "
+
+#: inc/cleantalkWidget.php:87
+msgid "blocked by"
+msgstr "blockerad av"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Comments.php:121
+msgid "Y/m/d"
+msgstr "Y-m-d"
+
+#. Author of the plugin
+msgid "СleanTalk <welcome@cleantalk.org>"
+msgstr "СleanTalk <welcome@cleantalk.org>"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Users.php:40
+msgid "Username"
+msgstr "Användarnamn"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Comments.php:175
+msgid "View Post"
+msgstr "Visa inlägg"
+
+#: lib/Cleantalk/ApbctWP/AdminNotices.php:193
+msgid "next year"
+msgstr "nästa år"
+
+#: inc/cleantalk-settings.php:196
+msgid "Advanced settings"
+msgstr "Avancerade inställningar"
+
+#: inc/cleantalk-settings.php:1629
+msgid "Protection is active"
+msgstr "Skyddet är aktivt"
+
+#: inc/cleantalk-settings.php:230 inc/cleantalk-settings.php:1639
+msgid "Contact forms"
+msgstr "Kontaktformulär"
+
+#: inc/cleantalk-settings.php:226
+msgid "Comments form"
+msgstr "Kommentarformulär"
+
+#: inc/cleantalk-settings.php:1631
+msgid "Registration forms"
+msgstr "Registreringsformulär"
+
+#: inc/cleantalk-settings.php:237 inc/cleantalk-settings.php:1643
+msgid "Custom contact forms"
+msgstr "Anpassade kontaktformulär"
+
+#: inc/cleantalk-settings.php:255
+msgid "Protect external forms"
+msgstr "Skydda externa formulär"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/UsersScan.php:68
+msgid "Delete all users from list"
+msgstr "Ta bort alla användare från listan"
+
+#: inc/cleantalk-settings.php:363
+msgid "Automatically delete spam comments"
+msgstr "Ta bort skräpkommentarer automatiskt"
+
+#: inc/cleantalk-settings.php:439
+msgid "Check all post data"
+msgstr "Kontrollera alla uppgifter för inlägg"
+
+#: inc/cleantalk-settings.php:617
+msgid "Show statistics in admin bar"
+msgstr "Visa statistik i adminfältet"
+
+#: inc/cleantalk-settings.php:415
+msgid "Use AJAX for JavaScript check"
+msgstr "Använd AJAX för kontroll med JavaScript"
+
+#: inc/cleantalk-settings.php:365
+msgid "Delete spam comments older than %d days."
+msgstr "Ta bort skräpkommentarer som är äldre än %d dagar."
+
+#: inc/cleantalk-admin.php:871
+msgid "SpamFireWall"
+msgstr "SpamFireWall"
+
+#: inc/cleantalk-settings.php:153
+msgid "This option allows to filter spam bots before they access website. Also reduces CPU usage on hosting server and accelerates pages load time."
+msgstr "Detta alternativ gör det möjligt att filtrera bort spambottar innan de kommer åt webbplatsen. Detta minskar även processorbelastningen på webbplatsens server och gör att sidor laddas snabbare."
+
+#: inc/cleantalk-settings.php:1151
+msgid "Plugin Homepage at"
+msgstr "Tilläggets hemsida på"
+
+#: inc/cleantalk-settings.php:1156
+msgid "Use s@cleantalk.org to test plugin in any WordPress form."
+msgstr "Använd s@cleantalk.org för att testa tillägget med valfritt formulär i WordPress."
+
+#: lib/Cleantalk/ApbctWP/AdminNotices.php:127
+msgid "Unable to get Access key automatically: %s"
+msgstr "Det gick inte att hämta åtkomstkod automatiskt: %s"
+
+#: lib/Cleantalk/ApbctWP/AdminNotices.php:163
+msgid "%s trial period ends, please upgrade to %s!"
+msgstr "Provperioden för %s har upphört. Uppgradera till %s!"
+
+#: lib/Cleantalk/ApbctWP/AdminNotices.php:188
+msgid "RENEW ANTI-SPAM"
+msgstr "FÖRNYA ANTI-SPAM"
+
+#: inc/cleantalk-find-spam.php:9 inc/cleantalk-find-spam.php:32
+msgid "Check for spam"
+msgstr "Sök efter skräpmeddelanden"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Comments.php:119
+msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
+msgstr "Skickades den <a href=\"%1$s\">%2$s kl. %3$s</a>"
+
+#: inc/cleantalk-admin.php:551 inc/cleantalk-find-spam.php:33
+msgid "Find spam comments"
+msgstr "Sök efter skräpkommentarer"
+
+#: inc/cleantalk-public-integrations.php:1203 inc/cleantalk-public.php:853
+#: inc/cleantalk-public.php:906
+msgid "Spam protection"
+msgstr "Skydd mot skräpmeddelanden"
+
+#: inc/cleantalk-public-integrations.php:2711
+msgid "Comment approved. Anti-spam by CleanTalk."
+msgstr "Kommentaren godkänd. Skydd mot skräpkommentarer med CleanTalk."
+
+#: inc/cleantalk-public.php:1157
+msgid "Attention, please!"
+msgstr "Observera!"
+
+#: inc/cleantalk-find-spam.php:10
+msgid "Find spam users"
+msgstr "Hitta spammande användare"
+
+#: inc/cleantalkWidget.php:25
+msgid "CleanTalk Widget"
+msgstr "CleanTalk-widget"
+
+#: inc/cleantalkWidget.php:27
+msgid "CleanTalk widget"
+msgstr "CleanTalk-widget"
+
+#: inc/cleantalkWidget.php:37 inc/cleantalkWidget.php:99
+msgid "Spam blocked"
+msgstr "Skräpmeddelande blockerat"
+
+#: inc/cleantalkWidget.php:104
+msgid "Title:"
+msgstr "Rubrik:"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://cleantalk.org"
+msgstr "https://cleantalk.org"
+
+#: inc/cleantalk-public.php:1174
+msgid "[%s] \"%s\" error!"
+msgstr "[%s] ”%s” fel!"
+
+#: lib/Cleantalk/ApbctWP/FindSpam/ListTable/Comments.php:38
+msgid "Author"
+msgstr "Författare"
+
+#: inc/cleantalk-admin.php:405
+msgid "FAQ"
+msgstr "Vanliga frågor"
+
+#: inc/cleantalk-settings.php:227
+msgid "WordPress, JetPack, WooCommerce."
+msgstr "WordPress, JetPack, WooCommerce."
+
+#: inc/cleantalk-settings.php:231
+msgid "Contact Form 7, Formidable forms, JetPack, Fast Secure Contact Form, WordPress Landing Pages, Gravity Forms."
+msgstr "Contact Form 7, Formidable forms, JetPack, Fast Secure Contact Form, WordPress Landing Pages, Gravity Forms."
+
+#: inc/cleantalk-settings.php:220
+msgid "WordPress, BuddyPress, bbPress, S2Member, WooCommerce."
+msgstr "WordPress, BuddyPress, bbPress, S2Member, WooCommerce."
+
+#: inc/cleantalk-public-integrations.php:1307
+msgid "Registration approved by %s."
+msgstr "Registrering godkänd av %s."
+
+#: inc/cleantalk-settings.php:1747
+msgid "Get Access Key Automatically"
+msgstr "Skaffa åtkomstnyckel automatiskt"
+
+#: inc/cleantalk-settings.php:1176
+msgid "%s  has blocked <b>%s</b> spam."
+msgstr "%s har blockerat <b>%s</b> skräppostmeddelanden."

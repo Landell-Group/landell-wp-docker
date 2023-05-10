@@ -1,0 +1,4882 @@
+# Translation of Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-09 16:54:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Pods &#8211; Custom Content Types and Fields - Stable (latest release)\n"
+
+#: src/Pods/Tools/Reset.php:161 src/Pods/Tools/Reset.php:174
+msgid "row"
+msgid_plural "rows"
+msgstr[0] "rad"
+msgstr[1] "rader"
+
+#: src/Pods/Blocks/Types/Item_Single_List_Fields.php:88
+msgid "Table rows"
+msgstr "Tabellrader"
+
+#: components/Pages.php:387 components/Templates/Templates.php:159
+msgid "Restrict Content"
+msgstr "Begränsa innehåll"
+
+#: ui/js/blocks/block-types/pods-block-single-list-fields/block.json
+msgctxt "block keyword"
+msgid "fields"
+msgstr "fält"
+
+#: src/Pods/Tools/Repair.php:568
+msgid "N/A"
+msgstr "N/A"
+
+#: src/Pods/Tools/Repair.php:585
+msgid "Old Type"
+msgstr "Gammal typ"
+
+#: src/Pods/Tools/Repair.php:312 src/Pods/Tools/Repair.php:413
+msgid "New Name"
+msgstr "Nytt namn"
+
+#: src/Pods/Tools/Repair.php:310 src/Pods/Tools/Repair.php:411
+msgid "Old Name"
+msgstr "Gammalt namn"
+
+#: src/Pods/Blocks/Types/Item_Single_List_Fields.php:101
+msgid "Exclude Fields"
+msgstr "Exkludera fält"
+
+#: src/Pods/Blocks/Types/Item_Single_List_Fields.php:95
+msgid "Display Fields"
+msgstr "Visa fält"
+
+#: src/Pods/Whatsit/Storage/File.php:28
+msgid "File"
+msgstr "Fil"
+
+#: src/Pods/Integrations/WPGraphQL/Settings.php:187
+msgid "(Default: Field name)"
+msgstr "(Standard: Fältnamn)"
+
+#: src/Pods/Integrations/WPGraphQL/Settings.php:135
+#: src/Pods/Integrations/WPGraphQL/Settings.php:209
+msgid "View URL only"
+msgstr "Visa endast URL"
+
+#: src/Pods/Integrations/WPGraphQL/Settings.php:134
+#: src/Pods/Integrations/WPGraphQL/Settings.php:208
+msgid "Title only"
+msgstr "Endast rubrik"
+
+#: src/Pods/Integrations/WPGraphQL/Settings.php:132
+#: src/Pods/Integrations/WPGraphQL/Settings.php:149
+#: src/Pods/Integrations/WPGraphQL/Settings.php:206
+#: src/Pods/Integrations/WPGraphQL/Settings.php:239
+msgid "Connection"
+msgstr "Anslutning"
+
+#: src/Pods/Integrations/WPGraphQL/Settings.php:90
+msgid "Enable support in WPGraphQL"
+msgstr "Aktivera stöd för i WPGraphQL"
+
+#: src/Pods/Integrations/WPGraphQL/Settings.php:72
+msgid "WPGraphQL"
+msgstr "WPGraphQL"
+
+#: src/Pods/Integrations/WPGraphQL/Connection_Resolver/Pod.php:207
+#: src/Pods/Integrations/WPGraphQL/Connection_Resolver/Pod_Type.php:186
+msgid "Sorry, you are not allowed to use this combination of filters."
+msgstr "Du har inte behörighet att använda denna kombination med filter."
+
+#: components/Migrate-Packages/Migrate-Packages.php:201
+#: components/Migrate-Packages/ui/wizard.php:136
+msgid "All Settings"
+msgstr "Alla inställningar"
+
+#: classes/PodsAdmin.php:1710 classes/PodsAdmin.php:2129
+#: src/Pods/Whatsit/Storage/Post_Type.php:47
+msgid "DB"
+msgstr "DB"
+
+#: classes/PodsAdmin.php:1165
+msgid "Code source"
+msgstr "Kodkälla"
+
+#: classes/PodsAdmin.php:1143
+msgid "File source"
+msgstr "Filkälla"
+
+#: classes/PodsAdmin.php:943 classes/PodsAdmin.php:1375
+msgid "Source"
+msgstr "Källa"
+
+#: classes/fields/file.php:121
+msgid "Text (txt, csv, tsv, rtx)"
+msgstr "Text (txt, csv, tsv, rtx)"
+
+#: classes/fields/file.php:113
+msgid "Video (ONLY mpg, mov, flv, and mp4)"
+msgstr "Video (ENDAST mpg, mov, flv och mp4)"
+
+#: classes/fields/file.php:117
+msgid "Audio (ONLY mp3, m4a, wav, and wma)"
+msgstr "Ljud (ENDAST mp3, m4a, wav och wma)"
+
+#: classes/fields/file.php:109
+msgid "Images (ONLY jpg, jpeg, png, gif, and webp)"
+msgstr "Bilder (ENDAST jpg, jpeg, png, gif och webp)"
+
+#: ui/admin/callouts/friends_2022_30.php:42
+msgid "We need %1$sYOU%2$s"
+msgstr "Vi behöver %1$sDIG%2$s"
+
+#: src/Pods/CLI/Commands/Playbook.php:95
+msgid "action"
+msgid_plural "actions"
+msgstr[0] "åtgärd"
+msgstr[1] "åtgärder"
+
+#: src/Pods/CLI/Commands/Playbook.php:102
+msgid "Action is invalid."
+msgstr "Åtgärd är ogiltig."
+
+#. translators: %s: The action name.
+#: src/Pods/CLI/Commands/Playbook.php:157
+msgid "Action not supported: %s"
+msgstr "Åtgärd stöds inte: %s"
+
+#: src/Pods/Admin/Settings.php:172
+msgid "Core"
+msgstr "Kärna"
+
+#: ui/admin/settings-tools.php:158
+msgid "CREATE"
+msgstr "SKAPA"
+
+#: ui/admin/help.php:72 ui/admin/help.php:110 ui/admin/help.php:139
+#: ui/admin/help.php:168 ui/admin/help.php:192 ui/admin/help.php:216
+#: ui/admin/help.php:254 ui/admin/help.php:278
+msgid "GitHub"
+msgstr "GitHub"
+
+#: ui/admin/help.php:67 ui/admin/help.php:105 ui/admin/help.php:134
+#: ui/admin/help.php:163 ui/admin/help.php:249
+msgid "Docs"
+msgstr "Dokument"
+
+#: ui/admin/help.php:68 ui/admin/help.php:106 ui/admin/help.php:135
+#: ui/admin/help.php:164 ui/admin/help.php:250
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: ui/admin/help.php:62 ui/admin/help.php:100 ui/admin/help.php:129
+#: ui/admin/help.php:158 ui/admin/help.php:187 ui/admin/help.php:211
+#: ui/admin/help.php:244 ui/admin/help.php:273 ui/admin/help.php:308
+#: ui/admin/help.php:327 ui/admin/help.php:346 ui/admin/help.php:365
+#: ui/admin/help.php:384
+msgid "Support"
+msgstr "Support"
+
+#: ui/admin/help.php:63 ui/admin/help.php:101 ui/admin/help.php:130
+#: ui/admin/help.php:159 ui/admin/help.php:188 ui/admin/help.php:212
+#: ui/admin/help.php:245 ui/admin/help.php:274
+msgid "Support Forums"
+msgstr "Supportforum"
+
+#: ui/admin/help-addons.php:12
+msgid "Links"
+msgstr "Länkar"
+
+#: ui/admin/help-addons.php:11
+msgid "Plugin"
+msgstr "Tillägg"
+
+#: ui/admin/settings-reset.php:151 ui/admin/settings-tools.php:130
+#: ui/admin/settings-tools.php:165
+msgid "Are you sure you want to do this?"
+msgstr "Är du säker på att du vill göra detta?"
+
+#: classes/PodsAPI.php:9267
+msgid "\"%s\" is not a valid field"
+msgstr "”%s är inte ett giltigt fält"
+
+#: classes/fields/pick.php:247
+msgid "Add New Label"
+msgstr "Lägg till ny etikett"
+
+#. translators: %s: is the Documentation linked text.
+#: classes/fields/pick.php:143
+msgid "More details on our %s."
+msgstr "Mer detaljer på vår %s."
+
+#: ui/js/blocks/block-types/pods-block-view/block.json
+msgctxt "block keyword"
+msgid "include"
+msgstr "inkludera"
+
+#: ui/js/blocks/block-types/pods-block-view/block.json
+msgctxt "block keyword"
+msgid "view"
+msgstr "visa"
+
+#: ui/js/blocks/block-types/pods-block-list/block.json
+#: ui/js/blocks/block-types/pods-block-single-list-fields/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr "lista"
+
+#: ui/js/blocks/block-types/pods-block-field/block.json
+msgctxt "block keyword"
+msgid "meta"
+msgstr "meta"
+
+#: ui/js/blocks/block-types/pods-block-field/block.json
+msgctxt "block keyword"
+msgid "custom"
+msgstr "anpassad"
+
+#: ui/js/blocks/block-types/pods-block-field/block.json
+msgctxt "block keyword"
+msgid "value"
+msgstr "värde"
+
+#: ui/js/blocks/block-types/pods-block-field/block.json
+#: ui/js/blocks/block-types/pods-block-single/block.json
+msgctxt "block keyword"
+msgid "field"
+msgstr "fält"
+
+#: ui/forms/form.php:122
+msgid "Success"
+msgstr "Lyckades"
+
+#: ui/admin/setup-add.php:305
+msgid "Enable REST API"
+msgstr "Aktivera REST API"
+
+#: ui/front/form.php:193
+msgid "Submitting..."
+msgstr "Skickar …"
+
+#: ui/js/blocks/block-types/pods-block-form/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "formulär"
+
+#: src/Pods/Tools/Base.php:74
+msgid "Errors"
+msgstr "Fel"
+
+#: ui/admin/settings-settings.php:130
+msgid "Save Settings"
+msgstr "Spara inställningar"
+
+#: ui/admin/settings-reset.php:243
+msgid "DEACTIVATE"
+msgstr "INAKTIVERA"
+
+#: ui/admin/settings-reset.php:99 ui/admin/settings-reset.php:100
+#: ui/admin/settings-reset.php:101 ui/admin/settings-reset.php:217
+#: ui/admin/settings-reset.php:218 ui/admin/settings-reset.php:219
+#: ui/admin/settings-reset.php:223 ui/admin/settings-reset.php:244
+#: ui/admin/settings-reset.php:245 ui/admin/settings-reset.php:246
+#: ui/admin/settings-reset.php:250
+msgid "DELETE"
+msgstr "TA BORT"
+
+#: ui/admin/settings-reset.php:95 ui/admin/settings-reset.php:96
+#: ui/admin/settings-reset.php:97 ui/admin/settings-reset.php:98
+#: ui/admin/settings-reset.php:211 ui/admin/settings-reset.php:212
+#: ui/admin/settings-reset.php:213 ui/admin/settings-reset.php:214
+#: ui/admin/settings-reset.php:215 ui/admin/settings-reset.php:216
+#: ui/admin/settings-reset.php:238 ui/admin/settings-reset.php:239
+#: ui/admin/settings-reset.php:240 ui/admin/settings-reset.php:241
+#: ui/admin/settings-reset.php:242 ui/admin/settings-tools.php:154
+msgid "KEEP"
+msgstr "BEHÅLL"
+
+#: ui/admin/setup-add.php:47
+msgid "Add custom fields to Users"
+msgstr "Lägg till anpassade fält till användare"
+
+#: ui/admin/setup-add.php:38
+msgid "Add custom fields to Categories"
+msgstr "Lägg till anpassade fält till kategorier"
+
+#: ui/admin/setup-add.php:29
+msgid "Add custom fields to Pages"
+msgstr "Lägg till anpassade fält till sidor"
+
+#: ui/admin/setup-add.php:20
+msgid "Add custom fields to Posts"
+msgstr "Lägg till anpassade fält till inlägg"
+
+#: ui/admin/callouts/friends_2022_30.php:103
+msgid "Donate Now"
+msgstr "Donera nu"
+
+#: tribe-common/src/views/promoter/auth.php:79
+msgid "Privacy"
+msgstr "Integritet"
+
+#: tribe-common/src/Tribe/Widget/Widget_Abstract.php:183
+msgid "Widget"
+msgstr "Widget"
+
+#: tribe-common/src/Tribe/View_Helpers.php:59
+msgid "Select a Country:"
+msgstr "Välj ett land:"
+
+#: tribe-common/src/Tribe/Validate.php:73
+#: tribe-common/src/Tribe/Validate.php:85
+#: tribe-common/src/Tribe/Validate.php:105
+msgid "Field ID:"
+msgstr "Fält-ID:"
+
+#: tribe-common/src/Tribe/Support.php:338
+#: tribe-common/src/Tribe/Support.php:343
+msgid "Invalid Key"
+msgstr "Ogiltig nyckel"
+
+#: tribe-common/src/Tribe/Support.php:376
+#: tribe-common/src/Tribe/Support.php:402
+msgid "Permission Error"
+msgstr "Behörighetsfel"
+
+#: tribe-common/src/Tribe/Support.php:182
+msgid "English"
+msgstr "Engelska"
+
+#: tribe-common/src/Tribe/Settings_Manager.php:259
+msgid "Network"
+msgstr "Nätverk"
+
+#: tribe-common/src/Tribe/Settings_Manager.php:81
+msgid "Display"
+msgstr "Visa"
+
+#: tribe-common/src/Tribe/Settings_Manager.php:80
+msgid "General"
+msgstr "Allmänt"
+
+#: tribe-common/src/Tribe/Settings.php:647
+msgid "Settings saved."
+msgstr "Inställningar sparade."
+
+#: tribe-common/src/views/promoter/auth.php:42
+msgid "Please log in to continue"
+msgstr "Logga in för att fortsätta"
+
+#: tribe-common/src/Tribe/Validate.php:496
+msgid "%s must be an email address."
+msgstr "%s måste vara en e-postadress."
+
+#: tribe-common/src/Tribe/Validate.php:453
+msgid "%s must be a phone number."
+msgstr "%s måste vara ett telefonnummer."
+
+#: tribe-common/src/Tribe/Validate.php:263
+msgid "%s must be a valid URL."
+msgstr "%s måste vara en giltig URL."
+
+#: tribe-common/src/Tribe/PUE/Notices.php:458
+#: tribe-common/src/Tribe/PUE/Notices.php:501
+msgctxt "formatted plugin list"
+msgid "%1$s and %2$s"
+msgstr "%1$s och %2$s"
+
+#: tribe-common/src/Tribe/PUE/Checker.php:980
+#: tribe-common/src/Tribe/PUE/Notices.php:344
+msgid " (opens in a new window)"
+msgstr " (öppnas i ett nytt fönster)"
+
+#: tribe-common/src/Tribe/PUE/Checker.php:978
+#: tribe-common/src/Tribe/PUE/Notices.php:342
+msgid "Renew Your License Now"
+msgstr "Förnya din licens nu"
+
+#: tribe-common/src/Tribe/PUE/Checker.php:920
+msgid "unknown date"
+msgstr "okänt datum"
+
+#: tribe-common/src/Tribe/PUE/Checker.php:512
+#: tribe-common/src/Tribe/PUE/Checker.php:523
+msgid "License Key"
+msgstr "Licensnyckel"
+
+#: tribe-common/src/Tribe/Process/Queue.php:1024
+msgid "Every %d Minutes"
+msgstr "Var %d:e minut"
+
+#: tribe-common/src/Tribe/Plugins_API.php:204
+msgid "Random Images"
+msgstr "Slumpmässiga bilder"
+
+#: tribe-common/src/Tribe/Plugins_API.php:203
+msgid "Slideshow"
+msgstr "Bildspel"
+
+#: tribe-common/src/Tribe/Plugins_API.php:202
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: tribe-common/src/Tribe/Plugins_API.php:67
+msgid "Shortcodes"
+msgstr "Kortkoder"
+
+#: tribe-common/src/Tribe/Plugins_API.php:59
+msgid "Events Calendar Pro"
+msgstr "Events Calendar Pro"
+
+#: tribe-common/src/Tribe/Plugins_API.php:64
+msgid "Premium support"
+msgstr "Premiumsupport"
+
+#: tribe-common/src/Tribe/Plugins_API.php:30
+#: tribe-common/src/Tribe/Plugins_API.php:48
+msgid "Customizable"
+msgstr "Anpassningsbar"
+
+#: tribe-common/src/Tribe/Main.php:345
+msgid "Done"
+msgstr "Klart"
+
+#: tribe-common/src/Tribe/Main.php:344 tribe-common/src/Tribe/Main.php:346
+msgid "Today"
+msgstr "Idag"
+
+#: tribe-common/src/Tribe/Main.php:343
+msgid "Prev"
+msgstr "Föreg."
+
+#: tribe-common/src/Tribe/Main.php:326
+msgid "Previous"
+msgstr "Föregående"
+
+#: tribe-common/src/Tribe/Main.php:325 tribe-common/src/Tribe/Main.php:342
+msgid "Next"
+msgstr "Nästa"
+
+#: tribe-common/src/Tribe/Main.php:321
+msgid "Select all pages"
+msgstr "Välj alla sidor"
+
+#: tribe-common/src/Tribe/Main.php:319
+msgid "Search:"
+msgstr "Sök:"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:358
+msgctxt "The US state Georgia"
+msgid "Georgia"
+msgstr "Georgia"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:287
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "Svalbard and Jan Mayen"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:276
+msgid "Sint Maarten"
+msgstr "Sint Maarten"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:259
+msgid "Russian Federation"
+msgstr "Ryska Federationen"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:257
+msgid "Reunion"
+msgstr "Reunion"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:252
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:241
+msgid "North Macedonia"
+msgstr "Nordmakedonien"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:229
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:208
+msgid "Macau"
+msgstr "Macau"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:162
+msgctxt "The country"
+msgid "Georgia"
+msgstr "Georgien"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:152
+msgid "Falkland Islands (Malvinas)"
+msgstr "Falklandsöarna (Malvinas)"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:144
+msgid "East Timor"
+msgstr "Östtimor"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:130
+msgid "Congo"
+msgstr "Kongo"
+
+#: tribe-common/src/Tribe/Log.php:389
+msgid "Warnings and errors"
+msgstr "Varningar och fel"
+
+#: tribe-common/src/Tribe/Log.php:388
+msgid "Only errors"
+msgstr "Endast fel"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:356
+msgid "District of Columbia"
+msgstr "District of Columbia"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:317
+msgid "Wallis and Futuna Islands"
+msgstr "Wallis- och Futunaöarna"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:314
+msgid "Viet Nam"
+msgstr "Vietnam"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:294
+msgid "Tanzania, United Republic of"
+msgstr "Tanzania"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:291
+msgid "Syrian Arab Republic"
+msgstr "Syrien"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:222
+msgid "Moldova, Republic of"
+msgstr "Moldavien"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:221
+msgid "Micronesia, Federated States of"
+msgstr "Mikronesien"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:199
+msgid "Lao People's Democratic Republic"
+msgstr "Laos"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:184
+msgid "Iran, Islamic Republic of"
+msgstr "Iran , Islamiska republiken"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:179
+msgid "Hong Kong"
+msgstr "Hongkong"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:177
+msgid "Holy See (Vatican City State)"
+msgstr "Heliga stolen (Vatikanstaten)"
+
+#: tribe-common/src/Tribe/Languages/Locations.php:135
+msgid "Croatia (Local Name: Hrvatska)"
+msgstr "Kroatien (lokalt namn: Hrvatska)"
+
+#: tribe-common/src/Tribe/Plugins_API.php:152
+msgid "Email notifications"
+msgstr "E-postaviseringar"
+
+#: tribe-common/src/Tribe/Plugins_API.php:133
+msgid "Horizontal or vertical"
+msgstr "Horisontellt eller vertikalt"
+
+#: tribe-common/src/Tribe/Plugins_API.php:98
+msgid "Custom registration fields"
+msgstr "Anpassade registreringsfält"
+
+#: tribe-common/src/Tribe/Plugins_API.php:82
+msgid "Paypal integration"
+msgstr "PayPal-integration"
+
+#: tribe-common/src/Tribe/Extension.php:144
+msgid "Tutorial"
+msgstr "Handledning"
+
+#: tribe-common/src/Tribe/Error.php:38
+msgid "An Unknown error occurred"
+msgstr "Ett okänt fel uppstod"
+
+#: tribe-common/src/Tribe/Editor/Meta.php:123
+msgid "Text Array"
+msgstr "Text-array"
+
+#: tribe-common/src/Tribe/Editor/Configuration.php:100
+#: tribe-common/src/Tribe/Editor/Configuration.php:103
+msgid "g:i a"
+msgstr "H:i"
+
+#. translators: %s: duration
+#: tribe-common/src/Tribe/Editor/Configuration.php:96
+msgid "%s ago"
+msgstr "för %s sedan"
+
+#: tribe-common/src/Tribe/Dialog/View.php:229
+msgid "Confirm"
+msgstr "Bekräfta"
+
+#: tribe-common/src/Tribe/Dialog/View.php:158
+msgid "Close this modal window"
+msgstr "Stäng detta modala fönster"
+
+#: tribe-common/src/Tribe/Dialog/View.php:157
+msgid "Open the modal window"
+msgstr "Öppna modala fönstret"
+
+#: tribe-common/src/Tribe/Debug_Bar/Panels/Context.php:62
+msgid "Value"
+msgstr "Värde"
+
+#: tribe-common/src/Tribe/Debug_Bar/Panels/Context.php:61
+msgid "Key"
+msgstr "Nyckel"
+
+#: tribe-common/src/Tribe/Cost_Utils.php:114
+msgid "Free"
+msgstr "Gratis"
+
+#: tribe-common/src/Tribe/App_Shop.php:286
+msgid "Adjust Label"
+msgstr "Justera etikett"
+
+#: tribe-common/src/Tribe/App_Shop.php:190
+msgid "Save over 25%"
+msgstr "Spara över 25&nbsp;%"
+
+#: tribe-common/src/Tribe/App_Shop.php:178
+#: tribe-common/src/Tribe/App_Shop.php:202
+#: tribe-common/src/Tribe/App_Shop.php:221
+#: tribe-common/src/Tribe/App_Shop.php:234
+msgid "Save over 20%"
+msgstr "Spara över 20&nbsp;%"
+
+#: tribe-common/src/Tribe/Admin/Notice/WP_Version.php:83
+msgid "Read more."
+msgstr "Läs mer."
+
+#: tribe-common/src/Tribe/Admin/Notice/Plugin_Download.php:124
+#: tribe-common/src/Tribe/PUE/Update_Prevention.php:181
+msgid "Read more"
+msgstr "Läs mer"
+
+#: tribe-common/src/Tribe/Admin/Notice/Php_Version.php:60
+#: tribe-common/src/Tribe/Admin/Notice/Plugin_Download.php:150
+msgctxt "the final separator in a list of two or more items"
+msgid " and "
+msgstr " och "
+
+#: tribe-common/src/Tribe/Admin/Notice/Php_Version.php:59
+#: tribe-common/src/Tribe/Admin/Notice/Plugin_Download.php:149
+msgctxt "separator used in a list of items"
+msgid ", "
+msgstr ", "
+
+#: tribe-common/src/Tribe/Admin/Help_Page.php:898
+msgid "Plugin Inactive"
+msgstr "Tillägg inaktiv"
+
+#: tribe-common/src/Tribe/Admin/Help_Page.php:896
+msgid "Plugin Active"
+msgstr "Tillägg aktiv"
+
+#: tribe-common/src/Tribe/Admin/Help_Page.php:867
+msgid "Rating:"
+msgstr "Betyg:"
+
+#: tribe-common/src/Tribe/Admin/Help_Page.php:864
+msgid "Active Users:"
+msgstr "Aktiva användare:"
+
+#: tribe-common/src/Tribe/Admin/Help_Page.php:862
+msgid "WordPress "
+msgstr "WordPress "
+
+#: tribe-common/src/Tribe/Admin/Help_Page.php:861
+msgid "Requires:"
+msgstr "Kräver:"
+
+#: tribe-common/src/Tribe/Admin/Help_Page.php:858
+msgid "Latest Version:"
+msgstr "Senaste version:"
+
+#: tribe-common/src/Tribe/Admin/Help_Page.php:841
+msgid "Install Plugin"
+msgstr "Installera tillägg"
+
+#: tribe-common/src/Tribe/Admin/Help_Page.php:841
+msgid "Install %s"
+msgstr "Installera %s"
+
+#: tribe-common/src/Tribe/Admin/Help_Page.php:825
+msgid "Upgrade Plugin"
+msgstr "Uppgradera tillägg"
+
+#: tribe-common/src/Tribe/Admin/Help_Page.php:817
+msgid "Activate Plugin"
+msgstr "Aktivera tillägg"
+
+#: tribe-common/src/Tribe/Admin/Help_Page.php:817
+msgid "Activate %s"
+msgstr "Aktivera %s"
+
+#: tribe-common/src/Tribe/Admin/Help_Page.php:452
+msgid "You need to upgrade!"
+msgstr "Du måste uppgradera!"
+
+#: tribe-common/src/Tribe/Admin/Help_Page.php:444
+msgctxt "not available"
+msgid "n/a"
+msgstr "n/a"
+
+#: tribe-common/src/Tribe/Admin/Help_Page.php:199
+msgid " and "
+msgstr " och "
+
+#: tribe-common/src/functions/template-tags/html.php:101
+msgctxt "The associated field is required."
+msgid "(required)"
+msgstr "(obligatoriskt)"
+
+#: tribe-common/src/admin-views/tribe-options-network.php:15
+msgid "Network Settings"
+msgstr "Nätverksinställningar"
+
+#: tribe-common/src/admin-views/tribe-options-licenses.php:57
+#: tribe-common/src/Tribe/Settings_Manager.php:293
+msgid "Licenses"
+msgstr "Licenser"
+
+#: tribe-common/src/admin-views/tribe-options-licenses.php:43
+msgid "Licenses for Multisites"
+msgstr "Licenser för multisites"
+
+#: tribe-common/src/admin-views/tribe-options-licenses.php:34
+msgid "Moving your license keys"
+msgstr "Flyttar dina licensnycklar"
+
+#: tribe-common/src/admin-views/tribe-options-licenses.php:31
+msgid "View and manage your license keys"
+msgstr "Visa och hantera dina licensnycklar"
+
+#: tribe-common/src/Tribe/Admin/Help_Page.php:890
+msgid "Premium Add-Ons"
+msgstr "Premiumutökningar"
+
+#: tribe-common/src/admin-views/tribe-options-help.php:110
+msgid "More..."
+msgstr "Mer …"
+
+#: tribe-common/src/admin-views/tribe-options-help.php:80
+#: tribe-common/src/Tribe/Admin/Help_Page.php:56
+msgid "Copy to clipboard"
+msgstr "Kopiera till urklipp"
+
+#: tribe-common/src/admin-views/tribe-options-help.php:104
+msgid "News and Tutorials"
+msgstr "Nyheter och handledningar"
+
+#: tribe-common/src/admin-views/tribe-options-help.php:71
+msgid "System Information"
+msgstr "Systeminformation"
+
+#: tribe-common/src/admin-views/tribe-options-help.php:37
+msgid "Check our Knowledgebase"
+msgstr "Kolla in vår kunskapsbas"
+
+#: tribe-common/src/admin-views/tribe-options-help.php:15
+msgid "Knowledgebase"
+msgstr "Kunskapsbas"
+
+#: tribe-common/src/admin-views/tribe-options-general.php:57
+msgid "Debug mode"
+msgstr "Felsökningsläge"
+
+#: tribe-common/src/admin-views/event-log.php:43
+msgid "Method"
+msgstr "Metod"
+
+#: tribe-common/src/admin-views/app-shop.php:183
+msgid "Browse Extensions"
+msgstr "Bläddra bland utökningar"
+
+#: tribe-common/src/admin-views/app-shop.php:125
+msgid "Includes"
+msgstr "Inkluderar"
+
+#: tribe-common/src/admin-views/app-shop.php:61
+#: tribe-common/src/admin-views/app-shop.php:170
+msgid "FREE"
+msgstr "GRATIS"
+
+#: tribe-common/src/admin-views/app-shop.php:55
+#: tribe-common/src/admin-views/app-shop.php:112
+#: tribe-common/src/admin-views/app-shop.php:134
+msgid "TEC Logo"
+msgstr "TEC-logga"
+
+#: tribe-common/src/admin-views/app-shop.php:49
+msgid "Already Installed"
+msgstr "Redan installerat"
+
+#: tribe-common/src/admin-views/app-shop.php:31
+msgid "Extensions"
+msgstr "Utökningar"
+
+#: tribe-common/src/admin-views/app-shop.php:30
+msgid "Save with Bundles"
+msgstr "Spara med paket"
+
+#: tribe-common/src/admin-views/app-shop.php:29
+msgid "All Solutions"
+msgstr "Alla lösningar"
+
+#: src/Pods/Wisdom_Tracker.php:1036
+msgid "Just Deactivate"
+msgstr "Inaktivera bara"
+
+#: src/Pods/Wisdom_Tracker.php:1036
+msgid "Submit and Deactivate"
+msgstr "Skicka och inaktivera"
+
+#: src/Pods/Wisdom_Tracker.php:967
+msgid "Submitting form"
+msgstr "Skickar formulär"
+
+#: src/Pods/Wisdom_Tracker.php:924
+msgid "Details (optional)"
+msgstr "Detaljer (valfritt)"
+
+#: src/Pods/Wisdom_Tracker.php:922
+msgid "Didn't work"
+msgstr "Fungerade inte"
+
+#: src/Pods/Wisdom_Tracker.php:921
+msgid "Only required temporarily"
+msgstr "Krävs endast temporärt"
+
+#: src/Pods/Wisdom_Tracker.php:920
+msgid "Installed by mistake"
+msgstr "Installerat av misstag"
+
+#: src/Pods/Wisdom_Tracker.php:919
+msgid "Found a better plugin"
+msgstr "Hittat ett bättre tillägg"
+
+#: src/Pods/Wisdom_Tracker.php:918
+msgid "Not the features I wanted"
+msgstr "Inte de funktioner jag ville ha"
+
+#: src/Pods/Wisdom_Tracker.php:917
+msgid "Lack of documentation"
+msgstr "Brist på dokumentation"
+
+#: src/Pods/Wisdom_Tracker.php:916
+msgid "Set up is too difficult"
+msgstr "Inställningen är för svår"
+
+#: src/Pods/Wisdom_Tracker.php:880
+msgid "No Thank You"
+msgstr "Nej tack"
+
+#: src/Pods/Wisdom_Tracker.php:879
+msgid "Yes Please"
+msgstr "Ja tack"
+
+#: src/Pods/Wisdom_Tracker.php:837
+msgid "Do Not Allow"
+msgstr "Tillåt inte"
+
+#: src/Pods/Wisdom_Tracker.php:836
+msgid "Allow"
+msgstr "Tillåt"
+
+#: src/Pods/Blocks/Types/Item_List.php:339 src/Pods/Blocks/Types/View.php:122
+msgid "Expires"
+msgstr "Löper ut"
+
+#: src/Pods/Blocks/Types/Item_List.php:302
+msgid "Enable Filters"
+msgstr "Aktivera filter"
+
+#: src/Pods/Blocks/Types/Item_List.php:281
+#: src/Pods/Blocks/Types/Item_List.php:324
+msgid "After list"
+msgstr "Efter lista"
+
+#: src/Pods/Blocks/Types/Item_List.php:280
+#: src/Pods/Blocks/Types/Item_List.php:323
+msgid "Before list"
+msgstr "Före lista"
+
+#: src/Pods/Blocks/Types/Item_List.php:271
+msgid "Enable Pagination"
+msgstr "Aktivera sidonumrering"
+
+#: src/Pods/Wisdom_Tracker.php:145
+msgid "Once Monthly"
+msgstr "En gång i månaden"
+
+#: src/Pods/Wisdom_Tracker.php:141
+msgid "Once Weekly"
+msgstr "En gång i veckan"
+
+#: src/Pods/REST/V1/Endpoints/Base.php:521
+#: src/Pods/REST/V1/Endpoints/Base.php:537
+msgid "%s not found."
+msgstr "%s hittades inte."
+
+#: src/Pods/REST/V1/Endpoints/Base.php:103
+msgid "No description provided."
+msgstr "Ingen beskrivning angiven."
+
+#: src/Pods/Blocks/Types/Item_List.php:247
+msgid "No content was found."
+msgstr "Inget innehåll hittades."
+
+#: src/Pods/Blocks/Types/Item_List.php:239
+msgid "Content After List"
+msgstr "Innehåll efter lista"
+
+#: src/Pods/Blocks/Types/Item_List.php:233
+msgid "Content Before List"
+msgstr "Innehåll före lista"
+
+#: src/Pods/Blocks/Types/Base.php:201
+msgid "Use Custom Template"
+msgstr "Använd anpassad mall"
+
+#: src/Pods/Blocks/Types/Form.php:217
+msgid "Form"
+msgstr "Formulär"
+
+#: src/Pods/Blocks/Types/Form.php:167
+msgid "Form Fields"
+msgstr "Formulärfält"
+
+#: src/Pods/Blocks/Types/Field.php:112
+msgid "Field Name"
+msgstr "Fältnamn"
+
+#: src/Pods/Blocks/Types/Form.php:179
+msgid "Redirect URL"
+msgstr "URL för omdirigering"
+
+#: src/Pods/Admin/Settings.php:282
+msgid "Disable sessions"
+msgstr "Inaktivera sessioner"
+
+#: src/Pods/Admin/Settings.php:183 src/Pods/Admin/Settings.php:266
+#: tribe-common/src/Tribe/Log.php:387
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+#: src/Pods/Admin/Settings.php:183 src/Pods/Admin/Settings.php:266
+msgid "Enabled"
+msgstr "Aktiverad"
+
+#: src/Pods/Admin/Settings.php:169
+msgid "Current value"
+msgstr "Nuvarande värde"
+
+#: src/Pods/Admin/Settings.php:258
+msgid "Sessions"
+msgstr "Sessioner"
+
+#: src/Pods/Admin/Config/Pod.php:769 src/Pods/Admin/Config/Pod.php:1181
+msgid "Add new connection"
+msgstr "Lägg till ny anslutning"
+
+#: src/Pods/Admin/Config/Pod.php:155
+msgid "Add title"
+msgstr "Lägg till rubrik"
+
+#: src/Pods/Admin/Config/Pod.php:62
+msgid "Connections"
+msgstr "Anslutningar"
+
+#: src/Pods/Admin/Config/Group.php:230
+msgid "Low"
+msgstr "Låg"
+
+#: src/Pods/Admin/Config/Group.php:228
+msgid "High"
+msgstr "Hög"
+
+#: src/Pods/Admin/Config/Group.php:207
+msgid "Normal"
+msgstr "Normal"
+
+#: src/Pods/Admin/Config/Group.php:23
+msgid "Group Details"
+msgstr "Gruppdetaljer"
+
+#: includes/general.php:4265
+msgid "Manage your plugins"
+msgstr "Hantera dina tillägg"
+
+#: includes/general.php:4261
+msgid "Security"
+msgstr "Säkerhet"
+
+#: components/Roles/Roles.php:87
+msgid "Role"
+msgstr "Roll"
+
+#: components/Roles/Roles.php:86
+msgid "Roles"
+msgstr "Roller"
+
+#: src/Pods/Admin/Config/Pod.php:232
+msgid "Delete %s"
+msgstr "Ta bort %s"
+
+#: components/I18n/I18n.php:783
+msgid "Translations"
+msgstr "Översättningar"
+
+#: classes/PodsAPI.php:11655
+msgctxt "storage type label"
+msgid "Table"
+msgstr "Tabell"
+
+#: classes/PodsAPI.php:11654
+msgctxt "storage type label"
+msgid "Meta"
+msgstr "Meta"
+
+#: classes/PodsAPI.php:11653
+msgctxt "storage type label"
+msgid "Options"
+msgstr "Alternativ"
+
+#: classes/PodsAPI.php:11519
+msgid "Comment"
+msgstr "Kommentar"
+
+#: classes/PodsAPI.php:11507
+msgid "User"
+msgstr "Användare"
+
+#: classes/PodsAPI.php:6389 classes/PodsAPI.php:7478
+msgid "Group not found"
+msgstr "Grupp hittades inte"
+
+#: classes/PodsAPI.php:4427
+msgid "Cannot save Group"
+msgstr "Kan inte spara grupp"
+
+#: classes/PodsAdmin.php:3291 src/Pods/Admin/Settings.php:203
+msgid "Performance"
+msgstr "Prestanda"
+
+#: classes/PodsAdmin.php:3131
+msgid "Unknown"
+msgstr "Okänd"
+
+#: classes/PodsAPI.php:2042 src/Pods/Tools/Repair.php:160
+msgid "Details"
+msgstr "Detaljer"
+
+#: classes/PodsAdmin.php:1273 src/Pods/Tools/Reset.php:280
+msgid "group"
+msgid_plural "groups"
+msgstr[0] "grupp"
+msgstr[1] "grupper"
+
+#: classes/PodsAdmin.php:952
+msgid "Groups"
+msgstr "Grupper"
+
+#: classes/Pods.php:3908
+msgid "try logging in first"
+msgstr "prova logga in först"
+
+#: classes/Pods.php:3905 classes/Pods.php:3919 classes/Pods.php:3928
+#: ui/forms/form.php:123
+msgid "Error"
+msgstr "Fel"
+
+#: classes/fields/website.php:48
+msgid "https://example.com/ (remove www)"
+msgstr "https://example.com/ (ta bort www)"
+
+#: classes/fields/website.php:47
+msgid "https://example.com/"
+msgstr "https://example.com/"
+
+#: classes/fields/html.php:33 classes/fields/html.php:42
+msgid "HTML Content"
+msgstr "HTML-innehåll"
+
+#: classes/fields/email.php:33 classes/fields/link.php:35
+#: classes/fields/password.php:33 classes/fields/phone.php:33
+#: classes/fields/text.php:33 classes/fields/website.php:32
+msgid "Text"
+msgstr "Text"
+
+#: classes/fields/currency.php:98 classes/fields/number.php:55
+msgid "Number Format"
+msgstr "Nummerformat"
+
+#: classes/fields/currency.php:41 classes/fields/number.php:33
+msgid "Number"
+msgstr "Nummer"
+
+#: classes/fields/code.php:35 classes/fields/paragraph.php:37
+#: classes/fields/wysiwyg.php:33
+msgid "Paragraph"
+msgstr "Stycke"
+
+#: classes/PodsAPI.php:11627
+msgctxt "pod type label"
+msgid "Comments (extended)"
+msgstr "Kommentarer (utökad)"
+
+#: classes/PodsAPI.php:11626
+msgctxt "pod type label"
+msgid "Media (extended)"
+msgstr "Media (utökad)"
+
+#: classes/PodsAPI.php:11625
+msgctxt "pod type label"
+msgid "User (extended)"
+msgstr "Användare (utökad)"
+
+#: classes/PodsAPI.php:11624
+msgctxt "pod type label"
+msgid "Custom Taxonomy"
+msgstr "Anpassad taxonomi"
+
+#: classes/PodsAPI.php:11623
+msgctxt "pod type label"
+msgid "Custom Post Type"
+msgstr "Anpassad inläggstyp"
+
+#: classes/PodsAPI.php:11622
+msgctxt "pod type label"
+msgid "Taxonomy (extended)"
+msgstr "Taxonomi (utökad)"
+
+#: classes/PodsAPI.php:11621
+msgctxt "pod type label"
+msgid "Post Type (extended)"
+msgstr "Inläggstyp (utökad)"
+
+#: classes/PodsAPI.php:4217
+msgid "Group %s already exists"
+msgstr "Grupp %s finns redan"
+
+#: classes/fields/heading.php:32 classes/fields/html.php:32
+msgid "Layout Elements"
+msgstr "Layoutelement"
+
+#: classes/PodsAdmin.php:3049
+msgid "All fields"
+msgstr "Alla fält"
+
+#: classes/PodsAdmin.php:3051
+msgid "Name only"
+msgstr "Endast namn"
+
+#: classes/fields/file.php:154
+msgid "Upload Directory"
+msgstr "Uppladdningskatalog"
+
+#: classes/fields/file.php:159
+msgid "WordPress Default"
+msgstr "WordPress-standard"
+
+#: classes/PodsInit.php:2310 src/Pods/Admin/Config/Pod.php:608
+msgid "Filter by %s"
+msgstr "Filtrera efter %s"
+
+#: classes/PodsInit.php:2290 src/Pods/Admin/Config/Pod.php:601
+msgid "Filter by date"
+msgstr "Filtrera efter datum"
+
+#: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:205
+#: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:241
+msgid "Use a custom hook"
+msgstr "Använd en anpassad åtgärds-hook"
+
+#: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:204
+#: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:240
+msgid "Filter: %s"
+msgstr "Filter: %s"
+
+#: ui/admin/postbox-header.php:30
+msgid "Toggle panel"
+msgstr "Slå på/av panel"
+
+#: ui/admin/postbox-header.php:36
+msgid "Click to toggle"
+msgstr "Klicka för att slå på/av"
+
+#: classes/fields/wysiwyg.php:71
+msgid "Height in pixels"
+msgstr "Höjd i pixlar"
+
+#: classes/PodsInit.php:641
+msgid "Donate"
+msgstr "Donera"
+
+#: classes/PodsInit.php:640
+msgid "Install Now"
+msgstr "Installera nu"
+
+#: classes/PodsInit.php:639
+msgid "Free (WordPress.org)"
+msgstr "Gratis (WordPress.org)"
+
+#: classes/PodsInit.php:642
+msgid "complete the process"
+msgstr "slutför processen"
+
+#: tribe-common/src/admin-views/app-shop.php:88
+#: ui/admin/callouts/friends_2022_30.php:98 ui/admin/help.php:58
+#: ui/admin/help.php:96 ui/admin/help.php:125 ui/admin/help.php:154
+#: ui/admin/help.php:183 ui/admin/help.php:207 ui/admin/help.php:240
+#: ui/admin/help.php:269 ui/admin/help.php:304 ui/admin/help.php:323
+#: ui/admin/help.php:342 ui/admin/help.php:361 ui/admin/help.php:380
+msgid "Learn More"
+msgstr "Lär dig mer"
+
+#: classes/fields/file.php:802
+msgid "Full Size"
+msgstr "Full storlek"
+
+#: classes/fields/pick.php:206
+msgid "Display Format"
+msgstr "Visningsformat"
+
+#: classes/PodsAdmin.php:3200
+msgid "Current Memory Usage"
+msgstr "Nuvarande minnesanvändning"
+
+#: classes/PodsInit.php:2285
+msgid "%s published"
+msgstr "%s publicerad"
+
+#: components/Roles/ui/edit.php:141
+msgid "Add Another Custom Capability"
+msgstr "Lägg till en annan anpassad behörighet"
+
+#: classes/cli/PodsAPI_CLI_Command.php:104 classes/cli/Pods_CLI_Command.php:113
+msgid "ID: %s"
+msgstr "ID: %s"
+
+#: classes/cli/PodsAPI_CLI_Command.php:50
+#: classes/cli/PodsAPI_CLI_Command.php:161 classes/cli/Pods_CLI_Command.php:49
+#: classes/cli/Pods_CLI_Command.php:163
+msgid "New ID: %s"
+msgstr "Nytt ID: %s"
+
+#: classes/cli/Pods_CLI_Command.php:293
+msgid "No export data found."
+msgstr "Ingen exportdata hittades."
+
+#: classes/cli/PodsAPI_CLI_Command.php:334
+msgid "Component %s is not active."
+msgstr "Komponent %s är inte aktiv."
+
+#: classes/cli/Pods_CLI_Command.php:376
+msgid "Pod items exported: %s"
+msgstr "Pod-poster har exporterats: %s"
+
+#: classes/cli/Pods_CLI_Command.php:381
+msgid "No pod item export data found."
+msgstr "Ingen exportdata för pod hittades."
+
+#: classes/cli/Pods_CLI_Command.php:378
+msgid "Pod items not exported."
+msgstr "Pod-poster exporterades inte."
+
+#: classes/cli/Pods_CLI_Command.php:364
+msgid "Error exporting pod items: %s"
+msgstr "Fel vid export av pod-poster: %s"
+
+#: classes/cli/Pods_CLI_Command.php:290
+msgid "Pod item not exported."
+msgstr "Pod-posten exporterades inte."
+
+#: classes/cli/Pods_CLI_Command.php:288
+msgid "Pod item exported: %s"
+msgstr "Pod-post exporterad: %s"
+
+#: classes/cli/Pods_CLI_Command.php:276
+msgid "Error exporting pod item: %s"
+msgstr "Fel vid export av pod-post: %s"
+
+#: classes/cli/Pods_CLI_Command.php:211
+msgid "Pod item not deleted."
+msgstr "Pod-posten raderades inte."
+
+#: classes/cli/Pods_CLI_Command.php:165
+msgid "Pod item not duplicated."
+msgstr "Pod-posten duplicerades inte."
+
+#: classes/cli/Pods_CLI_Command.php:115
+msgid "Pod item not saved."
+msgstr "Pod-post sparades inte."
+
+#: classes/cli/PodsAPI_CLI_Command.php:500
+msgid "Pods Package not imported."
+msgstr "Pod-paket importerades inte."
+
+#: classes/cli/PodsAPI_CLI_Command.php:498
+msgid "Pods Package imported."
+msgstr "Pod-paket importerat."
+
+#: classes/cli/PodsAPI_CLI_Command.php:437
+#: classes/cli/PodsAPI_CLI_Command.php:489
+#: src/Pods/CLI/Commands/Playbook.php:213
+msgid "No Pods Package data found."
+msgstr "Ingen data i Pod-paket hittades."
+
+#: classes/cli/PodsAPI_CLI_Command.php:434
+msgid "Pods Package not exported."
+msgstr "Pod-paketet exporterades inte."
+
+#: classes/cli/PodsAPI_CLI_Command.php:432
+msgid "Pods Package exported: %s"
+msgstr "Pod-paket exporterat: %s"
+
+#: classes/cli/PodsAPI_CLI_Command.php:417
+#: classes/cli/PodsAPI_CLI_Command.php:494
+msgid "Error exporting Pods Package: %s"
+msgstr "Fel vid export av Pod-paket: %s"
+
+#: classes/cli/PodsAPI_CLI_Command.php:45
+#: classes/cli/PodsAPI_CLI_Command.php:99
+msgid "Error saving pod: %s"
+msgstr "Fel när pod skulle sparas: %s"
+
+#: ui/fields/oembed.php:24
+msgid "Preview"
+msgstr "Förhandsgranska"
+
+#: ui/fields/link.php:57
+msgid "Link Text"
+msgstr "Länktext"
+
+#: ui/fields/link.php:54
+msgid "URL"
+msgstr "URL"
+
+#: tribe-common/src/Tribe/Dialog/View.php:296
+msgid "OK"
+msgstr "OK"
+
+#: components/I18n/I18n.php:696 tribe-common/src/admin-views/app-shop.php:59
+msgid "Active"
+msgstr "Aktiv"
+
+#: components/I18n/I18n.php:692 components/I18n/I18n.php:703
+msgid "Language"
+msgstr "Språk"
+
+#: components/I18n/I18n.php:691
+msgid "Languages"
+msgstr "Språk"
+
+#: components/I18n/I18n.php:240
+msgid "Select"
+msgstr "Välj"
+
+#: components/I18n/I18n.php:239
+msgid "Hide translations"
+msgstr "Dölj översättningar"
+
+#: components/I18n/I18n.php:238
+msgid "Show translations"
+msgstr "Visa översättningar"
+
+#: components/I18n/I18n.php:236
+msgid "Add translation"
+msgstr "Lägg till översättning"
+
+#: src/Pods/Integrations/WPML.php:278
+msgid "WPML"
+msgstr "WPML"
+
+#: classes/fields/pick.php:271
+msgid "Show Icons"
+msgstr "Visa ikoner"
+
+#: classes/fields/oembed.php:507
+msgid "Please choose a valid oEmbed URL."
+msgstr "Välj en giltig eEmbed URL."
+
+#: classes/fields/oembed.php:89
+msgid "Show preview"
+msgstr "Visa förhandsgranskning"
+
+#: components/I18n/I18n.php:758
+msgid "Updated active languages."
+msgstr "Uppdaterade aktiva språk."
+
+#: classes/fields/oembed.php:83
+msgid "Embed Height"
+msgstr "Inbäddningshöjd"
+
+#: classes/PodsAdmin.php:533
+msgid "Edit Pod"
+msgstr "Redigera Pod"
+
+#: src/Pods/Integrations/Polylang.php:116
+#: src/Pods/Integrations/Polylang.php:326
+msgid "Polylang"
+msgstr "Polylang"
+
+#: classes/fields/website.php:59
+msgid "Allow port in URL"
+msgstr "Tillåt port i URL"
+
+#: classes/fields/website.php:53
+msgid "No format"
+msgstr "Inget format"
+
+#: classes/fields/time.php:85
+msgid "Time format for input"
+msgstr "Tidsformat för inmatning"
+
+#: classes/fields/time.php:75
+msgid "Time format for display"
+msgstr "Tidsformat för visning"
+
+#: classes/fields/pick.php:3781
+msgid "Yukon"
+msgstr "Yukon"
+
+#: classes/fields/pick.php:3780
+msgid "Saskatchewan"
+msgstr "Saskatchewan"
+
+#: classes/fields/pick.php:3779
+msgid "Quebec"
+msgstr "Quebec"
+
+#: classes/fields/pick.php:233
+msgid "Allow Add New"
+msgstr "Tillåt att lägga till ny"
+
+#: classes/fields/pick.php:234
+msgid "Allow new related records to be created in a modal window"
+msgstr "Tillåt nya relaterade poster skapas i ett modalfönster"
+
+#: classes/fields/pick.php:1284
+msgid "%s: Add New"
+msgstr "%s: Lägg till ny"
+
+#: classes/fields/pick.php:1285
+msgid "%s: Edit"
+msgstr "%s: Redigera"
+
+#: classes/fields/pick.php:3771
+msgid "Manitoba"
+msgstr "Manitoba"
+
+#: classes/fields/pick.php:3770
+msgid "British Columbia"
+msgstr "British Columbia"
+
+#: classes/fields/pick.php:297
+msgid "Show View Links"
+msgstr "Visa visningslänkar"
+
+#: classes/fields/pick.php:284
+msgid "Show Edit Links"
+msgstr "Visa redigeringslänkar"
+
+#: classes/fields/pick.php:3777
+msgid "Ontario"
+msgstr "Ontario"
+
+#: classes/fields/pick.php:3776
+msgid "Nunavut"
+msgstr "Nunavut"
+
+#: classes/fields/pick.php:3775
+msgid "Nova Scotia"
+msgstr "Nova Scotia"
+
+#: classes/fields/pick.php:3774
+msgid "Northwest Territories"
+msgstr "Nordvästterritorierna"
+
+#: classes/fields/pick.php:3773
+msgid "Newfoundland and Labrador"
+msgstr "Newfoundland och Labrador"
+
+#: classes/fields/pick.php:3772
+msgid "New Brunswick"
+msgstr "New Brunswick"
+
+#: classes/fields/pick.php:3769
+msgid "Alberta"
+msgstr "Alberta"
+
+#: classes/fields/pick.php:727
+msgid "CA Provinces"
+msgstr "CA Provinserna"
+
+#: classes/fields/file.php:228
+msgid "Rows"
+msgstr "Rader"
+
+#: classes/fields/link.php:36
+msgid "Link"
+msgstr "Länk"
+
+#: classes/fields/oembed.php:108
+msgid "Restrict input to specific WordPress oEmbed compatible providers."
+msgstr "Begränsa inmatning till utvalda WordPress-oEmbed-kompatibla leverantörer."
+
+#: classes/fields/oembed.php:107
+msgid "Restrict to providers"
+msgstr "Begränsa till leverantörer"
+
+#: components/I18n/I18n.php:700
+msgid "Locale"
+msgstr "Språkversion"
+
+#: classes/fields/oembed.php:58
+msgid "oEmbed"
+msgstr "oEmbed"
+
+#: components/I18n/I18n.php:237
+msgid "Toggle translations"
+msgstr "Slå på/av översättningar"
+
+#: ui/fields/link.php:69
+msgid "Or link to existing content"
+msgstr "Eller länka till befintligt innehåll"
+
+#: ui/fields/link.php:62
+msgid "Open link in a new tab"
+msgstr "Öppna länk i en ny flik"
+
+#: ui/fields/link.php:51
+msgid "Enter the destination URL"
+msgstr "Ange destinationens URL"
+
+#: classes/fields/link.php:67
+msgid "Open link in new window by default"
+msgstr "Öppna länk i nytt fönster som standard"
+
+#: classes/fields/file.php:196
+msgid "Show Download Link"
+msgstr "Visa nedladdningslänk"
+
+#: classes/fields/file.php:191
+msgid "Show Edit Link"
+msgstr "Visa redigeringslänk"
+
+#: classes/fields/date.php:78
+msgid "Date format for input"
+msgstr "Datumformat för inmatning"
+
+#: classes/fields/date.php:62 classes/fields/datetime.php:71
+#: classes/fields/time.php:69
+msgid "Custom format"
+msgstr "Anpassat format"
+
+#: classes/fields/date.php:61 classes/fields/datetime.php:70
+msgid "Predefined format"
+msgstr "Fördefinierat format"
+
+#: classes/fields/currency.php:165 classes/fields/email.php:55
+#: classes/fields/number.php:120 classes/fields/paragraph.php:125
+#: classes/fields/password.php:49 classes/fields/phone.php:82
+#: classes/fields/slug.php:46 classes/fields/text.php:80
+#: classes/fields/website.php:95
+msgid "HTML Placeholder"
+msgstr "HTML-platshållare"
+
+#: classes/cli/PodsAPI_CLI_Command.php:258
+msgid "Pod deleted."
+msgstr "Pod borttagen."
+
+#: classes/cli/PodsAPI_CLI_Command.php:204
+msgid "Pod content reset."
+msgstr "Återställning av podinnehåll."
+
+#: classes/cli/PodsAPI_CLI_Command.php:103
+msgid "Pod saved."
+msgstr "Pod sparad."
+
+#: classes/PodsUI.php:3061
+msgid "Export all %s"
+msgstr "Exportera alla %s"
+
+#: classes/PodsUI.php:2167
+msgid "Export as:"
+msgstr "Exportera som:"
+
+#: classes/PodsUI.php:2143
+msgid "Choose Export Fields"
+msgstr "Välj exportfält"
+
+#: classes/PodsI18n.php:206
+msgid "Icon"
+msgstr "Ikon"
+
+#: classes/PodsI18n.php:192
+msgid "You can only select"
+msgstr "Du kan endast välja"
+
+#: classes/PodsI18n.php:190
+msgid "Select from existing"
+msgstr "Välj från befintlig"
+
+#: classes/PodsI18n.php:188
+msgid "The Title"
+msgstr "Rubriken"
+
+#: classes/PodsI18n.php:184
+msgid "Error uploading file: "
+msgstr "Fel vid uppladdning av fil:"
+
+#: classes/PodsI18n.php:182 ui/js/jquery.pods.js:480
+#: ui/js/jquery.pods.upgrade.js:60 ui/js/jquery.pods.upgrade.js:154
+msgid "Unable to process request, please try again."
+msgstr "Kan inte behandla förfrågan, försök igen."
+
+#: classes/PodsI18n.php:167 tribe-common/src/admin-views/app-shop.php:179
+#: ui/admin/help-addons-row.php:9 ui/admin/help.php:54 ui/admin/help.php:92
+#: ui/admin/help.php:121 ui/admin/help.php:150 ui/admin/help.php:179
+#: ui/admin/help.php:203 ui/admin/help.php:236 ui/admin/help.php:265
+#: ui/admin/help.php:300 ui/admin/help.php:319 ui/admin/help.php:338
+#: ui/admin/help.php:357 ui/admin/help.php:376
+msgid "Download"
+msgstr "Ladda ner"
+
+#: classes/PodsI18n.php:165
+msgid "Deselect"
+msgstr "Avmarkera"
+
+#: classes/PodsI18n.php:163
+msgid "Remove"
+msgstr "Ta bort"
+
+#: classes/PodsI18n.php:159 ui/js/jquery.pods.js:1919
+msgid "Copy"
+msgstr "Kopiera"
+
+#: classes/PodsI18n.php:149
+msgid "Add"
+msgstr "Lägg till"
+
+#: classes/PodsAdmin.php:2222
+msgid "Version %s"
+msgstr "Version %s"
+
+#. Translators: %s stands for a name/identifier.
+#: classes/PodsI18n.php:145 ui/js/jquery.pods.js:55 ui/js/jquery.pods.js:57
+msgid "%s is required."
+msgstr "%s är obligatoriskt."
+
+#: src/Pods/Admin/Config/Pod.php:444
+msgid "Use as featured Image"
+msgstr "Använd som utvald bild"
+
+#: src/Pods/Admin/Config/Pod.php:436
+msgid "Remove featured Image"
+msgstr "Ta bort utvald bild"
+
+#: src/Pods/Admin/Config/Pod.php:428
+msgid "Set featured Image"
+msgstr "Ställ in utvald bild"
+
+#: classes/fields/date.php:68
+msgid "Date format for display"
+msgstr "Datumformat för visning"
+
+#: classes/fields/date.php:60 classes/fields/datetime.php:69
+#: classes/fields/datetime.php:124 classes/fields/time.php:66
+msgid "WordPress default"
+msgstr "WordPress-standard"
+
+#: classes/PodsAdmin.php:2290
+msgid "Component"
+msgstr "Komponent"
+
+#: src/Pods/Integrations/WPGraphQL/Settings.php:144
+#: src/Pods/Integrations/WPGraphQL/Settings.php:235
+msgid "File format"
+msgstr "Filformat"
+
+#: classes/PodsUI.php:4602
+msgid "%s per page"
+msgstr "%s per sida"
+
+#: classes/PodsUI.php:4264 classes/PodsUI.php:4280 classes/PodsUI.php:4314
+msgid "Show more details"
+msgstr "Visa mer detaljer"
+
+#: classes/PodsAPI.php:6617
+msgid "Settings do not support duplication."
+msgstr "Inställningarna stöder inte duplicering."
+
+#: classes/fields/currency.php:365
+msgid "Brazilian Real"
+msgstr "Brasiliansk real"
+
+#: classes/fields/currency.php:395
+msgid "Czech Koruna"
+msgstr "Tjeckisk krona"
+
+#: classes/fields/currency.php:413
+msgid "Hong Kong Dollar"
+msgstr "Hongkongdollar"
+
+#: classes/fields/currency.php:419
+msgid "Hungarian Forint"
+msgstr "Ungersk forint"
+
+#: classes/fields/currency.php:461
+msgid "Mexican Peso"
+msgstr "Mexikansk peso"
+
+#: classes/fields/currency.php:485
+msgid "Philippine Peso"
+msgstr "Filippinsk peso"
+
+#: classes/fields/currency.php:491
+msgid "Polish Złoty"
+msgstr "Polsk zloty"
+
+#: classes/fields/wysiwyg.php:34
+msgid "WYSIWYG (Visual Editor)"
+msgstr "WYSIWYG (Visuell redigerare)"
+
+#: classes/fields/website.php:33
+msgid "Website"
+msgstr "Webbplats"
+
+#: classes/fields/time.php:50
+msgid "Time"
+msgstr "Tid"
+
+#: classes/fields/pick.php:97
+msgid "Relationship"
+msgstr "Relation"
+
+#: classes/fields/phone.php:34
+msgid "Phone"
+msgstr "Telefon"
+
+#: classes/fields/password.php:34
+msgid "Password"
+msgstr "Lösenord"
+
+#: classes/fields/file.php:272
+msgid "Media File"
+msgstr "Mediefil"
+
+#: classes/fields/file.php:273
+msgid "None"
+msgstr "Ingen"
+
+#: classes/fields/email.php:34
+msgid "E-mail"
+msgstr "E-post"
+
+#: classes/fields/date.php:43 classes/fields/datetime.php:52
+#: classes/fields/datetime.php:53 classes/fields/time.php:49
+msgid "Date / Time"
+msgstr "Datum/tid"
+
+#: classes/fields/date.php:44
+msgid "Date"
+msgstr "Datum"
+
+#: classes/fields/currency.php:407
+msgid "Euro"
+msgstr "Euro"
+
+#: classes/fields/currency.php:124
+msgid "Remove decimals"
+msgstr "Ta bort decimaler"
+
+#: classes/fields/currency.php:42
+msgid "Currency"
+msgstr "Valuta"
+
+#: classes/fields/color.php:28
+msgid "Color Picker"
+msgstr "Färgväljare"
+
+#: classes/fields/avatar.php:40
+msgid "Avatar"
+msgstr "Profilbild"
+
+#: classes/fields/currency.php:359
+msgid "Australian Dollar"
+msgstr "Australisk dollar"
+
+#: classes/fields/currency.php:371
+msgid "British Pound"
+msgstr "Brittiskt pund"
+
+#: classes/fields/currency.php:377
+msgid "Canadian Dollar"
+msgstr "Kanadensisk dollar"
+
+#: classes/fields/currency.php:401
+msgid "Danish Krone"
+msgstr "Dansk krona"
+
+#: classes/fields/currency.php:425
+msgid "Indian Rupee"
+msgstr "Indisk rupie"
+
+#: classes/fields/currency.php:443
+msgid "Japanese Yen"
+msgstr "Japansk yen"
+
+#: classes/fields/currency.php:455
+msgid "Malaysian Ringgit"
+msgstr "Malaysisk ringgit"
+
+#: classes/fields/currency.php:473
+msgid "New Zealand Dollar"
+msgstr "Nyzeeländsk dollar"
+
+#: classes/fields/currency.php:479
+msgid "Norwegian Krone"
+msgstr "Norsk krona"
+
+#: classes/fields/currency.php:497
+msgid "Russian Ruble"
+msgstr "Rysk rubel"
+
+#: classes/fields/currency.php:509
+msgid "Singapore Dollar"
+msgstr "Singaporiansk dollar"
+
+#: classes/fields/currency.php:515
+msgid "South African Rand"
+msgstr "Sydafrikansk rand"
+
+#: classes/fields/currency.php:503
+msgid "Swedish Krona"
+msgstr "Svensk krona"
+
+#: classes/fields/currency.php:521
+msgid "Swiss Franc"
+msgstr "Schweizisk franc"
+
+#: classes/fields/currency.php:533
+msgid "Thai Baht"
+msgstr "Thailändsk baht"
+
+#: classes/fields/currency.php:539
+msgid "Turkish Lira"
+msgstr "Turkish lira"
+
+#: classes/fields/currency.php:557
+msgid "Vietnamese Dong"
+msgstr "Vietnamesisk dong"
+
+#: classes/fields/boolean.php:30
+msgid "Yes / No"
+msgstr "Ja/nej"
+
+#: classes/fields/file.php:43
+msgid "File / Image / Video"
+msgstr "Fil/bild/video"
+
+#: classes/fields/text.php:34
+msgid "Plain Text"
+msgstr "Oformaterad text"
+
+#: classes/PodsMeta.php:1248
+msgid "There are no fields to display"
+msgstr "Det finns inga fält att visa"
+
+#: classes/PodsInit.php:2281 src/Pods/Admin/Config/Pod.php:411
+msgid "Uploaded to this %s"
+msgstr "Uppladdad till denna %s"
+
+#: classes/PodsInit.php:2307 src/Pods/Admin/Config/Pod.php:547
+msgid "No %s"
+msgstr "Inga %s"
+
+#: classes/PodsInit.php:2284 classes/PodsInit.php:2309
+#: src/Pods/Admin/Config/Pod.php:470
+msgid "%s list"
+msgstr "%s lista"
+
+#: classes/PodsInit.php:2282
+msgid "Filter %s lists"
+msgstr "Filtrera %s listor"
+
+#: classes/fields/website.php:71
+msgid "Open link in new window"
+msgstr "Öppna länk i nytt fönster"
+
+#: classes/PodsInit.php:2278 src/Pods/Admin/Config/Pod.php:384
+msgid "%s Archives"
+msgstr "%s Arkiv"
+
+#: classes/PodsInit.php:2280 src/Pods/Admin/Config/Pod.php:402
+msgid "Insert into %s"
+msgstr "Infoga i %s"
+
+#: classes/PodsInit.php:2277
+msgid "Use as featured image"
+msgstr "Använd som utvald bild"
+
+#: classes/PodsInit.php:2275
+msgid "Set featured image"
+msgstr "Ange utvald bild"
+
+#: classes/PodsInit.php:2276
+msgid "Remove featured image"
+msgstr "Ta bort utvald bild"
+
+#: classes/PodsAdmin.php:3056
+msgid "Depth"
+msgstr "Djup"
+
+#: classes/PodsAdmin.php:3050 src/Pods/Integrations/WPGraphQL/Settings.php:133
+#: src/Pods/Integrations/WPGraphQL/Settings.php:150
+#: src/Pods/Integrations/WPGraphQL/Settings.php:207
+#: src/Pods/Integrations/WPGraphQL/Settings.php:240
+msgid "ID only"
+msgstr "Endast ID"
+
+#: classes/PodsAdmin.php:2932 classes/PodsAdmin.php:3102
+msgid "REST API"
+msgstr "REST API"
+
+#: classes/PodsAdmin.php:3023
+msgid "Read/ Write"
+msgstr "Läs/skriv"
+
+#: classes/PodsAdmin.php:3025
+msgid "Read via REST API"
+msgstr "Läs via REST API"
+
+#: classes/PodsAdmin.php:3031
+msgid "Write via REST API"
+msgstr "Skriv via REST API"
+
+#: classes/fields/currency.php:123 components/I18n/I18n.php:821
+#: src/Pods/Admin/Config/Group.php:229 ui/fields/color.php:15
+msgid "Default"
+msgstr "Standard"
+
+#: src/Pods/Admin/Config/Field.php:488 src/Pods/Admin/Config/Field.php:489
+#: src/Pods/Admin/Config/Field.php:492
+msgid "Other"
+msgstr "Annat"
+
+#: src/Pods/Whatsit/Block.php:41
+msgid "Options"
+msgstr "Alternativ"
+
+#: src/Pods/Admin/Config/Field.php:213
+msgid "Required"
+msgstr "Obligatoriskt"
+
+#: src/Pods/Admin/Config/Field.php:152
+msgid "Field Type"
+msgstr "Fälttyp"
+
+#: src/Pods/Admin/Config/Field.php:589
+msgid "Unique"
+msgstr "Unik"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:122
+#: ui/admin/upgrade/upgrade_2_0_0.php:230
+msgid "Helpers"
+msgstr "Stödåtgärder"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:134
+#: ui/admin/upgrade/upgrade_2_0_0.php:242
+msgid "Content"
+msgstr "Innehåll"
+
+#: src/Pods/Admin/Config/Pod.php:969
+msgid "Revisions"
+msgstr "Revisioner"
+
+#: classes/PodsInit.php:2274 src/Pods/Admin/Config/Pod.php:420
+#: src/Pods/Admin/Config/Pod.php:943
+msgid "Featured Image"
+msgstr "Utvald bild"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:15 ui/admin/upgrade/upgrade_2_1_0.php:15
+msgid "Getting Started"
+msgstr " Komma igång"
+
+#: classes/fields/color.php:39 classes/fields/color.php:97
+#: ui/fields/color.php:16
+msgid "Select Color"
+msgstr "Välj färg"
+
+#: ui/fields/color.php:17
+msgid "Current Color"
+msgstr "Nuvarande färg"
+
+#. Plugin URI of the plugin
+msgid "https://pods.io/"
+msgstr "https://pods.io/"
+
+#. Author URI of the plugin
+msgid "https://pods.io/about/"
+msgstr "https://pods.io/about/"
+
+#. Author of the plugin
+msgid "Pods Framework Team"
+msgstr "Pods Framework Team"
+
+#: ui/admin/widgets/list.php:88
+msgid "After Content"
+msgstr "Efter innehåll"
+
+#: ui/admin/widgets/list.php:76
+msgid "Before Content"
+msgstr "Före innehåll"
+
+#: ui/admin/upgrade/upgrade_2_1_0.php:117
+msgid "Upgrade Complete!"
+msgstr "Uppgradering slutförd!"
+
+#: ui/admin/upgrade/upgrade_2_1_0.php:83
+msgid "Optimizing Your Relationships"
+msgstr "Optimera dina relationer"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:18 ui/admin/upgrade/upgrade_2_1_0.php:18
+msgid "Prepare"
+msgstr "Förbered"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:7 ui/admin/upgrade/upgrade_2_1_0.php:7
+msgid "Upgrade Pods"
+msgstr "Uppgradera Pods"
+
+#: ui/admin/upgrade/backup.php:23
+msgid "Click to sign up"
+msgstr "Klicka för att registrera"
+
+#: ui/admin/upgrade/backup.php:21
+msgid "1 free month"
+msgstr "1 gratis månad"
+
+#: ui/admin/shortcode.php:522
+msgid "Insert"
+msgstr "Infoga"
+
+#: ui/admin/shortcode.php:440 ui/admin/widgets/form.php:43
+msgid "ID or Slug"
+msgstr "ID eller permalänk"
+
+#: src/Pods/Admin/Config/Pod.php:1572
+msgid "Title Field"
+msgstr "Rubrikfält"
+
+#: src/Pods/Integrations/Genesis.php:28
+msgid "Genesis: SEO"
+msgstr "Genesis: SEO"
+
+#: src/Pods/Admin/Config/Pod.php:954
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+#: src/Pods/Admin/Config/Pod.php:949
+msgid "Excerpt"
+msgstr "Utdrag"
+
+#: src/Pods/Admin/Config/Field.php:188
+msgid "Related Table"
+msgstr "Relaterad tabell"
+
+#: ui/admin/setup-add.php:448
+msgid "Taxonomy"
+msgstr "Taxonomi"
+
+#: ui/admin/setup-add.php:417
+msgid "Post Type"
+msgstr "Inläggstyp"
+
+#: ui/admin/setup-add.php:232
+msgid "Menu Label"
+msgstr "Menyetikett"
+
+#: src/Pods/Blocks/Types/Field.php:98 src/Pods/Blocks/Types/Form.php:153
+#: src/Pods/Blocks/Types/Item_List.php:211
+#: src/Pods/Blocks/Types/Item_Single.php:167
+#: src/Pods/Blocks/Types/Item_Single_List_Fields.php:67
+#: ui/admin/setup-add.php:272 ui/admin/setup-add.php:291
+msgid "Pod Name"
+msgstr "Podnamn"
+
+#: src/Pods/Admin/Config/Pod.php:928 ui/admin/widgets/field.php:15
+#: ui/admin/widgets/form.php:15 ui/admin/widgets/list.php:17
+#: ui/admin/widgets/single.php:17 ui/admin/widgets/view.php:15
+msgid "Title"
+msgstr "Rubrik"
+
+#: classes/fields/file.php:532 classes/PodsI18n.php:186
+msgid "Allowed Files"
+msgstr "Tillåtna filer"
+
+#: src/Pods/Admin/Config/Pod.php:362
+msgid "Not Found"
+msgstr "Hittades inte"
+
+#: ui/admin/upgrade/backup.php:10
+msgid "Coupon Code"
+msgstr "Rabattkod"
+
+#: src/Pods/Admin/Config/Pod.php:938
+msgid "Author"
+msgstr "Författare"
+
+#: ui/admin/setup-add.php:209
+msgid "Plural Label"
+msgstr "Etikett i plural"
+
+#: src/Pods/Admin/Config/Pod.php:144 ui/admin/setup-add.php:197
+msgid "Singular Label"
+msgstr "Etikett i singular"
+
+#: src/Pods/Admin/Config/Pod.php:974
+msgid "Page Attributes"
+msgstr "Sidattribut"
+
+#: src/Pods/Admin/Config/Pod.php:924
+msgid "Supports"
+msgstr "Stöder"
+
+#: src/Pods/Integrations/Genesis.php:34
+msgid "Genesis: Layouts"
+msgstr "Genesis: Layouter"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:104
+#: ui/admin/upgrade/upgrade_2_0_0.php:212
+msgid "Templates"
+msgstr "Mallar"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:86 ui/admin/upgrade/upgrade_2_0_0.php:194
+#: ui/admin/upgrade/upgrade_2_1_0.php:64 ui/admin/upgrade/upgrade_2_1_0.php:93
+msgid "Relationships"
+msgstr "Relationer"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:157
+msgid "Migrating Your Content"
+msgstr "Migrerar ditt innehåll"
+
+#: ui/admin/upgrade/upgrade_2_0_0.php:54
+msgid "Preparing Your Content for Migration"
+msgstr "Förbereder ditt innehåll för migrering"
+
+#: ui/admin/shortcode.php:346
+msgid "What would you like to do?"
+msgstr "Vad är det du vill göra?"
+
+#: src/Pods/Admin/Config/Pod.php:377
+msgid "Not Found in Trash"
+msgstr "Hittades inte i papperskorgen"
+
+#: src/Pods/Admin/Config/Field.php:428
+msgid "-- Select Table --"
+msgstr "-- Välj tabell --"
+
+#: ui/admin/setup-add.php:357
+msgid "Extend an Existing Content Type"
+msgstr "Utöka en befintlig innehållstyp"
+
+#: src/Pods/Admin/Config/Field.php:449
+msgid "No Related Fields Found"
+msgstr "Inga relaterade fält hittades"
+
+#: classes/PodsAdmin.php:956 ui/admin/upgrade/upgrade_2_0_0.php:77
+#: ui/admin/upgrade/upgrade_2_0_0.php:185 ui/admin/view.php:186
+#: ui/forms/type/post.php:401
+msgid "Fields"
+msgstr "Fält"
+
+#: includes/data.php:2023 tribe-common/src/views/promoter/auth.php:80
+msgid "and"
+msgstr "och"
+
+#: components/Migrate-Packages/ui/wizard.php:381
+msgid "Continue"
+msgstr "Fortsätt"
+
+#: components/Migrate-Packages/ui/wizard.php:52
+msgid "Import"
+msgstr "Importera"
+
+#: components/Roles/ui/edit.php:46 ui/forms/form.php:174
+msgid "Save"
+msgstr "Spara"
+
+#: ui/admin/setup-add.php:166 ui/admin/setup-add.php:364
+msgid "Content Type"
+msgstr "Innehållstyp"
+
+#: ui/admin/setup-add.php:160
+msgid "Create a New Content Type"
+msgstr "Skapa en ny innehållstyp"
+
+#: ui/admin/setup-add.php:138
+msgid "Create New"
+msgstr "Skapa ny"
+
+#: ui/admin/setup-add.php:146
+msgid "Extend Existing"
+msgstr "Utöka befintlig"
+
+#: ui/admin/setup-add.php:99
+msgid "Configure"
+msgstr "Konfigurera"
+
+#: ui/admin/setup-add.php:95
+msgid "Create or Extend"
+msgstr "Skapa eller utöka"
+
+#: classes/PodsAdmin.php:545 ui/admin/setup-add.php:78
+msgid "Add New Pod"
+msgstr "Lägg till ny pod"
+
+#: ui/forms/type/post.php:338
+msgid "Enter name here"
+msgstr "Ange namn här"
+
+#: ui/admin/view.php:127 ui/forms/type/post.php:233
+msgid "Next %s"
+msgstr "Nästa %s"
+
+#: ui/admin/view.php:119 ui/forms/type/post.php:225
+msgid "Previous %s"
+msgstr "Föregående %s"
+
+#: ui/admin/view.php:109 ui/forms/type/post.php:215
+msgid "Navigate"
+msgstr "Navigera"
+
+#: ui/admin/settings-settings.php:72
+msgid "<strong>Error:</strong> %1$s %2$s successfully."
+msgstr "<strong>Fel:</strong> %1$s %2$s utan problem."
+
+#: ui/admin/components-admin.php:14
+msgid "Settings saved successfully."
+msgstr "Inställningarna sparade utan problem."
+
+#: sql/upgrade/PodsUpgrade_2_0_0.php:193 sql/upgrade/PodsUpgrade_2_0_0.php:891
+msgid "Invalid Pod."
+msgstr "Ogiltig Pod."
+
+#: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:332
+msgid "Replace"
+msgstr "Ersätt"
+
+#: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:331
+msgid "Before"
+msgstr "Före"
+
+#: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:330
+msgid "After"
+msgstr "Efter"
+
+#: components/Roles/ui/add.php:35
+msgid "Name your new Role"
+msgstr "Namnge din nya roll"
+
+#: components/Roles/ui/add.php:108 components/Roles/ui/edit.php:118
+msgid "Custom Capabilities"
+msgstr "Anpassade behörigheter"
+
+#: components/Roles/Roles.php:77 components/Roles/Roles.php:248
+msgid "View Users"
+msgstr "Visa användare"
+
+#: components/Pages.php:361
+msgid "Page"
+msgstr "Sida"
+
+#: components/Pages.php:224
+msgid "Page Template"
+msgstr "Sidmall"
+
+#: components/Pages.php:200 src/Pods/Admin/Config/Pod.php:638
+#: ui/admin/setup-add.php:220
+msgid "Page Title"
+msgstr "Sidrubrik"
+
+#: components/Pages.php:636
+msgid "Enter URL here"
+msgstr "Ange URL här"
+
+#: includes/general.php:960
+msgid "Find out more"
+msgstr "Ta reda på mer"
+
+#: components/Roles/Roles.php:92 components/Roles/ui/add.php:23
+msgid "Capabilities"
+msgstr "Behörigheter"
+
+#: components/Roles/Roles.php:69 components/Roles/Roles.php:240
+msgid "%s User"
+msgid_plural "%s Users"
+msgstr[0] "%s användare"
+msgstr[1] "%s användare"
+
+#: components/Pages.php:348
+msgid "Redirect to a Custom URL"
+msgstr "Omdirigera till en anpassad URL"
+
+#: includes/general.php:1992
+msgid "Please upgrade your WordPress to continue."
+msgstr "Uppgradera din WordPress för att fortsätta."
+
+#: includes/general.php:1990 includes/general.php:2009
+#: includes/general.php:2030
+msgid "NOTICE"
+msgstr "OBSERVERA"
+
+#: includes/general.php:264
+msgid "An unknown error has occurred"
+msgstr "Ett okänt fel har uppstått"
+
+#: components/Templates/Templates.php:426
+msgid "Enter template name here"
+msgstr "Ange mallnamn här"
+
+#: components/Roles/Roles.php:299
+msgid "Role name is required"
+msgstr "Rollnamn är obligatoriskt."
+
+#: components/Migrate-Packages/ui/wizard.php:23
+msgid "Import / Export"
+msgstr "Importera/exportera"
+
+#: includes/general.php:257
+msgid "The following issue occurred:"
+msgstr "Följande problem uppstod:"
+
+#: includes/general.php:259
+msgid "The following issues occurred:"
+msgstr "Följande problem uppstod:"
+
+#: ui/admin/setup-add.php:173
+msgid "Custom Taxonomy (like Categories or Tags)"
+msgstr "Anpassad taxonomi (som kategorier eller etiketter)"
+
+#: ui/admin/setup-add.php:172
+msgid "Custom Post Type (like Posts or Pages)"
+msgstr "Anpassad inläggstyp (som inlägg eller sidor)"
+
+#: src/Pods/Admin/Config/Pod.php:265 ui/admin/setup-add.php:83
+msgid "Back to Manage"
+msgstr "Tillbaka till hantering"
+
+#: ui/admin/settings-reset.php:84
+msgid "Please Note:"
+msgstr "Observera:"
+
+#: sql/upgrade/PodsUpgrade.php:210
+msgid "Upgrade method not found."
+msgstr "Uppgraderingsmetod hittades inte."
+
+#: sql/upgrade/PodsUpgrade.php:206
+msgid "Invalid upgrade method."
+msgstr "Ogiltig uppgraderingsmetod."
+
+#: components/Roles/Roles.php:204
+msgid "Role not found, it cannot be deleted."
+msgstr "Rollen hittades inte, den kan inte tas bort."
+
+#: components/Pages.php:185
+msgid "Page (WP Default)"
+msgstr "Sida (WP-standard)"
+
+#: components/Migrate-Packages/ui/wizard.php:381
+msgid "Process Again"
+msgstr "Bearbeta igen"
+
+#: ui/admin/view.php:55 ui/forms/type/post.php:84
+msgid "Last Modified"
+msgstr "Senast ändrad"
+
+#: ui/admin/view.php:46 ui/forms/type/post.php:75
+msgid "Created on"
+msgstr "Skapad den"
+
+#: components/Roles/ui/add.php:11
+msgid "Roles &amp; Capabilities: Add New Role"
+msgstr "Roller och behörigheter: lägg till ny roll"
+
+#: classes/fields/pick.php:3626
+msgid "South Korea"
+msgstr "Sydkorea"
+
+#: classes/fields/pick.php:3620
+msgid "Slovakia"
+msgstr "Slovakien"
+
+#: classes/widgets/PodsWidgetForm.php:38 classes/widgets/PodsWidgetForm.php:59
+#: classes/widgets/PodsWidgetForm.php:74
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:47
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:145
+msgid "Submit"
+msgstr "Skicka"
+
+#: components/Migrate-CPTUI/ui/wizard.php:154
+#: components/Migrate-Packages/ui/wizard.php:381
+#: components/Roles/ui/add.php:142 ui/admin/setup-add.php:507
+msgid "Processing"
+msgstr "Behandlas"
+
+#: classes/fields/pick.php:3606
+#: tribe-common/src/Tribe/Languages/Locations.php:263
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts och Nevis"
+
+#: classes/fields/pick.php:3607
+#: tribe-common/src/Tribe/Languages/Locations.php:264
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#: classes/fields/pick.php:3610
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent och Grenadinerna"
+
+#: classes/fields/pick.php:3612
+#: tribe-common/src/Tribe/Languages/Locations.php:268
+msgid "San Marino"
+msgstr "San Marino"
+
+#: classes/fields/pick.php:3613
+#: tribe-common/src/Tribe/Languages/Locations.php:270
+msgid "Saudi Arabia"
+msgstr "Saudiarabien"
+
+#: classes/fields/pick.php:3614
+#: tribe-common/src/Tribe/Languages/Locations.php:271
+msgid "Senegal"
+msgstr "Senegal"
+
+#: classes/fields/pick.php:3616
+msgid "Serbia and Montenegro"
+msgstr "Serbien och Montenegro"
+
+#: classes/fields/pick.php:3617
+#: tribe-common/src/Tribe/Languages/Locations.php:273
+msgid "Seychelles"
+msgstr "Seychellerna"
+
+#: classes/fields/pick.php:3618
+#: tribe-common/src/Tribe/Languages/Locations.php:274
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: classes/fields/pick.php:3619
+#: tribe-common/src/Tribe/Languages/Locations.php:275
+msgid "Singapore"
+msgstr "Singapore"
+
+#: classes/fields/pick.php:3621
+#: tribe-common/src/Tribe/Languages/Locations.php:278
+msgid "Slovenia"
+msgstr "Slovenien"
+
+#: classes/fields/pick.php:3622
+#: tribe-common/src/Tribe/Languages/Locations.php:279
+msgid "Solomon Islands"
+msgstr "Salomonöarna"
+
+#: classes/fields/pick.php:3623
+#: tribe-common/src/Tribe/Languages/Locations.php:280
+msgid "Somalia"
+msgstr "Somalia"
+
+#: classes/fields/pick.php:3624
+#: tribe-common/src/Tribe/Languages/Locations.php:281
+msgid "South Africa"
+msgstr "Sydafrika"
+
+#: classes/fields/pick.php:3627
+#: tribe-common/src/Tribe/Languages/Locations.php:283
+msgid "Spain"
+msgstr "Spanien"
+
+#: classes/fields/pick.php:3628
+#: tribe-common/src/Tribe/Languages/Locations.php:284
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: classes/fields/pick.php:3629
+#: tribe-common/src/Tribe/Languages/Locations.php:285
+msgid "Sudan"
+msgstr "Sudan"
+
+#: classes/fields/pick.php:3630
+#: tribe-common/src/Tribe/Languages/Locations.php:286
+msgid "Suriname"
+msgstr "Surinam"
+
+#: classes/fields/pick.php:3632
+#: tribe-common/src/Tribe/Languages/Locations.php:288
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: classes/fields/pick.php:3633
+#: tribe-common/src/Tribe/Languages/Locations.php:289
+msgid "Sweden"
+msgstr "Sverige"
+
+#: classes/fields/pick.php:3634
+#: tribe-common/src/Tribe/Languages/Locations.php:290
+msgid "Switzerland"
+msgstr "Schweiz"
+
+#: classes/fields/pick.php:3635
+msgid "Syria"
+msgstr "Syrien"
+
+#: classes/fields/pick.php:3637
+#: tribe-common/src/Tribe/Languages/Locations.php:292
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: classes/fields/pick.php:3638
+#: tribe-common/src/Tribe/Languages/Locations.php:293
+msgid "Tajikistan"
+msgstr "Tadzjikistan"
+
+#: classes/fields/pick.php:3639
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: classes/fields/pick.php:3640
+#: tribe-common/src/Tribe/Languages/Locations.php:295
+msgid "Thailand"
+msgstr "Thailand"
+
+#: classes/fields/pick.php:3642
+#: tribe-common/src/Tribe/Languages/Locations.php:296
+msgid "Togo"
+msgstr "Togo"
+
+#: classes/fields/pick.php:3644
+#: tribe-common/src/Tribe/Languages/Locations.php:298
+msgid "Tonga"
+msgstr "Tonga"
+
+#: classes/fields/pick.php:3645
+#: tribe-common/src/Tribe/Languages/Locations.php:299
+msgid "Trinidad and Tobago"
+msgstr "Trinidad och Tobago"
+
+#: classes/fields/pick.php:3646
+#: tribe-common/src/Tribe/Languages/Locations.php:300
+msgid "Tunisia"
+msgstr "Tunisien"
+
+#: classes/fields/pick.php:3647
+#: tribe-common/src/Tribe/Languages/Locations.php:301
+msgid "Turkey"
+msgstr "Turkiet"
+
+#: classes/fields/pick.php:3648
+#: tribe-common/src/Tribe/Languages/Locations.php:302
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: classes/fields/pick.php:3650
+#: tribe-common/src/Tribe/Languages/Locations.php:304
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: classes/fields/pick.php:3654
+#: tribe-common/src/Tribe/Languages/Locations.php:305
+msgid "Uganda"
+msgstr "Uganda"
+
+#: classes/fields/pick.php:3655
+#: tribe-common/src/Tribe/Languages/Locations.php:306
+msgid "Ukraine"
+msgstr "Ukraina"
+
+#: classes/fields/pick.php:3657
+#: tribe-common/src/Tribe/Languages/Locations.php:307
+msgid "United Arab Emirates"
+msgstr "Förenade Arabemiraten"
+
+#: classes/fields/pick.php:3658
+#: tribe-common/src/Tribe/Languages/Locations.php:308
+msgid "United Kingdom"
+msgstr "Storbritannien"
+
+#: classes/fields/pick.php:3659
+#: tribe-common/src/Tribe/Languages/Locations.php:79
+msgid "United States"
+msgstr "USA"
+
+#: classes/fields/pick.php:3661
+#: tribe-common/src/Tribe/Languages/Locations.php:310
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: classes/fields/pick.php:3662
+#: tribe-common/src/Tribe/Languages/Locations.php:311
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: classes/fields/pick.php:3663
+#: tribe-common/src/Tribe/Languages/Locations.php:312
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: classes/fields/pick.php:3664
+msgid "Vatican City"
+msgstr "Vatikanstaten"
+
+#: classes/fields/pick.php:3665
+#: tribe-common/src/Tribe/Languages/Locations.php:313
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: classes/fields/pick.php:3666
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: classes/fields/pick.php:3670
+#: tribe-common/src/Tribe/Languages/Locations.php:319
+msgid "Yemen"
+msgstr "Jemen"
+
+#: classes/fields/pick.php:3671
+#: tribe-common/src/Tribe/Languages/Locations.php:320
+msgid "Zambia"
+msgstr "Zambia"
+
+#: classes/fields/pick.php:3672
+#: tribe-common/src/Tribe/Languages/Locations.php:321
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: components/Builder/modules/list/PodsBuilderModuleList.php:161
+#: src/Pods/Blocks/Types/Item_List.php:252 ui/admin/shortcode.php:446
+#: ui/admin/widgets/list.php:94
+msgid "Limit"
+msgstr "Gräns"
+
+#: classes/fields/wysiwyg.php:44 src/Pods/Admin/Config/Pod.php:933
+msgid "Editor"
+msgstr "Redaktör"
+
+#: components/Migrate-Packages/ui/wizard.php:20
+msgid "Choose"
+msgstr "Välj"
+
+#: classes/fields/link.php:51
+msgid "http://example.com/"
+msgstr "http://example.com/"
+
+#: classes/fields/link.php:52
+msgid "http://example.com/ (remove www)"
+msgstr "http://example.com/ (ta bort www)"
+
+#: classes/fields/pick.php:3746
+#: tribe-common/src/Tribe/Languages/Locations.php:398
+msgid "Wyoming"
+msgstr "Wyoming"
+
+#: classes/fields/pick.php:3745
+#: tribe-common/src/Tribe/Languages/Locations.php:397
+msgid "Wisconsin"
+msgstr "Wisconsin"
+
+#: classes/fields/pick.php:3744
+#: tribe-common/src/Tribe/Languages/Locations.php:396
+msgid "West Virginia"
+msgstr "West Virginia"
+
+#: classes/fields/pick.php:3743
+#: tribe-common/src/Tribe/Languages/Locations.php:395
+msgid "Washington"
+msgstr "Washington"
+
+#: classes/fields/pick.php:3742
+#: tribe-common/src/Tribe/Languages/Locations.php:394
+msgid "Virginia"
+msgstr "Virginia"
+
+#: classes/fields/pick.php:3741
+#: tribe-common/src/Tribe/Languages/Locations.php:393
+msgid "Vermont"
+msgstr "Vermont"
+
+#: classes/fields/pick.php:3740
+#: tribe-common/src/Tribe/Languages/Locations.php:392
+msgid "Utah"
+msgstr "Utah"
+
+#: classes/fields/pick.php:3739
+#: tribe-common/src/Tribe/Languages/Locations.php:391
+msgid "Texas"
+msgstr "Texas"
+
+#: classes/fields/pick.php:3738
+#: tribe-common/src/Tribe/Languages/Locations.php:390
+msgid "Tennessee"
+msgstr "Tennessee"
+
+#: classes/fields/pick.php:3734
+#: tribe-common/src/Tribe/Languages/Locations.php:386
+msgid "Pennsylvania"
+msgstr "Pennsylvania"
+
+#: classes/fields/pick.php:3733
+#: tribe-common/src/Tribe/Languages/Locations.php:385
+msgid "Oregon"
+msgstr "Oregon"
+
+#: classes/fields/pick.php:3732
+#: tribe-common/src/Tribe/Languages/Locations.php:384
+msgid "Oklahoma"
+msgstr "Oklahoma"
+
+#: classes/fields/pick.php:3731
+#: tribe-common/src/Tribe/Languages/Locations.php:383
+msgid "Ohio"
+msgstr "Ohio"
+
+#: classes/fields/pick.php:3728
+#: tribe-common/src/Tribe/Languages/Locations.php:380
+msgid "New York"
+msgstr "New York"
+
+#: classes/fields/pick.php:3727
+#: tribe-common/src/Tribe/Languages/Locations.php:379
+msgid "New Mexico"
+msgstr "New Mexico"
+
+#: classes/fields/pick.php:3726
+#: tribe-common/src/Tribe/Languages/Locations.php:378
+msgid "New Jersey"
+msgstr "New Jersey"
+
+#: classes/fields/pick.php:3725
+#: tribe-common/src/Tribe/Languages/Locations.php:377
+msgid "New Hampshire"
+msgstr "New Hampshire"
+
+#: classes/fields/pick.php:3724
+#: tribe-common/src/Tribe/Languages/Locations.php:376
+msgid "Nevada"
+msgstr "Nevada"
+
+#: classes/fields/pick.php:3723
+#: tribe-common/src/Tribe/Languages/Locations.php:375
+msgid "Nebraska"
+msgstr "Nebraska"
+
+#: classes/fields/pick.php:3722
+#: tribe-common/src/Tribe/Languages/Locations.php:374
+msgid "Montana"
+msgstr "Montana"
+
+#: classes/fields/pick.php:3721
+#: tribe-common/src/Tribe/Languages/Locations.php:373
+msgid "Missouri"
+msgstr "Missouri"
+
+#: classes/fields/pick.php:3720
+#: tribe-common/src/Tribe/Languages/Locations.php:372
+msgid "Mississippi"
+msgstr "Mississippi"
+
+#: classes/fields/pick.php:3719
+#: tribe-common/src/Tribe/Languages/Locations.php:371
+msgid "Minnesota"
+msgstr "Minnesota"
+
+#: classes/fields/pick.php:3718
+#: tribe-common/src/Tribe/Languages/Locations.php:370
+msgid "Michigan"
+msgstr "Michigan"
+
+#: classes/fields/pick.php:3717
+#: tribe-common/src/Tribe/Languages/Locations.php:369
+msgid "Massachusetts"
+msgstr "Massachusetts"
+
+#: classes/fields/pick.php:3716
+#: tribe-common/src/Tribe/Languages/Locations.php:368
+msgid "Maryland"
+msgstr "Maryland"
+
+#: classes/fields/pick.php:3715
+#: tribe-common/src/Tribe/Languages/Locations.php:367
+msgid "Maine"
+msgstr "Maine"
+
+#: classes/fields/pick.php:3714
+#: tribe-common/src/Tribe/Languages/Locations.php:366
+msgid "Louisiana"
+msgstr "Louisiana"
+
+#: classes/fields/pick.php:3713
+#: tribe-common/src/Tribe/Languages/Locations.php:365
+msgid "Kentucky"
+msgstr "Kentucky"
+
+#: classes/fields/pick.php:3712
+#: tribe-common/src/Tribe/Languages/Locations.php:364
+msgid "Kansas"
+msgstr "Kansas"
+
+#: classes/fields/pick.php:3711
+#: tribe-common/src/Tribe/Languages/Locations.php:363
+msgid "Iowa"
+msgstr "Iowa"
+
+#: classes/fields/pick.php:3710
+#: tribe-common/src/Tribe/Languages/Locations.php:362
+msgid "Indiana"
+msgstr "Indiana"
+
+#: classes/fields/pick.php:3709
+#: tribe-common/src/Tribe/Languages/Locations.php:361
+msgid "Illinois"
+msgstr "Illinois"
+
+#: classes/fields/pick.php:3708
+#: tribe-common/src/Tribe/Languages/Locations.php:360
+msgid "Idaho"
+msgstr "Idaho"
+
+#: classes/fields/pick.php:3707
+#: tribe-common/src/Tribe/Languages/Locations.php:359
+msgid "Hawaii"
+msgstr "Hawaii"
+
+#: classes/fields/pick.php:3705
+#: tribe-common/src/Tribe/Languages/Locations.php:357
+msgid "Florida"
+msgstr "Florida"
+
+#: classes/fields/pick.php:3703
+#: tribe-common/src/Tribe/Languages/Locations.php:355
+msgid "Delaware"
+msgstr "Delaware"
+
+#: classes/fields/pick.php:3702
+#: tribe-common/src/Tribe/Languages/Locations.php:354
+msgid "Connecticut"
+msgstr "Connecticut"
+
+#: classes/fields/pick.php:3701
+#: tribe-common/src/Tribe/Languages/Locations.php:353
+msgid "Colorado"
+msgstr "Colorado"
+
+#: classes/fields/pick.php:3700
+#: tribe-common/src/Tribe/Languages/Locations.php:352
+msgid "California"
+msgstr "Kalifornien"
+
+#: classes/fields/pick.php:3699
+#: tribe-common/src/Tribe/Languages/Locations.php:351
+msgid "Arkansas"
+msgstr "Arkansas"
+
+#: classes/fields/pick.php:3698
+#: tribe-common/src/Tribe/Languages/Locations.php:350
+msgid "Arizona"
+msgstr "Arizona"
+
+#: classes/fields/pick.php:3697
+#: tribe-common/src/Tribe/Languages/Locations.php:349
+msgid "Alaska"
+msgstr "Alaska"
+
+#: classes/fields/pick.php:3696
+#: tribe-common/src/Tribe/Languages/Locations.php:348
+msgid "Alabama"
+msgstr "Alabama"
+
+#: classes/fields/pick.php:3730
+#: tribe-common/src/Tribe/Languages/Locations.php:382
+msgid "North Dakota"
+msgstr "North Dakota"
+
+#: classes/fields/pick.php:3605
+#: tribe-common/src/Tribe/Languages/Locations.php:262
+msgid "Saint Helena"
+msgstr "Sankta Helena"
+
+#: classes/fields/pick.php:3609
+#: tribe-common/src/Tribe/Languages/Locations.php:265
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint-Pierre och Miquelon"
+
+#: classes/fields/pick.php:3611
+#: tribe-common/src/Tribe/Languages/Locations.php:267
+msgid "Samoa"
+msgstr "Samoa"
+
+#: classes/fields/pick.php:3615
+#: tribe-common/src/Tribe/Languages/Locations.php:272
+msgid "Serbia"
+msgstr "Serbien"
+
+#: classes/fields/pick.php:3625
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "Sydgeorgien och Sydsandwichöarna"
+
+#: classes/fields/pick.php:3631
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard och Jan Mayen"
+
+#: classes/fields/pick.php:3636
+msgid "São Tomé and Príncipe"
+msgstr "São Tomé och Príncipe"
+
+#: classes/fields/pick.php:3641
+msgid "Timor-Leste"
+msgstr "Östtimor"
+
+#: classes/fields/pick.php:3643
+#: tribe-common/src/Tribe/Languages/Locations.php:297
+msgid "Tokelau"
+msgstr "Tokelauöarna"
+
+#: classes/fields/pick.php:3649
+#: tribe-common/src/Tribe/Languages/Locations.php:303
+msgid "Turks and Caicos Islands"
+msgstr "Turks- och Caicosöarna"
+
+#: classes/fields/pick.php:3653
+msgid "U.S. Virgin Islands"
+msgstr "Amerikanska Jungfruöarna"
+
+#: classes/fields/pick.php:3668
+msgid "Wallis and Futuna"
+msgstr "Wallis- och Futunaöarna"
+
+#: classes/fields/pick.php:3669
+#: tribe-common/src/Tribe/Languages/Locations.php:318
+msgid "Western Sahara"
+msgstr "Västsahara"
+
+#: components/Migrate-CPTUI/ui/wizard.php:154 components/Roles/ui/add.php:142
+#: ui/admin/setup-add.php:507 ui/admin/upgrade/upgrade_2_0_0.php:267
+#: ui/admin/upgrade/upgrade_2_1_0.php:114
+msgid "Next Step"
+msgstr "Nästa steg"
+
+#: components/Migrate-CPTUI/ui/wizard.php:153
+#: components/Migrate-Packages/ui/wizard.php:380
+#: components/Roles/ui/add.php:141 ui/admin/setup-add.php:506
+#: ui/admin/upgrade/upgrade_2_0_0.php:266
+#: ui/admin/upgrade/upgrade_2_1_0.php:113
+msgid "Start Over"
+msgstr "Börja om"
+
+#: components/Migrate-CPTUI/ui/wizard.php:70
+msgid "Available Post Types"
+msgstr "Tillgängliga inläggstyper"
+
+#: components/Migrate-CPTUI/ui/wizard.php:37
+msgid "Import Only"
+msgstr "Endast import"
+
+#: src/Pods/Whatsit/Storage/Collection.php:38
+msgid "Code"
+msgstr "Kod"
+
+#: components/Builder/modules/list/PodsBuilderModuleList.php:177
+#: src/Pods/Blocks/Types/Item_List.php:265 ui/admin/shortcode.php:458
+#: ui/admin/widgets/list.php:106
+msgid "Where"
+msgstr "Var"
+
+#: components/Builder/modules/list/PodsBuilderModuleList.php:169
+#: src/Pods/Blocks/Types/Item_List.php:259 ui/admin/shortcode.php:452
+#: ui/admin/widgets/list.php:100
+msgid "Order By"
+msgstr "Sortera efter"
+
+#: components/Builder/modules/list/PodsBuilderModuleList.php:117
+#: components/Builder/modules/list/PodsBuilderModuleList.php:134
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:121
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:138
+#: components/Templates/class-pods_templates.php:210
+#: src/Pods/Blocks/Types/Item_List.php:219
+#: src/Pods/Blocks/Types/Item_Single.php:181 ui/admin/shortcode.php:391
+#: ui/admin/shortcode.php:407 ui/admin/widgets/list.php:51
+#: ui/admin/widgets/list.php:67 ui/admin/widgets/single.php:67
+#: ui/admin/widgets/single.php:83
+msgid "Template"
+msgstr "Mall"
+
+#: components/Builder/modules/list/PodsBuilderModuleList.php:108
+#: components/Builder/modules/list/PodsBuilderModuleList.php:146
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:112
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:150
+#: src/Pods/Blocks/Types/Item_List.php:227
+#: src/Pods/Blocks/Types/Item_Single.php:189 ui/admin/shortcode.php:394
+#: ui/admin/shortcode.php:416 ui/admin/widgets/list.php:54
+#: ui/admin/widgets/list.php:82 ui/admin/widgets/single.php:70
+#: ui/admin/widgets/single.php:92
+msgid "Custom Template"
+msgstr "Anpassad mall"
+
+#: components/Builder/modules/field/PodsBuilderModuleField.php:107
+#: ui/admin/shortcode.php:464 ui/admin/widgets/field.php:59
+msgid "Field"
+msgstr "Fält"
+
+#: components/Builder/modules/field/PodsBuilderModuleField.php:99
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:101
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:100
+#: src/Pods/Blocks/Types/Field.php:106 src/Pods/Blocks/Types/Form.php:161
+#: src/Pods/Blocks/Types/Item_Single.php:175
+#: src/Pods/Blocks/Types/Item_Single_List_Fields.php:75
+#: ui/admin/widgets/field.php:44 ui/admin/widgets/single.php:46
+msgid "Slug or ID"
+msgstr "Slug eller ID"
+
+#: components/Advanced-Relationships.php:77
+msgid "Sidebars"
+msgstr "Sidopaneler"
+
+#: components/Advanced-Relationships.php:63
+msgid "Themes"
+msgstr "Teman"
+
+#: classes/fields/link.php:54 classes/fields/website.php:50
+msgid "example.com"
+msgstr "example.com"
+
+#: components/Migrate-CPTUI/ui/wizard.php:24
+#: ui/admin/upgrade/upgrade_2_0_0.php:21
+msgid "Migrate"
+msgstr "Migrera"
+
+#: components/Migrate-CPTUI/ui/wizard.php:20
+msgid "Setup"
+msgstr "Ställ in"
+
+#: components/Builder/modules/view/PodsBuilderModuleView.php:76
+#: ui/admin/shortcode.php:488 ui/admin/widgets/view.php:21
+msgid "File to include"
+msgstr "Fil att inkludera"
+
+#: components/Advanced-Relationships.php:46
+msgid "Database Tables"
+msgstr "Databastabeller"
+
+#: components/Migrate-CPTUI/ui/wizard.php:143
+msgid "No Taxonomies were found."
+msgstr "Inga taxonomier hittades."
+
+#: components/Migrate-CPTUI/ui/wizard.php:116
+msgid "Available Taxonomies"
+msgstr "Tillgängliga taxonomier"
+
+#: components/Migrate-CPTUI/ui/wizard.php:107
+msgid "Choose Taxonomies to Import"
+msgstr "Välj taxonomi att importera"
+
+#: components/Migrate-CPTUI/ui/wizard.php:99
+msgid "No Post Types were found."
+msgstr "Inga inläggstyper hittades."
+
+#: components/Migrate-CPTUI/ui/wizard.php:61
+msgid "Choose Post Types to Import"
+msgstr "Välj inläggstyper att importera"
+
+#: classes/fields/website.php:225
+msgid "Invalid website provided for the field %s."
+msgstr "Ogiltig webbplats angiven för fältet %s."
+
+#: classes/fields/pick.php:3660
+msgid "Unknown or Invalid Region"
+msgstr "Okänd eller ogiltig region"
+
+#: components/Migrate-CPTUI/ui/wizard.php:46
+msgid "Import and Clean Up"
+msgstr "Importera och rensa upp"
+
+#: classes/fields/pick.php:3737
+#: tribe-common/src/Tribe/Languages/Locations.php:389
+msgid "South Dakota"
+msgstr "South Dakota"
+
+#: classes/fields/pick.php:3736
+#: tribe-common/src/Tribe/Languages/Locations.php:388
+msgid "South Carolina"
+msgstr "South Carolina"
+
+#: classes/fields/pick.php:3735
+#: tribe-common/src/Tribe/Languages/Locations.php:387
+msgid "Rhode Island"
+msgstr "Rhode Island"
+
+#: classes/fields/pick.php:3729
+#: tribe-common/src/Tribe/Languages/Locations.php:381
+msgid "North Carolina"
+msgstr "North Carolina"
+
+#: classes/fields/pick.php:3704
+msgid "District Of Columbia"
+msgstr "District Of Columbia"
+
+#: classes/fields/pick.php:3673
+msgid "Åland Islands"
+msgstr "Åland"
+
+#: classes/fields/pick.php:3667
+msgid "Wake Island"
+msgstr "Wake Island"
+
+#: classes/fields/pick.php:3608
+msgid "Saint Martin"
+msgstr "Saint Martin"
+
+#: components/Advanced-Relationships.php:70
+msgid "Page Templates"
+msgstr "Sidmallar"
+
+#: components/Builder/modules/field/PodsBuilderModuleField.php:92
+#: components/Builder/modules/form/PodsBuilderModuleForm.php:94
+#: components/Builder/modules/list/PodsBuilderModuleList.php:97
+#: components/Builder/modules/list/PodsBuilderModuleList.php:124
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:93
+#: components/Builder/modules/single/PodsBuilderModuleSingle.php:128
+#: components/Pages.php:246 ui/admin/shortcode.php:382
+#: ui/admin/widgets/field.php:38 ui/admin/widgets/form.php:38
+#: ui/admin/widgets/list.php:40 ui/admin/widgets/single.php:40
+msgid "None Found"
+msgstr "Ingen hittades"
+
+#: classes/fields/pick.php:3411
+#: tribe-common/src/Tribe/Languages/Locations.php:82
+msgid "Albania"
+msgstr "Albanien"
+
+#: classes/fields/pick.php:3412
+#: tribe-common/src/Tribe/Languages/Locations.php:83
+msgid "Algeria"
+msgstr "Algeriet"
+
+#: classes/fields/pick.php:3413
+#: tribe-common/src/Tribe/Languages/Locations.php:84
+msgid "American Samoa"
+msgstr "Amerikanska Samoa"
+
+#: classes/fields/pick.php:3414
+#: tribe-common/src/Tribe/Languages/Locations.php:85
+msgid "Andorra"
+msgstr "Andorra"
+
+#: classes/fields/pick.php:3415
+#: tribe-common/src/Tribe/Languages/Locations.php:86
+msgid "Angola"
+msgstr "Angola"
+
+#: classes/fields/pick.php:3416
+#: tribe-common/src/Tribe/Languages/Locations.php:87
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: classes/fields/pick.php:3417
+#: tribe-common/src/Tribe/Languages/Locations.php:88
+msgid "Antarctica"
+msgstr "Antarktis"
+
+#: classes/fields/pick.php:3418
+#: tribe-common/src/Tribe/Languages/Locations.php:89
+msgid "Antigua and Barbuda"
+msgstr "Antigua och Barbuda"
+
+#: classes/fields/pick.php:3419
+#: tribe-common/src/Tribe/Languages/Locations.php:90
+msgid "Argentina"
+msgstr "Argentina"
+
+#: classes/fields/pick.php:3420
+#: tribe-common/src/Tribe/Languages/Locations.php:91
+msgid "Armenia"
+msgstr "Armenien"
+
+#: classes/fields/pick.php:3421
+#: tribe-common/src/Tribe/Languages/Locations.php:92
+msgid "Aruba"
+msgstr "Aruba"
+
+#: classes/fields/pick.php:3422
+#: tribe-common/src/Tribe/Languages/Locations.php:93
+msgid "Australia"
+msgstr "Australien"
+
+#: classes/fields/pick.php:3423
+#: tribe-common/src/Tribe/Languages/Locations.php:94
+msgid "Austria"
+msgstr "Österrike"
+
+#: classes/fields/pick.php:3425
+#: tribe-common/src/Tribe/Languages/Locations.php:96
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: classes/fields/pick.php:3426
+#: tribe-common/src/Tribe/Languages/Locations.php:97
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: classes/fields/pick.php:3427
+#: tribe-common/src/Tribe/Languages/Locations.php:98
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: classes/fields/pick.php:3428
+#: tribe-common/src/Tribe/Languages/Locations.php:99
+msgid "Barbados"
+msgstr "Barbados"
+
+#: classes/fields/pick.php:3430
+#: tribe-common/src/Tribe/Languages/Locations.php:101
+msgid "Belgium"
+msgstr "Belgien"
+
+#: classes/fields/pick.php:3431
+#: tribe-common/src/Tribe/Languages/Locations.php:102
+msgid "Belize"
+msgstr "Belize"
+
+#: classes/fields/pick.php:3432
+#: tribe-common/src/Tribe/Languages/Locations.php:103
+msgid "Benin"
+msgstr "Benin"
+
+#: classes/fields/pick.php:3433
+#: tribe-common/src/Tribe/Languages/Locations.php:104
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: classes/fields/pick.php:3434
+#: tribe-common/src/Tribe/Languages/Locations.php:105
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: classes/fields/pick.php:3435
+#: tribe-common/src/Tribe/Languages/Locations.php:106
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: classes/fields/pick.php:3437
+#: tribe-common/src/Tribe/Languages/Locations.php:108
+msgid "Botswana"
+msgstr "Botswana"
+
+#: classes/fields/pick.php:3439
+#: tribe-common/src/Tribe/Languages/Locations.php:110
+msgid "Brazil"
+msgstr "Brasilien"
+
+#: classes/fields/pick.php:3443
+msgid "Brunei"
+msgstr "Brunei"
+
+#: classes/fields/pick.php:3444
+#: tribe-common/src/Tribe/Languages/Locations.php:113
+msgid "Bulgaria"
+msgstr "Bulgarien"
+
+#: classes/fields/pick.php:3445
+#: tribe-common/src/Tribe/Languages/Locations.php:114
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: classes/fields/pick.php:3446
+#: tribe-common/src/Tribe/Languages/Locations.php:115
+msgid "Burundi"
+msgstr "Burundi"
+
+#: classes/fields/pick.php:3447
+#: tribe-common/src/Tribe/Languages/Locations.php:116
+msgid "Cambodia"
+msgstr "Kambodja"
+
+#: classes/fields/pick.php:3448
+#: tribe-common/src/Tribe/Languages/Locations.php:117
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#: classes/fields/pick.php:3449
+#: tribe-common/src/Tribe/Languages/Locations.php:118
+msgid "Canada"
+msgstr "Kanada"
+
+#: classes/fields/pick.php:3451
+#: tribe-common/src/Tribe/Languages/Locations.php:119
+msgid "Cape Verde"
+msgstr "Kap Verde"
+
+#: classes/fields/pick.php:3452
+#: tribe-common/src/Tribe/Languages/Locations.php:120
+msgid "Cayman Islands"
+msgstr "Caymanöarna"
+
+#: classes/fields/pick.php:3453
+#: tribe-common/src/Tribe/Languages/Locations.php:121
+msgid "Central African Republic"
+msgstr "Centralafrikanska republiken"
+
+#: classes/fields/pick.php:3454
+#: tribe-common/src/Tribe/Languages/Locations.php:122
+msgid "Chad"
+msgstr "Tchad"
+
+#: classes/fields/pick.php:3455
+#: tribe-common/src/Tribe/Languages/Locations.php:123
+msgid "Chile"
+msgstr "Chile"
+
+#: classes/fields/pick.php:3456
+#: tribe-common/src/Tribe/Languages/Locations.php:124
+msgid "China"
+msgstr "Kina"
+
+#: classes/fields/pick.php:3459
+#: tribe-common/src/Tribe/Languages/Locations.php:128
+msgid "Colombia"
+msgstr "Colombia"
+
+#: classes/fields/pick.php:3460
+#: tribe-common/src/Tribe/Languages/Locations.php:129
+msgid "Comoros"
+msgstr "Komorerna"
+
+#: classes/fields/pick.php:3464
+#: tribe-common/src/Tribe/Languages/Locations.php:133
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: classes/fields/pick.php:3465
+msgid "Croatia"
+msgstr "Kroatien"
+
+#: classes/fields/pick.php:3466
+#: tribe-common/src/Tribe/Languages/Locations.php:136
+msgid "Cuba"
+msgstr "Kuba"
+
+#: classes/fields/pick.php:3467
+#: tribe-common/src/Tribe/Languages/Locations.php:138
+msgid "Cyprus"
+msgstr "Cypern"
+
+#: classes/fields/pick.php:3468
+#: tribe-common/src/Tribe/Languages/Locations.php:139
+msgid "Czech Republic"
+msgstr "Tjeckien"
+
+#: classes/fields/pick.php:3470
+#: tribe-common/src/Tribe/Languages/Locations.php:140
+msgid "Denmark"
+msgstr "Danmark"
+
+#: classes/fields/pick.php:3471
+#: tribe-common/src/Tribe/Languages/Locations.php:141
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: classes/fields/pick.php:3472
+#: tribe-common/src/Tribe/Languages/Locations.php:142
+msgid "Dominica"
+msgstr "Dominica"
+
+#: classes/fields/pick.php:3473
+#: tribe-common/src/Tribe/Languages/Locations.php:143
+msgid "Dominican Republic"
+msgstr "Dominikanska republiken"
+
+#: classes/fields/pick.php:3476
+#: tribe-common/src/Tribe/Languages/Locations.php:145
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: classes/fields/pick.php:3477
+#: tribe-common/src/Tribe/Languages/Locations.php:146
+msgid "Egypt"
+msgstr "Egypten"
+
+#: classes/fields/pick.php:3478
+#: tribe-common/src/Tribe/Languages/Locations.php:147
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: classes/fields/pick.php:3479
+#: tribe-common/src/Tribe/Languages/Locations.php:148
+msgid "Equatorial Guinea"
+msgstr "Ekvatorialguinea"
+
+#: classes/fields/pick.php:3480
+#: tribe-common/src/Tribe/Languages/Locations.php:149
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: classes/fields/pick.php:3481
+#: tribe-common/src/Tribe/Languages/Locations.php:150
+msgid "Estonia"
+msgstr "Estland"
+
+#: classes/fields/pick.php:3482
+#: tribe-common/src/Tribe/Languages/Locations.php:151
+msgid "Ethiopia"
+msgstr "Etiopien"
+
+#: classes/fields/pick.php:3485
+#: tribe-common/src/Tribe/Languages/Locations.php:154
+msgid "Fiji"
+msgstr "Fiji"
+
+#: classes/fields/pick.php:3486
+#: tribe-common/src/Tribe/Languages/Locations.php:155
+msgid "Finland"
+msgstr "Finland"
+
+#: classes/fields/pick.php:3487
+#: tribe-common/src/Tribe/Languages/Locations.php:156
+msgid "France"
+msgstr "Frankrike"
+
+#: classes/fields/pick.php:3488
+#: tribe-common/src/Tribe/Languages/Locations.php:157
+msgid "French Guiana"
+msgstr "Franska Guyana"
+
+#: classes/fields/pick.php:3489
+#: tribe-common/src/Tribe/Languages/Locations.php:158
+msgid "French Polynesia"
+msgstr "Franska Polynesien"
+
+#: classes/fields/pick.php:3492
+#: tribe-common/src/Tribe/Languages/Locations.php:160
+msgid "Gabon"
+msgstr "Gabon"
+
+#: classes/fields/pick.php:3493
+#: tribe-common/src/Tribe/Languages/Locations.php:161
+msgid "Gambia"
+msgstr "Gambia"
+
+#: classes/fields/pick.php:3494 classes/fields/pick.php:3706
+msgid "Georgia"
+msgstr "Georgien"
+
+#: classes/fields/pick.php:3495
+#: tribe-common/src/Tribe/Languages/Locations.php:163
+msgid "Germany"
+msgstr "Tyskland"
+
+#: classes/fields/pick.php:3496
+#: tribe-common/src/Tribe/Languages/Locations.php:164
+msgid "Ghana"
+msgstr "Ghana"
+
+#: classes/fields/pick.php:3497
+#: tribe-common/src/Tribe/Languages/Locations.php:165
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: classes/fields/pick.php:3498
+#: tribe-common/src/Tribe/Languages/Locations.php:166
+msgid "Greece"
+msgstr "Grekland"
+
+#: classes/fields/pick.php:3499
+#: tribe-common/src/Tribe/Languages/Locations.php:167
+msgid "Greenland"
+msgstr "Grönland"
+
+#: classes/fields/pick.php:3500
+#: tribe-common/src/Tribe/Languages/Locations.php:168
+msgid "Grenada"
+msgstr "Grenada"
+
+#: classes/fields/pick.php:3502
+#: tribe-common/src/Tribe/Languages/Locations.php:170
+msgid "Guam"
+msgstr "Guam"
+
+#: classes/fields/pick.php:3503
+#: tribe-common/src/Tribe/Languages/Locations.php:171
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: classes/fields/pick.php:3505
+#: tribe-common/src/Tribe/Languages/Locations.php:172
+msgid "Guinea"
+msgstr "Guinea"
+
+#: classes/fields/pick.php:3506
+#: tribe-common/src/Tribe/Languages/Locations.php:173
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: classes/fields/pick.php:3507
+#: tribe-common/src/Tribe/Languages/Locations.php:174
+msgid "Guyana"
+msgstr "Guyana"
+
+#: classes/fields/pick.php:3508
+#: tribe-common/src/Tribe/Languages/Locations.php:175
+msgid "Haiti"
+msgstr "Haiti"
+
+#: classes/fields/pick.php:3510
+#: tribe-common/src/Tribe/Languages/Locations.php:178
+msgid "Honduras"
+msgstr "Honduras"
+
+#: classes/fields/pick.php:3512
+#: tribe-common/src/Tribe/Languages/Locations.php:180
+msgid "Hungary"
+msgstr "Ungern"
+
+#: classes/fields/pick.php:3513
+#: tribe-common/src/Tribe/Languages/Locations.php:181
+msgid "Iceland"
+msgstr "Island"
+
+#: classes/fields/pick.php:3514
+#: tribe-common/src/Tribe/Languages/Locations.php:182
+msgid "India"
+msgstr "Indien"
+
+#: classes/fields/pick.php:3515
+#: tribe-common/src/Tribe/Languages/Locations.php:183
+msgid "Indonesia"
+msgstr "Indonesien"
+
+#: classes/fields/pick.php:3516
+msgid "Iran"
+msgstr "Iran"
+
+#: classes/fields/pick.php:3517
+#: tribe-common/src/Tribe/Languages/Locations.php:185
+msgid "Iraq"
+msgstr "Irak"
+
+#: classes/fields/pick.php:3518
+#: tribe-common/src/Tribe/Languages/Locations.php:186
+msgid "Ireland"
+msgstr "Irland"
+
+#: classes/fields/pick.php:3520
+#: tribe-common/src/Tribe/Languages/Locations.php:187
+msgid "Israel"
+msgstr "Israel"
+
+#: classes/fields/pick.php:3521
+#: tribe-common/src/Tribe/Languages/Locations.php:188
+msgid "Italy"
+msgstr "Italien"
+
+#: classes/fields/pick.php:3522
+#: tribe-common/src/Tribe/Languages/Locations.php:189
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: classes/fields/pick.php:3523
+#: tribe-common/src/Tribe/Languages/Locations.php:190
+msgid "Japan"
+msgstr "Japan"
+
+#: classes/fields/pick.php:3526
+#: tribe-common/src/Tribe/Languages/Locations.php:191
+msgid "Jordan"
+msgstr "Jordanien"
+
+#: classes/fields/pick.php:3527
+#: tribe-common/src/Tribe/Languages/Locations.php:192
+msgid "Kazakhstan"
+msgstr "Kazakstan"
+
+#: classes/fields/pick.php:3528
+#: tribe-common/src/Tribe/Languages/Locations.php:193
+msgid "Kenya"
+msgstr "Kenya"
+
+#: classes/fields/pick.php:3529
+#: tribe-common/src/Tribe/Languages/Locations.php:194
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: classes/fields/pick.php:3579
+msgid "North Korea"
+msgstr "Nordkorea"
+
+#: classes/fields/pick.php:3530
+#: tribe-common/src/Tribe/Languages/Locations.php:197
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: classes/fields/pick.php:3531
+#: tribe-common/src/Tribe/Languages/Locations.php:198
+msgid "Kyrgyzstan"
+msgstr "Kirgizistan"
+
+#: classes/fields/pick.php:3532
+msgid "Laos"
+msgstr "Laos"
+
+#: classes/fields/pick.php:3533
+#: tribe-common/src/Tribe/Languages/Locations.php:200
+msgid "Latvia"
+msgstr "Lettland"
+
+#: classes/fields/pick.php:3534
+#: tribe-common/src/Tribe/Languages/Locations.php:201
+msgid "Lebanon"
+msgstr "Libanon"
+
+#: classes/fields/pick.php:3535
+#: tribe-common/src/Tribe/Languages/Locations.php:202
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: classes/fields/pick.php:3536
+#: tribe-common/src/Tribe/Languages/Locations.php:203
+msgid "Liberia"
+msgstr "Liberia"
+
+#: classes/fields/pick.php:3537
+#: tribe-common/src/Tribe/Languages/Locations.php:204
+msgid "Libya"
+msgstr "Libyen"
+
+#: classes/fields/pick.php:3538
+#: tribe-common/src/Tribe/Languages/Locations.php:205
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: classes/fields/pick.php:3539
+#: tribe-common/src/Tribe/Languages/Locations.php:206
+msgid "Lithuania"
+msgstr "Litauen"
+
+#: classes/fields/pick.php:3540
+#: tribe-common/src/Tribe/Languages/Locations.php:207
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: classes/fields/pick.php:3542
+msgid "Macedonia"
+msgstr "Makedonien"
+
+#: classes/fields/pick.php:3543
+#: tribe-common/src/Tribe/Languages/Locations.php:209
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+#: classes/fields/pick.php:3544
+#: tribe-common/src/Tribe/Languages/Locations.php:210
+msgid "Malawi"
+msgstr "Malawi"
+
+#: classes/fields/pick.php:3545
+#: tribe-common/src/Tribe/Languages/Locations.php:211
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: classes/fields/pick.php:3546
+#: tribe-common/src/Tribe/Languages/Locations.php:212
+msgid "Maldives"
+msgstr "Maldiverna"
+
+#: classes/fields/pick.php:3547
+#: tribe-common/src/Tribe/Languages/Locations.php:213
+msgid "Mali"
+msgstr "Mali"
+
+#: classes/fields/pick.php:3548
+#: tribe-common/src/Tribe/Languages/Locations.php:214
+msgid "Malta"
+msgstr "Malta"
+
+#: classes/fields/pick.php:3549
+#: tribe-common/src/Tribe/Languages/Locations.php:215
+msgid "Marshall Islands"
+msgstr "Marshallöarna"
+
+#: classes/fields/pick.php:3551
+#: tribe-common/src/Tribe/Languages/Locations.php:217
+msgid "Mauritania"
+msgstr "Mauretanien"
+
+#: classes/fields/pick.php:3552
+#: tribe-common/src/Tribe/Languages/Locations.php:218
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: classes/fields/pick.php:3555
+#: tribe-common/src/Tribe/Languages/Locations.php:220
+msgid "Mexico"
+msgstr "Mexiko"
+
+#: classes/fields/pick.php:3558
+msgid "Moldova"
+msgstr "Moldavien"
+
+#: classes/fields/pick.php:3559
+#: tribe-common/src/Tribe/Languages/Locations.php:223
+msgid "Monaco"
+msgstr "Monaco"
+
+#: classes/fields/pick.php:3560
+#: tribe-common/src/Tribe/Languages/Locations.php:224
+msgid "Mongolia"
+msgstr "Mongoliet"
+
+#: classes/fields/pick.php:3561
+#: tribe-common/src/Tribe/Languages/Locations.php:225
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: classes/fields/pick.php:3562
+#: tribe-common/src/Tribe/Languages/Locations.php:226
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: classes/fields/pick.php:3563
+#: tribe-common/src/Tribe/Languages/Locations.php:227
+msgid "Morocco"
+msgstr "Marocko"
+
+#: classes/fields/pick.php:3564
+#: tribe-common/src/Tribe/Languages/Locations.php:228
+msgid "Mozambique"
+msgstr "Moçambique"
+
+#: classes/fields/pick.php:3566
+#: tribe-common/src/Tribe/Languages/Locations.php:230
+msgid "Namibia"
+msgstr "Namibia"
+
+#: classes/fields/pick.php:3567
+#: tribe-common/src/Tribe/Languages/Locations.php:231
+msgid "Nauru"
+msgstr "Nauru"
+
+#: classes/fields/pick.php:3568
+#: tribe-common/src/Tribe/Languages/Locations.php:232
+msgid "Nepal"
+msgstr "Nepal"
+
+#: classes/fields/pick.php:3569
+#: tribe-common/src/Tribe/Languages/Locations.php:233
+msgid "Netherlands"
+msgstr "Nederländerna"
+
+#: classes/fields/pick.php:3573
+#: tribe-common/src/Tribe/Languages/Locations.php:235
+msgid "New Zealand"
+msgstr "Nya Zeeland"
+
+#: classes/fields/pick.php:3574
+#: tribe-common/src/Tribe/Languages/Locations.php:236
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: classes/fields/pick.php:3575
+#: tribe-common/src/Tribe/Languages/Locations.php:237
+msgid "Niger"
+msgstr "Niger"
+
+#: classes/fields/pick.php:3576
+#: tribe-common/src/Tribe/Languages/Locations.php:238
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: classes/fields/pick.php:3582
+#: tribe-common/src/Tribe/Languages/Locations.php:243
+msgid "Norway"
+msgstr "Norge"
+
+#: classes/fields/pick.php:3581
+#: tribe-common/src/Tribe/Languages/Locations.php:242
+msgid "Northern Mariana Islands"
+msgstr "Nordmarianerna"
+
+#: classes/fields/pick.php:3583
+#: tribe-common/src/Tribe/Languages/Locations.php:244
+msgid "Oman"
+msgstr "Oman"
+
+#: classes/fields/pick.php:3585
+#: tribe-common/src/Tribe/Languages/Locations.php:245
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: classes/fields/pick.php:3586
+#: tribe-common/src/Tribe/Languages/Locations.php:246
+msgid "Palau"
+msgstr "Palau"
+
+#: classes/fields/pick.php:3588
+#: tribe-common/src/Tribe/Languages/Locations.php:247
+msgid "Panama"
+msgstr "Panama"
+
+#: classes/fields/pick.php:3590
+#: tribe-common/src/Tribe/Languages/Locations.php:248
+msgid "Papua New Guinea"
+msgstr "Papua Nya Guinea"
+
+#: classes/fields/pick.php:3591
+#: tribe-common/src/Tribe/Languages/Locations.php:249
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: classes/fields/pick.php:3593
+#: tribe-common/src/Tribe/Languages/Locations.php:250
+msgid "Peru"
+msgstr "Peru"
+
+#: classes/fields/pick.php:3594
+#: tribe-common/src/Tribe/Languages/Locations.php:251
+msgid "Philippines"
+msgstr "Filippinerna"
+
+#: classes/fields/pick.php:3596
+#: tribe-common/src/Tribe/Languages/Locations.php:253
+msgid "Poland"
+msgstr "Polen"
+
+#: classes/fields/pick.php:3597
+#: tribe-common/src/Tribe/Languages/Locations.php:254
+msgid "Portugal"
+msgstr "Portugal"
+
+#: classes/fields/pick.php:3599
+#: tribe-common/src/Tribe/Languages/Locations.php:256
+msgid "Qatar"
+msgstr "Qatar"
+
+#: classes/fields/pick.php:3600
+#: tribe-common/src/Tribe/Languages/Locations.php:258
+msgid "Romania"
+msgstr "Rumänien"
+
+#: classes/fields/pick.php:3601
+msgid "Russia"
+msgstr "Ryssland"
+
+#: classes/fields/pick.php:3602
+#: tribe-common/src/Tribe/Languages/Locations.php:260
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: classes/fields/datetime.php:127 classes/fields/pick.php:513
+msgid "Custom"
+msgstr "Anpassad"
+
+#: classes/fields/pick.php:3598
+#: tribe-common/src/Tribe/Languages/Locations.php:255
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: classes/fields/pick.php:713
+msgid "Countries"
+msgstr "Länder"
+
+#: classes/fields/pick.php:579 src/Pods/Admin/Config/Pod.php:1317
+#: src/Pods/Admin/Config/Pod.php:1318
+msgid "Post Types"
+msgstr "Inläggstyper"
+
+#: classes/fields/pick.php:627 src/Pods/Admin/Config/Pod.php:1024
+#: src/Pods/Admin/Config/Pod.php:1025
+msgid "Taxonomies"
+msgstr "Taxonomier"
+
+#: classes/fields/pick.php:3410
+#: tribe-common/src/Tribe/Languages/Locations.php:80
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: classes/fields/pick.php:3436
+#: tribe-common/src/Tribe/Languages/Locations.php:107
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnien och Hercegovina"
+
+#: classes/fields/pick.php:3438
+#: tribe-common/src/Tribe/Languages/Locations.php:109
+msgid "Bouvet Island"
+msgstr "Bouvetön"
+
+#: classes/fields/pick.php:3441
+#: tribe-common/src/Tribe/Languages/Locations.php:111
+msgid "British Indian Ocean Territory"
+msgstr "Brittiska territoriet i Indiska oceanen"
+
+#: classes/fields/pick.php:3442
+msgid "British Virgin Islands"
+msgstr "Brittiska Jungfruöarna"
+
+#: classes/fields/pick.php:3457
+#: tribe-common/src/Tribe/Languages/Locations.php:125
+msgid "Christmas Island"
+msgstr "Julön"
+
+#: classes/fields/pick.php:3463
+#: tribe-common/src/Tribe/Languages/Locations.php:132
+msgid "Cook Islands"
+msgstr "Cooköarna"
+
+#: classes/fields/pick.php:3483
+msgid "Falkland Islands"
+msgstr "Falklandsöarna"
+
+#: classes/fields/pick.php:3484
+#: tribe-common/src/Tribe/Languages/Locations.php:153
+msgid "Faroe Islands"
+msgstr "Färöarna"
+
+#: classes/fields/pick.php:3490
+#: tribe-common/src/Tribe/Languages/Locations.php:159
+msgid "French Southern Territories"
+msgstr "Franska sydterritorierna"
+
+#: classes/fields/pick.php:3501
+#: tribe-common/src/Tribe/Languages/Locations.php:169
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: classes/fields/pick.php:3504
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: classes/fields/pick.php:3509
+msgid "Heard Island and McDonald Islands"
+msgstr "Heard- och McDonaldsöarna"
+
+#: classes/fields/pick.php:3519
+msgid "Isle of Man"
+msgstr "Isle of Man"
+
+#: classes/fields/pick.php:3524
+msgid "Jersey"
+msgstr "Jersey"
+
+#: classes/fields/pick.php:3550
+#: tribe-common/src/Tribe/Languages/Locations.php:216
+msgid "Martinique"
+msgstr "Martinique"
+
+#: classes/fields/pick.php:3553
+#: tribe-common/src/Tribe/Languages/Locations.php:219
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: classes/fields/pick.php:3556
+msgid "Micronesia"
+msgstr "Mikronesien"
+
+#: classes/fields/pick.php:3570
+msgid "Netherlands Antilles"
+msgstr "Nederländska Antillerna"
+
+#: classes/fields/pick.php:3572
+#: tribe-common/src/Tribe/Languages/Locations.php:234
+msgid "New Caledonia"
+msgstr "Nya Kaledonien"
+
+#: classes/fields/pick.php:3577
+#: tribe-common/src/Tribe/Languages/Locations.php:239
+msgid "Niue"
+msgstr "Niue"
+
+#: classes/fields/pick.php:3578
+#: tribe-common/src/Tribe/Languages/Locations.php:240
+msgid "Norfolk Island"
+msgstr "Norfolkön"
+
+#: classes/fields/pick.php:3595
+msgid "Pitcairn Islands"
+msgstr "Pitcairnöarna"
+
+#: classes/fields/pick.php:3603
+msgid "Réunion"
+msgstr "Réunion"
+
+#: classes/fields/pick.php:3424
+#: tribe-common/src/Tribe/Languages/Locations.php:95
+msgid "Azerbaijan"
+msgstr "Azerbajdzjan"
+
+#: classes/fields/pick.php:683
+msgid "Post Status"
+msgstr "Inläggsstatus"
+
+#: classes/fields/pick.php:678 src/Pods/Admin/Config/Pod.php:979
+msgid "Post Formats"
+msgstr "Inläggsformat"
+
+#: classes/fields/pick.php:673
+msgid "Navigation Menus"
+msgstr "Navigeringsmenyer"
+
+#: classes/fields/pick.php:666
+msgid "Image Sizes"
+msgstr "Bildstorlekar"
+
+#: classes/fields/pick.php:660 src/Pods/Admin/Config/Pod.php:964
+#: ui/admin/setup-add.php:374
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: classes/fields/pick.php:654 classes/PodsAPI.php:11531
+#: src/Pods/Admin/Config/Pod.php:1335 ui/admin/setup-add.php:372
+msgid "Media"
+msgstr "Media"
+
+#: classes/fields/pick.php:647
+msgid "User Capabilities"
+msgstr "Användarbehörigheter"
+
+#: classes/fields/pick.php:640
+msgid "User Roles"
+msgstr "Användarroller"
+
+#: classes/fields/pick.php:634 components/Roles/Roles.php:94
+#: ui/admin/setup-add.php:373
+msgid "Users"
+msgstr "Användare"
+
+#: classes/fields/pick.php:3429
+#: tribe-common/src/Tribe/Languages/Locations.php:100
+msgid "Belarus"
+msgstr "Belarus"
+
+#: classes/fields/pick.php:317 classes/fields/pick.php:2060
+#: components/Templates/includes/auto-template/Pods_Templates_Auto_Template_Settings.php:317
+#: src/Pods/Whatsit/Field.php:104
+msgid "-- Select One --"
+msgstr "-- Välj en --"
+
+#: classes/fields/pick.php:3571
+msgid "Neutral Zone"
+msgstr "Neutral zon"
+
+#: classes/fields/pick.php:3565
+msgid "Myanmar [Burma]"
+msgstr "Myanmar (Burma)"
+
+#: classes/fields/pick.php:3541
+msgid "Macau SAR China"
+msgstr "Macao SAR Kina"
+
+#: classes/fields/pick.php:3475
+msgid "East Germany"
+msgstr "Östtyskland"
+
+#: classes/fields/pick.php:3469
+msgid "Côte d’Ivoire"
+msgstr "Elfenbenskusten"
+
+#: classes/fields/heading.php:53 classes/fields/link.php:83
+#: classes/fields/paragraph.php:58 classes/fields/text.php:54
+msgid "Allow HTML"
+msgstr "Tillåt HTML"
+
+#: classes/PodsUI.php:3047 tribe-common/src/Tribe/Dialog/View.php:228
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: classes/fields/date.php:89
+msgid "Date Format"
+msgstr "Datumformat"
+
+#: classes/fields/boolean.php:58 classes/fields/boolean.php:223
+#: classes/fields/boolean.php:246 classes/PodsAdmin.php:3153
+#: classes/PodsAdmin.php:3157 classes/PodsAdmin.php:3165
+#: classes/PodsAdmin.php:3169 classes/PodsAdmin.php:3173
+#: classes/PodsAdmin.php:3177 classes/PodsAdmin.php:3181
+#: classes/PodsAdmin.php:3185 classes/PodsAdmin.php:3189
+#: classes/PodsAdmin.php:3193 classes/PodsAdmin.php:3197
+#: classes/PodsAdmin.php:3209 classes/PodsAdmin.php:3217
+#: classes/PodsAdmin.php:3221 classes/PodsAdmin.php:3225
+#: classes/PodsAdmin.php:3229 classes/PodsAdmin.php:3233
+#: classes/PodsAdmin.php:3237 classes/PodsAdmin.php:3241
+#: classes/PodsAdmin.php:3245 classes/PodsAdmin.php:3253
+#: classes/PodsUI.php:2896 classes/PodsUI.php:3325 classes/PodsUI.php:3576
+#: src/Pods/Whatsit/Block_Field.php:285
+msgid "No"
+msgstr "Nej"
+
+#: classes/fields/boolean.php:53 classes/fields/boolean.php:222
+#: classes/fields/boolean.php:245 classes/PodsAdmin.php:3153
+#: classes/PodsAdmin.php:3157 classes/PodsAdmin.php:3165
+#: classes/PodsAdmin.php:3169 classes/PodsAdmin.php:3173
+#: classes/PodsAdmin.php:3177 classes/PodsAdmin.php:3181
+#: classes/PodsAdmin.php:3185 classes/PodsAdmin.php:3189
+#: classes/PodsAdmin.php:3193 classes/PodsAdmin.php:3197
+#: classes/PodsAdmin.php:3209 classes/PodsAdmin.php:3217
+#: classes/PodsAdmin.php:3221 classes/PodsAdmin.php:3225
+#: classes/PodsAdmin.php:3229 classes/PodsAdmin.php:3233
+#: classes/PodsAdmin.php:3237 classes/PodsAdmin.php:3241
+#: classes/PodsAdmin.php:3245 classes/PodsAdmin.php:3253
+#: classes/PodsUI.php:2895 classes/PodsUI.php:3324 classes/PodsUI.php:3575
+#: src/Pods/Whatsit/Block_Field.php:281
+msgid "Yes"
+msgstr "Ja"
+
+#: classes/PodsI18n.php:169 classes/PodsUI.php:745 classes/PodsUI.php:748
+#: classes/PodsUI.php:4386 src/Pods/Admin/Config/Pod.php:241
+#: src/Pods/Blocks/Types/View.php:159
+#: tribe-common/src/admin-views/event-log.php:65
+msgid "View"
+msgstr "Visa"
+
+#: classes/fields/link.php:46 classes/fields/phone.php:44
+#: classes/fields/website.php:43
+msgid "Format"
+msgstr "Format"
+
+#: classes/PodsUI.php:4775
+msgid "Go to the first page"
+msgstr "Gå till första sidan"
+
+#: classes/PodsUI.php:4776
+msgid "Go to the previous page"
+msgstr "Gå till föregående sida"
+
+#: classes/PodsUI.php:4808
+msgid "Go to the next page"
+msgstr "Gå till nästa sida"
+
+#: classes/PodsUI.php:4809
+msgid "Go to the last page"
+msgstr "Gå till sista sidan"
+
+#. translators: Publish box date format, see http://php.net/date
+#: classes/PodsInit.php:2212 classes/PodsInit.php:2224 components/Pages.php:488
+#: components/Pages.php:500 components/Templates/Templates.php:284
+#: components/Templates/Templates.php:296 ui/admin/view.php:40
+#: ui/forms/type/post.php:69
+msgid "M j, Y @ G:i"
+msgstr "j M, Y @ H:i"
+
+#: classes/fields/pick.php:197
+msgid "Checkboxes"
+msgstr "Kryssrutor"
+
+#: classes/fields/boolean.php:45 classes/fields/pick.php:180
+msgid "Radio Buttons"
+msgstr "Radioknappar"
+
+#: classes/PodsAdmin.php:2310 src/Pods/Admin/Config/Field.php:145
+msgid "Description"
+msgstr "Beskrivning"
+
+#: classes/PodsUI.php:4456
+msgid "Disable"
+msgstr "Inaktivera"
+
+#: classes/PodsUI.php:3227
+msgid "Reset"
+msgstr "Återställ"
+
+#: classes/PodsUI.php:3005
+msgid "Bulk Actions"
+msgstr "Massåtgärder"
+
+#: classes/fields/file.php:236 classes/fields/file.php:248
+#: ui/fields/attachment.php:119
+msgid "Add File"
+msgstr "Lägg till fil"
+
+#: classes/PodsAdmin.php:2955 classes/PodsUI.php:4455
+msgid "Enable"
+msgstr "Aktivera"
+
+#. translators: %s: The singular item label.
+#: classes/PodsInit.php:2265 classes/PodsInit.php:2266
+#: classes/PodsInit.php:2267 classes/PodsInit.php:2299 classes/PodsUI.php:758
+#: classes/PodsUI.php:771 src/Pods/Admin/Config/Pod.php:248
+#: src/Pods/Admin/Config/Pod.php:256 ui/admin/view.php:29 ui/forms/form.php:125
+#: ui/forms/type/post.php:58
+msgid "View %s"
+msgstr "Visa %s"
+
+#: classes/fields/file.php:81
+msgid "Multiple Files"
+msgstr "Flera filer"
+
+#: classes/fields/color.php:45 classes/fields/color.php:100
+#: classes/PodsUI.php:3477 classes/PodsUI.php:3536 classes/PodsUI.php:3585
+#: classes/PodsUI.php:3624 tribe-common/src/Tribe/Main.php:347
+#: ui/fields/color.php:14
+msgid "Clear"
+msgstr "Rensa"
+
+#: classes/fields/file.php:1084 classes/fields/pick.php:3044
+msgid "Invalid field"
+msgstr "Ogiltigt fält"
+
+#: classes/fields/datetime.php:126 classes/fields/time.php:68
+msgid "24 hour"
+msgstr "24 timmar"
+
+#: classes/fields/datetime.php:125 classes/fields/time.php:67
+msgid "12 hour"
+msgstr "12 timmar"
+
+#: classes/fields/currency.php:113 classes/fields/number.php:70
+msgid "Decimals"
+msgstr "Decimaler"
+
+#: classes/PodsInit.php:2273 src/Pods/Admin/Config/Pod.php:354
+msgid "Parent %s:"
+msgstr "Överordnad %s:"
+
+#: classes/PodsUI.php:4780
+msgid "Current page"
+msgstr "Nuvarande sida"
+
+#: classes/fields/html.php:80 classes/fields/paragraph.php:82
+#: classes/fields/wysiwyg.php:106
+msgid "Enable convert_chars"
+msgstr "Aktivera convert_chars"
+
+#: classes/fields/heading.php:59 classes/fields/html.php:71
+#: classes/fields/paragraph.php:73 classes/fields/wysiwyg.php:97
+msgid "Enable wptexturize"
+msgstr "Aktivera wptexturize"
+
+#: classes/fields/file.php:186
+msgid "Editable Title"
+msgstr "Redigerbar rubrik"
+
+#: classes/fields/time.php:96 classes/fields/time.php:116
+msgid "Time Format"
+msgstr "Tidsformat"
+
+#: classes/fields/code.php:56 classes/fields/heading.php:68
+#: classes/fields/html.php:98 classes/fields/link.php:77
+#: classes/fields/paragraph.php:100 classes/fields/text.php:60
+#: classes/fields/wysiwyg.php:124
+msgid "Allow Shortcodes"
+msgstr "Tillåt kortkoder"
+
+#: classes/fields/boolean.php:57
+msgid "No Label"
+msgstr "Ingen etikett"
+
+#: classes/fields/boolean.php:46 classes/fields/pick.php:179
+msgid "Drop Down"
+msgstr "Rullgardinsmeny"
+
+#: classes/fields/boolean.php:44
+msgid "Checkbox"
+msgstr "Kryssruta"
+
+#: classes/fields/boolean.php:40 classes/fields/currency.php:64
+#: classes/fields/number.php:44 classes/fields/pick.php:170
+#: classes/fields/pick.php:188
+msgid "Input Type"
+msgstr "Inmatningstyp"
+
+#: classes/fields/file.php:242
+msgid "Attach a file"
+msgstr "Bifoga en fil"
+
+#: classes/fields/file.php:149
+msgid "Media Library"
+msgstr "Mediabibliotek"
+
+#: classes/fields/file.php:148
+msgid "Upload File"
+msgstr "Ladda upp fil"
+
+#: classes/PodsUI.php:4573 classes/PodsUI.php:4593
+msgid "Show on screen"
+msgstr "Visa på skärm"
+
+#: classes/PodsUI.php:3343
+msgid "Remove Filter"
+msgstr "Ta bort filter"
+
+#: classes/PodsUI.php:3266
+msgid "Add Filter"
+msgstr "Lägg till filter"
+
+#: classes/PodsUI.php:3258 classes/PodsUI.php:3259 classes/PodsUI.php:3266
+#: classes/PodsUI.php:3338 classes/PodsUI.php:3393
+msgid "Advanced Filters"
+msgstr "Avancerade filter"
+
+#: classes/PodsUI.php:3021 classes/PodsUI.php:4607
+msgid "Apply"
+msgstr "Tillämpa"
+
+#: classes/PodsUI.php:2981
+msgid "Reset Filters"
+msgstr "Återställ filter"
+
+#: classes/PodsUI.php:1868 components/Roles/ui/edit.php:19
+msgid "created"
+msgstr "skapad"
+
+#: classes/PodsUI.php:1866 components/Roles/ui/edit.php:16
+#: ui/admin/settings-settings.php:28
+msgid "saved"
+msgstr "sparad"
+
+#: classes/PodsUI.php:1430 classes/PodsUI.php:1504 classes/PodsUI.php:1817
+#: classes/PodsUI.php:2673 src/Pods/Admin/Config/Pod.php:479
+msgid "Back to %s"
+msgstr "Tillbaka till %s"
+
+#: classes/PodsUI.php:770
+msgid "Delete this %s"
+msgstr "Ta bort denna %s"
+
+#: classes/PodsUI.php:757 classes/PodsUI.php:769
+#: src/Pods/Admin/Config/Pod.php:223
+msgid "Duplicate %s"
+msgstr "Duplicera %s"
+
+#: classes/PodsUI.php:754 src/Pods/Admin/Config/Pod.php:279
+msgid "Manage %s"
+msgstr "Hantera %s"
+
+#: classes/PodsInit.php:2304 src/Pods/Admin/Config/Pod.php:529
+msgid "Add or remove %s"
+msgstr "Lägg till eller ta bort %s"
+
+#: classes/PodsInit.php:2305 src/Pods/Admin/Config/Pod.php:538
+msgid "Choose from the most used %s"
+msgstr "Välj från de mest använda %s"
+
+#: classes/PodsInit.php:2300 classes/PodsUI.php:768
+#: src/Pods/Admin/Config/Pod.php:207
+msgid "Update %s"
+msgstr "Uppdatera %s"
+
+#: classes/PodsInit.php:2297
+msgid "Parent %s :"
+msgstr "Överordnad %s:"
+
+#: classes/PodsInit.php:2294 src/Pods/Admin/Config/Pod.php:327
+msgid "Popular %s"
+msgstr "Populär %s"
+
+#: classes/PodsInit.php:2272 classes/PodsInit.php:2296
+#: src/Pods/Admin/Config/Pod.php:336 src/Pods/Admin/Config/Pod.php:345
+msgid "Parent %s"
+msgstr "Överordnad %s"
+
+#. Translators: %s stands for a name/identifier.
+#: classes/PodsI18n.php:176 classes/PodsInit.php:2269 classes/PodsInit.php:2293
+#: classes/PodsUI.php:760 src/Pods/Admin/Config/Pod.php:319
+msgid "Search %s"
+msgstr "Sök %s"
+
+#: classes/PodsInit.php:2268 classes/PodsInit.php:2295
+#: src/Pods/Admin/Config/Pod.php:304
+msgid "All %s"
+msgstr "Alla %s"
+
+#: classes/PodsInit.php:2264 classes/PodsInit.php:2298
+#: classes/PodsInit.php:2962 classes/PodsUI.php:756
+#: src/Pods/Admin/Config/Pod.php:199
+msgid "Edit %s"
+msgstr "Redigera %s"
+
+#: classes/PodsInit.php:2262 src/Pods/Admin/Config/Pod.php:174
+msgid "New %s"
+msgstr "Ny %s"
+
+#: classes/PodsInit.php:2261 classes/PodsInit.php:2301 classes/PodsUI.php:755
+#: classes/PodsUI.php:766
+msgid "Add New %s"
+msgstr "Lägg till ny %s"
+
+#: classes/PodsInit.php:2220 components/Pages.php:496
+#: components/Templates/Templates.php:292
+msgid "%s submitted."
+msgstr "%s skickad."
+
+#: classes/PodsInit.php:2219 components/Pages.php:495
+#: components/Templates/Templates.php:291
+msgid "%s published."
+msgstr "%s publicerad."
+
+#: classes/PodsInit.php:2207 components/Pages.php:483
+#: components/Templates/Templates.php:279
+msgid "%s saved."
+msgstr "%s sparad."
+
+#: classes/PodsInit.php:2206 components/Pages.php:482
+#: components/Templates/Templates.php:278
+msgid "%1$s published. <a href=\"%2$s\">%3$s</a>"
+msgstr "%1$s publicerad. <a href=\"%2$s\">%3$s</a>"
+
+#: classes/PodsInit.php:2203 classes/PodsInit.php:2218 components/Pages.php:479
+#: components/Pages.php:494 components/Templates/Templates.php:275
+#: components/Templates/Templates.php:290 src/Pods/Admin/Config/Pod.php:592
+msgid "%s updated."
+msgstr "%s uppdaterad."
+
+#: classes/PodsInit.php:2202 components/Pages.php:478
+#: components/Templates/Templates.php:274
+msgid "Custom field deleted."
+msgstr "Anpassat fält borttaget."
+
+#: classes/PodsInit.php:2201 components/Pages.php:477
+#: components/Templates/Templates.php:273
+msgid "Custom field updated."
+msgstr "Anpassat fält uppdaterat."
+
+#: classes/PodsInit.php:2200 components/Pages.php:476
+#: components/Templates/Templates.php:272
+msgid "%1$s updated. <a href=\"%2$s\">%3$s</a>"
+msgstr "%1$s uppdaterad. <a href=\"%2$s\">%3$s</a>"
+
+#: classes/PodsAdmin.php:2724
+msgid "Access denied"
+msgstr "Åtkomst nekad"
+
+#: classes/fields/file.php:1040 classes/fields/file.php:1044
+#: classes/fields/file.php:1062 classes/fields/oembed.php:513
+#: classes/fields/pick.php:2996 classes/fields/pick.php:3022
+#: classes/PodsAdmin.php:2711 classes/PodsComponents.php:773
+#: components/Templates/includes/functions-pod_reference.php:13
+msgid "Unauthorized request"
+msgstr "Obehörig begäran"
+
+#: classes/PodsAdmin.php:2334
+msgid "Migration"
+msgstr "Migrering"
+
+#: classes/PodsAdmin.php:2333
+msgid "Integration"
+msgstr "Integration"
+
+#: classes/PodsAdmin.php:2332 ui/admin/settings.php:12
+msgid "Tools"
+msgstr "Verktyg"
+
+#: classes/PodsAdmin.php:2331
+msgid "Field Types"
+msgstr "Fälttyper"
+
+#: classes/PodsAdmin.php:2302 classes/PodsAdmin.php:2339
+msgid "Category"
+msgstr "Kategori"
+
+#: classes/PodsAdmin.php:2234
+msgid "by %s"
+msgstr "av %s"
+
+#: classes/fields/phone.php:53
+msgid "International"
+msgstr "Internationell"
+
+#: classes/fields/file.php:75
+msgid "Upload Limit"
+msgstr "Gräns för uppladdning"
+
+#: classes/fields/email.php:145
+msgid "Invalid e-mail provided for %s"
+msgstr "Ogiltig e-post angiven för %s"
+
+#: classes/PodsUI.php:2070
+msgid "<strong>Deleted:</strong> %s have been deleted."
+msgstr "<strong>Borttaget:</strong> %s har tagits bort."
+
+#: classes/PodsUI.php:2009 classes/PodsUI.php:2067
+msgid "<strong>Error:</strong> %s has not been deleted."
+msgstr "<strong>Fel:</strong> %s har inte tagits bort."
+
+#: classes/PodsUI.php:1549 classes/PodsUI.php:1689
+msgid "<strong>Error:</strong> %s not found."
+msgstr "<strong>Fel:</strong> %s hittades inte."
+
+#: classes/PodsAPI.php:2037 classes/PodsMeta.php:979
+#: src/Pods/Tools/Repair.php:163 src/Pods/Whatsit.php:1559
+#: ui/admin/view.php:184
+msgid "More Fields"
+msgstr "Fler fält"
+
+#. translators: %1$s: date and time of the revision, %2$s: the revision post
+#. title
+#. translators: %s: date and time of the revision
+#: classes/PodsInit.php:2205 components/Pages.php:481
+#: components/Templates/Templates.php:277
+msgid "%1$s restored to revision from %2$s"
+msgstr "%1$s återställd till version från %2$s"
+
+#: classes/PodsAdmin.php:2383 classes/PodsAdmin.php:2405
+msgid "You can find it at %s"
+msgstr "Du kan hitta det på %s"
+
+#: classes/fields/pick.php:181 classes/fields/pick.php:199
+msgid "Autocomplete"
+msgstr "Slutför automatiskt"
+
+#: classes/fields/pick.php:164
+msgid "Multiple Select"
+msgstr "Flerval"
+
+#: classes/fields/phone.php:48
+msgid "US"
+msgstr "US"
+
+#: classes/fields/currency.php:91
+msgid "None (ex. 100)"
+msgstr "Ingen (t.ex. 100)"
+
+#: components/Pages.php:318 components/Templates/Templates.php:187
+#: src/Pods/Admin/Config/Field.php:413 src/Pods/Admin/Config/Group.php:180
+msgid "Capability Allowed"
+msgstr "Behörighet tillåten"
+
+#: classes/fields/link.php:91 classes/fields/paragraph.php:112
+#: classes/fields/text.php:68 classes/fields/wysiwyg.php:136
+msgid "Allowed HTML Tags"
+msgstr "Tillåtna HTML-taggar"
+
+#: classes/fields/html.php:89 classes/fields/paragraph.php:91
+#: classes/fields/wysiwyg.php:115
+msgid "Enable wpautop"
+msgstr "Aktivera wpautop"
+
+#: classes/fields/html.php:62 classes/fields/paragraph.php:64
+#: classes/fields/wysiwyg.php:88
+msgid "Enable oEmbed"
+msgstr "Aktivera oEmbed"
+
+#: classes/fields/file.php:201
+msgid "Max Number of Files"
+msgstr "Max antal filer"
+
+#: classes/PodsUI.php:3719
+msgid "No %s found"
+msgstr "Ingen %s hittades"
+
+#: classes/PodsInit.php:2303 src/Pods/Admin/Config/Pod.php:520
+msgid "Separate %s with commas"
+msgstr "Separera %s med kommatecken"
+
+#: classes/PodsAdmin.php:556 classes/PodsAdmin.php:577
+#: tribe-common/src/Tribe/Settings.php:254 ui/admin/components-admin.php:10
+#: ui/admin/settings-settings.php:68 ui/admin/settings-settings.php:72
+#: ui/admin/settings.php:11 ui/admin/upgrade/upgrade_2_0_0.php:203
+msgid "Settings"
+msgstr "Inställningar"
+
+#: classes/Pods.php:4405 src/Pods/Tools/Repair.php:314
+#: src/Pods/Tools/Repair.php:415 src/Pods/Tools/Repair.php:519
+#: src/Pods/Tools/Repair.php:589
+msgid "ID"
+msgstr "ID"
+
+#: classes/PodsAdmin.php:940 classes/PodsAdmin.php:1360
+msgid "Type"
+msgstr "Typ"
+
+#: classes/PodsAdmin.php:281 classes/PodsAdmin.php:355 classes/PodsI18n.php:171
+#: classes/PodsInit.php:2263 classes/PodsUI.php:743 classes/PodsUI.php:4401
+#: src/Pods/Admin/Config/Pod.php:192 src/Pods/Admin/Config/Pod.php:1481
+msgid "Edit"
+msgstr "Redigera"
+
+#: classes/Pods.php:3491 classes/PodsI18n.php:173 classes/PodsUI.php:747
+#: classes/PodsUI.php:2959 classes/PodsUI.php:3234
+#: src/Pods/Admin/Config/Pod.php:312
+msgid "Search"
+msgstr "Sök"
+
+#: classes/fields/pick.php:248 classes/fields/pick.php:935
+#: classes/PodsAdmin.php:283 classes/PodsAdmin.php:310
+#: classes/PodsAdmin.php:311 classes/PodsAdmin.php:357
+#: classes/PodsAdmin.php:376 classes/PodsAdmin.php:544
+#: classes/PodsField.php:580 classes/PodsI18n.php:151 classes/PodsInit.php:2260
+#: classes/PodsUI.php:742 classes/PodsUI.php:767
+#: src/Pods/Admin/Config/Field.php:249 src/Pods/Admin/Config/Pod.php:159
+#: src/Pods/Admin/Config/Pod.php:1480
+msgid "Add New"
+msgstr "Lägg till ny"
+
+#: classes/PodsAdmin.php:1316 classes/PodsUI.php:744 classes/PodsUI.php:4416
+#: src/Pods/Admin/Config/Pod.php:216 src/Pods/Admin/Config/Pod.php:1482
+msgid "Duplicate"
+msgstr "Kopiera"
+
+#: classes/PodsAdmin.php:934 components/Roles/Roles.php:90
+#: components/Roles/ui/add.php:40 src/Pods/Admin/Config/Field.php:126
+#: src/Pods/Admin/Config/Group.php:91 src/Pods/Admin/Config/Pod.php:137
+msgid "Label"
+msgstr "Etikett"
+
+#: classes/PodsAdmin.php:2335 src/Pods/Admin/Config/Field.php:52
+#: src/Pods/Admin/Config/Group.php:24 src/Pods/Admin/Config/Group.php:209
+#: ui/admin/setup-add.php:261 ui/admin/setup-add.php:465
+msgid "Advanced"
+msgstr "Avancerat"
+
+#: classes/Pods.php:4506 components/Migrate-Packages/ui/wizard.php:65
+#: src/Pods/Admin/Config/Pod.php:1485
+msgid "Export"
+msgstr "Exportera"
+
+#: src/Pods/Admin/Config/Pod.php:54
+msgid "Labels"
+msgstr "Etiketter"
+
+#: classes/Pods.php:4037 classes/PodsAdmin.php:779 classes/PodsForm.php:419
+#: tribe-common/src/Tribe/Settings.php:377 ui/admin/components-admin.php:107
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: classes/PodsAdmin.php:937 classes/PodsAdmin.php:2294 classes/PodsUI.php:785
+#: components/Roles/Roles.php:91 components/Roles/ui/add.php:50
+#: src/Pods/Admin/Config/Field.php:134 src/Pods/Admin/Config/Group.php:99
+#: src/Pods/Tools/Repair.php:517 src/Pods/Tools/Repair.php:587
+msgid "Name"
+msgstr "Namn"
+
+#: classes/PodsAdmin.php:562 classes/PodsAdmin.php:583
+#: tribe-common/src/Tribe/Settings_Manager.php:323
+msgid "Help"
+msgstr "Hjälp"
+
+#: classes/Pods.php:3344
+msgid "&laquo; First"
+msgstr "&laquo; Första"
+
+#: classes/Pods.php:3346
+msgid "Next &rsaquo;"
+msgstr "Nästa &rsaquo;"
+
+#: classes/Pods.php:3345
+msgid "&lsaquo; Previous"
+msgstr "&lsaquo; Föregående"
+
+#: classes/Pods.php:4513 classes/PodsAdmin.php:1322 classes/PodsUI.php:4432
+#: src/Pods/Admin/Config/Pod.php:1483 ui/admin/view.php:80
+#: ui/forms/type/post.php:129
+msgid "Delete"
+msgstr "Ta bort"
+
+#: src/Pods/Admin/Config/Field.php:326 src/Pods/Admin/Config/Group.php:125
+msgid "Visibility"
+msgstr "Synlighet"
+
+#: src/Pods/Admin/Config/Field.php:309
+msgid "Default Value"
+msgstr "Standardvärde"
+
+#: src/Pods/Admin/Config/Field.php:304
+msgid "Values"
+msgstr "Värden"
+
+#: src/Pods/Admin/Config/Field.php:297
+msgid "Additional CSS Classes"
+msgstr "Ytterligare CSS-klasser"
+
+#: src/Pods/Admin/Config/Field.php:292
+msgid "Visual"
+msgstr "Visuell"
+
+#: src/Pods/Admin/Config/Pod.php:1475
+msgid "Actions Available"
+msgstr "Åtgärder tillgängliga"
+
+#: src/Pods/Admin/Config/Pod.php:1082 src/Pods/Admin/Config/Pod.php:1353
+#: ui/admin/setup-add.php:243
+msgid "Menu Location"
+msgstr "Menyposition"
+
+#: src/Pods/Admin/Config/Pod.php:914
+msgid "Default Status"
+msgstr "Standardstatus"
+
+#: src/Pods/Admin/Config/Pod.php:860 src/Pods/Admin/Config/Pod.php:1208
+msgid "Rewrite"
+msgstr "Skriv om"
+
+#: src/Pods/Admin/Config/Pod.php:844 src/Pods/Admin/Config/Pod.php:1200
+#: src/Pods/Admin/Config/Pod.php:1580
+msgid "Hierarchical"
+msgstr "Hierarkisk"
+
+#: src/Pods/Admin/Config/Pod.php:808 src/Pods/Admin/Config/Pod.php:1246
+msgid "Custom Capability"
+msgstr "Anpassad behörighet"
+
+#: src/Pods/Admin/Config/Pod.php:801 src/Pods/Admin/Config/Pod.php:1240
+msgid "User Capability"
+msgstr "Användarbehörighet"
+
+#: src/Pods/Admin/Config/Pod.php:794
+msgid "Exclude from Search"
+msgstr "Exkludera från sök"
+
+#: src/Pods/Admin/Config/Pod.php:780 src/Pods/Admin/Config/Pod.php:1193
+msgid "Public"
+msgstr "Offentlig"
+
+#: src/Pods/Admin/Config/Pod.php:701
+msgid "Menu Icon"
+msgstr "Menyikon"
+
+#: src/Pods/Admin/Config/Pod.php:691 src/Pods/Admin/Config/Pod.php:1105
+#: src/Pods/Admin/Config/Pod.php:1372 src/Pods/Admin/Config/Pod.php:1450
+msgid "Menu Position"
+msgstr "Menyposition"
+
+#: src/Pods/Admin/Config/Pod.php:645 src/Pods/Admin/Config/Pod.php:684
+#: src/Pods/Admin/Config/Pod.php:1075
+msgid "Menu Name"
+msgstr "Menynamn"
+
+#: src/Pods/Admin/Config/Pod.php:678 src/Pods/Admin/Config/Pod.php:1444
+msgid "Parent Menu ID (optional)"
+msgstr "Överordnat meny-ID (valfritt)"
+
+#: src/Pods/Admin/Config/Pod.php:66
+msgid "Advanced Options"
+msgstr "Avancerade alternativ"
+
+#: src/Pods/Admin/Config/Field.php:401 src/Pods/Admin/Config/Group.php:92
+#: src/Pods/Admin/Config/Group.php:100 src/Pods/Admin/Config/Group.php:168
+#: src/Pods/Admin/Config/Pod.php:138 src/Pods/Admin/Config/Pod.php:145
+#: src/Pods/Admin/Config/Pod.php:152 src/Pods/Admin/Config/Pod.php:160
+#: src/Pods/Admin/Config/Pod.php:169 src/Pods/Admin/Config/Pod.php:177
+#: src/Pods/Admin/Config/Pod.php:186 src/Pods/Admin/Config/Pod.php:193
+#: src/Pods/Admin/Config/Pod.php:202 src/Pods/Admin/Config/Pod.php:210
+#: src/Pods/Admin/Config/Pod.php:217 src/Pods/Admin/Config/Pod.php:226
+#: src/Pods/Admin/Config/Pod.php:235 src/Pods/Admin/Config/Pod.php:242
+#: src/Pods/Admin/Config/Pod.php:251 src/Pods/Admin/Config/Pod.php:259
+#: src/Pods/Admin/Config/Pod.php:266 src/Pods/Admin/Config/Pod.php:273
+#: src/Pods/Admin/Config/Pod.php:282 src/Pods/Admin/Config/Pod.php:289
+#: src/Pods/Admin/Config/Pod.php:298 src/Pods/Admin/Config/Pod.php:307
+#: src/Pods/Admin/Config/Pod.php:313 src/Pods/Admin/Config/Pod.php:322
+#: src/Pods/Admin/Config/Pod.php:330 src/Pods/Admin/Config/Pod.php:339
+#: src/Pods/Admin/Config/Pod.php:348 src/Pods/Admin/Config/Pod.php:357
+#: src/Pods/Admin/Config/Pod.php:363 src/Pods/Admin/Config/Pod.php:371
+#: src/Pods/Admin/Config/Pod.php:378 src/Pods/Admin/Config/Pod.php:387
+#: src/Pods/Admin/Config/Pod.php:396 src/Pods/Admin/Config/Pod.php:405
+#: src/Pods/Admin/Config/Pod.php:414 src/Pods/Admin/Config/Pod.php:421
+#: src/Pods/Admin/Config/Pod.php:429 src/Pods/Admin/Config/Pod.php:437
+#: src/Pods/Admin/Config/Pod.php:445 src/Pods/Admin/Config/Pod.php:455
+#: src/Pods/Admin/Config/Pod.php:464 src/Pods/Admin/Config/Pod.php:473
+#: src/Pods/Admin/Config/Pod.php:482 src/Pods/Admin/Config/Pod.php:489
+#: src/Pods/Admin/Config/Pod.php:497 src/Pods/Admin/Config/Pod.php:505
+#: src/Pods/Admin/Config/Pod.php:513 src/Pods/Admin/Config/Pod.php:523
+#: src/Pods/Admin/Config/Pod.php:532 src/Pods/Admin/Config/Pod.php:541
+#: src/Pods/Admin/Config/Pod.php:550 src/Pods/Admin/Config/Pod.php:559
+#: src/Pods/Admin/Config/Pod.php:568 src/Pods/Admin/Config/Pod.php:577
+#: src/Pods/Admin/Config/Pod.php:586 src/Pods/Admin/Config/Pod.php:595
+#: src/Pods/Admin/Config/Pod.php:602 src/Pods/Admin/Config/Pod.php:611
+#: src/Pods/Admin/Config/Pod.php:639 src/Pods/Admin/Config/Pod.php:646
+#: src/Pods/Admin/Config/Pod.php:679 src/Pods/Admin/Config/Pod.php:685
+#: src/Pods/Admin/Config/Pod.php:709 src/Pods/Admin/Config/Pod.php:716
+#: src/Pods/Admin/Config/Pod.php:781 src/Pods/Admin/Config/Pod.php:788
+#: src/Pods/Admin/Config/Pod.php:795 src/Pods/Admin/Config/Pod.php:815
+#: src/Pods/Admin/Config/Pod.php:885 src/Pods/Admin/Config/Pod.php:893
+#: src/Pods/Admin/Config/Pod.php:908 src/Pods/Admin/Config/Pod.php:915
+#: src/Pods/Admin/Config/Pod.php:1076 src/Pods/Admin/Config/Pod.php:1083
+#: src/Pods/Admin/Config/Pod.php:1100 src/Pods/Admin/Config/Pod.php:1123
+#: src/Pods/Admin/Config/Pod.php:1130 src/Pods/Admin/Config/Pod.php:1137
+#: src/Pods/Admin/Config/Pod.php:1194 src/Pods/Admin/Config/Pod.php:1209
+#: src/Pods/Admin/Config/Pod.php:1217 src/Pods/Admin/Config/Pod.php:1233
+#: src/Pods/Admin/Config/Pod.php:1260 src/Pods/Admin/Config/Pod.php:1267
+#: src/Pods/Admin/Config/Pod.php:1275 src/Pods/Admin/Config/Pod.php:1282
+#: src/Pods/Admin/Config/Pod.php:1289 src/Pods/Admin/Config/Pod.php:1342
+#: src/Pods/Admin/Config/Pod.php:1354 src/Pods/Admin/Config/Pod.php:1367
+#: src/Pods/Admin/Config/Pod.php:1416 src/Pods/Admin/Config/Pod.php:1427
+#: src/Pods/Admin/Config/Pod.php:1435 src/Pods/Admin/Config/Pod.php:1445
+#: src/Pods/Admin/Config/Pod.php:1476 src/Pods/Admin/Config/Pod.php:1499
+#: src/Pods/Admin/Config/Pod.php:1507 ui/fields/_label.php:9
+msgid "help"
+msgstr "hjälp"
+
+#: classes/PodsAdmin.php:1275 src/Pods/Tools/Reset.php:249
+msgid "field"
+msgid_plural "fields"
+msgstr[0] "fält"
+msgstr[1] "fält"
+
+#: classes/PodsAdmin.php:572 ui/admin/upgrade/upgrade_2_1_0.php:21
+msgid "Upgrade"
+msgstr "Uppgradera"
+
+#: classes/PodsAdmin.php:550 classes/PodsAdmin.php:2289
+msgid "Components"
+msgstr "Komponenter"
+
+#: classes/PodsAdmin.php:351 classes/PodsAdmin.php:377 classes/PodsUI.php:741
+#: components/Roles/ui/edit.php:38 src/Pods/Admin/Config/Pod.php:272
+#: tribe-common/src/admin-views/app-shop.php:86 ui/admin/view.php:16
+#: ui/forms/type/post.php:45
+msgid "Manage"
+msgstr "Hantera"
+
+#: classes/PodsAdmin.php:277 classes/PodsAdmin.php:1358
+#: classes/PodsAdmin.php:2329 tribe-common/src/Tribe/Main.php:324
+msgid "All"
+msgstr "Alla"
+
+#: classes/fields/email.php:143 classes/PodsAPI.php:9324
+msgid "%s is required"
+msgstr "%s är obligatoriskt"
+
+#: classes/PodsAPI.php:9307
+msgid "%s is empty"
+msgstr "%s är tomt"
+
+#: classes/PodsAPI.php:3680
+msgid "Cannot save Field"
+msgstr "Kan inte spara fält"
+
+#: classes/PodsAPI.php:3571 classes/PodsAPI.php:3599 classes/PodsAPI.php:4357
+msgid "%s is not editable"
+msgstr "%s är inte redigerbar"
+
+#: classes/PodsAPI.php:3306
+msgid "Field %s already exists"
+msgstr "Fält %s finns redan"
+
+#: classes/Pods.php:3347
+msgid "Last &raquo;"
+msgstr "Sista &raquo;"
+
+#: classes/Pods.php:3342
+msgid "Go to page:"
+msgstr "Gå till sida:"
+
+#: classes/PodsAPI.php:936 classes/PodsAPI.php:947
+msgid "Closed"
+msgstr "Stängd"
+
+#: classes/PodsAPI.php:935 classes/PodsAPI.php:946
+msgid "Open"
+msgstr "Öppen"
+
+#: src/Pods/Admin/Config/Field.php:332 src/Pods/Admin/Config/Group.php:131
+msgid "Restrict Access"
+msgstr "Begränsa åtkomst"
