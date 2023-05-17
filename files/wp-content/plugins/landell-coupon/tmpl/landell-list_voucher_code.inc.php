@@ -9,7 +9,13 @@ if (!function_exists("get_plugin_url")) {
   }
 }
 
+
 function get_list_of_voucher_codes_html($show_all, $current_user, $atts) {
+
+
+  if (!empty($_GET['pin_code']) && !empty($_GET['voucher_id']) && !empty($_GET['voucher_code'])) {
+    redeem_voucher($current_user, $_GET['voucher_id'], $_GET['voucher_code'], $_GET['pin_code']);
+  }
 
   $show_all = true;
   $atts = array_change_key_case( (array) $atts, CASE_LOWER );
@@ -50,17 +56,28 @@ function get_list_of_voucher_codes_html($show_all, $current_user, $atts) {
     //  continue;
     //}
 
+    $redeemed = get_redeemed_vouchers($current_user, get_the_ID());
+
 
     $vouchers = get_vouchers($current_user, get_the_ID());
     $content = "";
 
     if (!empty($vouchers)) {
       $content.="<h2>Dina inlösningskoder:</h2>";
-      foreach($vouchers as $voucher) {
-          $content.= "<p>".$voucher."</p>";
+      foreach($vouchers as $key => $voucher) {
+          $content.= "<p class=\"\" id=\"view-row-{$key}\">".$voucher." <button style='margin-left:25%;width:200px;' onClick=\"document.getElementById('view-row-{$key}').className = 'hidden';document.getElementById('edit-row-{$key}').className = '';\">Lös in</button></p>"
+                  .  "<p class=\"hidden\" id=\"edit-row-{$key}\"><input class=\"pin_code\" id=\"pin_code-{$key}\" style=\"max-width: 127px;text-align: center;margin-left: 2vw;font-size: xx-large;color: #a45861;\" placeholder=\"skriv kod\"/> <button onClick=\"window.location='{$get_my_coupon_codes_url}?voucher_id=".get_the_ID()."&voucher_code={$voucher}&pin_code='+document.getElementById('pin_code-{$key}').value;\" style=\"margin-left:25%;width:200px;background-color:#a45861;\">Spara & Förbruka</button></p>";
           $totalAmountOfCodes+=1;
       }
-    } else {
+    } 
+    if (!empty($redeemed)) {
+      $content.="<h2>Förbrukade inlösningskoder:</h2>";
+      foreach($redeemed as $key => $voucher) {
+          $content.= "<p style=\"text-decoration-line: line-through;\">{$voucher}</p>";
+      }
+    } 
+    
+    if (empty($vouchers) && empty($redeemed)) {
       continue;
     }
 
@@ -83,6 +100,8 @@ function get_list_of_voucher_codes_html($show_all, $current_user, $atts) {
       if($totalAmountOfCodes==0) {
         $html.="<div class='col-lg-7'>".$arrArguments["text-inga-kuponger"]."</div>";
       }
+
+      $html = str_ireplace("http://localhost:8080/wp-content/uploads", "https://sverigeshopping.se/wp-content/uploads", $html);
 
       return $html;
 }

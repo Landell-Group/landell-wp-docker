@@ -1,3 +1,3 @@
-E²bd
+ÓImd
 <?php exit; ?>
 a:0:{}

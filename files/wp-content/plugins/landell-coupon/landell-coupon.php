@@ -47,11 +47,15 @@ function get_qr_code($instance_id) {
 }
 
 function get_mypage_url() {
-	return urlencode("mitt-konto");
+	return "/".urlencode("mitt-konto");
 }
 
 function get_my_coupon_codes_url() {
-	return urlencode("mina-rabattkoder");
+	return "/".urlencode("mina-rabattkoder");
+}
+
+function get_redeeom_coupon_code_url() {
+	return "/".urlencode("los-in-kupong");
 }
 
 function file_is_outdated($filename) {
@@ -239,6 +243,62 @@ function is_redeemable($code, $current_user, $id) {
 }
 
 /**
+* redeem_voucher
+* redeems a vouchers codes
+**/
+function redeem_voucher($current_user, $id, $code, $pin_code = 0000) {
+
+	$real_pin_code = get_post_meta( $id , 'pin_code', true );
+	if (
+		!(empty($real_pin_code) && $pin_code === '0000') &&
+		!(!empty($real_pin_code) && $pin_code !== $real_pin_code) 
+		) {
+			error_log("invalid code. '{$pin_code}' != '{$real_pin_code}'");
+			return false;
+		}
+
+	$user_field = 'vouchers-consumed'.strval($id);
+	$c_user_id = $current_user->ID;
+	$now   = new DateTime;
+
+	$value = get_user_meta( $c_user_id, $user_field, true);
+	if (empty($value) || !is_array($value)) {
+		$value = array();
+	}
+
+	if(!in_array($code, $value)) {
+		$value[] = $code;
+		$updated = update_user_meta( $c_user_id, $user_field, $value );
+
+		// set a timestamp so that there can be a cold down period before a new
+		// card is generated.
+		//$updated = update_user_meta( $c_user_id, 'last-card-completed'.strval($id), $now->format('Y-m-d H:i:s') );
+	}
+
+
+
+	return $code;
+}
+
+/**
+* get_redeemed_vouchers
+* get vouchers
+**/
+function get_redeemed_vouchers($current_user, $id) {
+
+	$user_field = 'vouchers-consumed'.strval($id);;
+	$c_user_id = $current_user->ID;
+
+	$value = get_user_meta( $c_user_id, $user_field, true);
+	if (empty($value) || !is_array($value)) {
+		$value = array();
+	}
+
+	return $value;
+}
+
+
+/**
 * save_voucher
 * saves vouchers codes
 **/
@@ -279,7 +339,9 @@ function get_vouchers($current_user, $id) {
 		$value = array();
 	}
 
-	return $value;
+	$redeemed = (array)get_redeemed_vouchers($current_user, $id);
+	
+	return array_diff($value, $redeemed);
 }
 
 /** new **/
@@ -299,6 +361,12 @@ function landell_wordpress_render_all_loyalty_cards($atts) {
 		add_user_voucher(wp_get_current_user(), intval($_GET['save_id']));
 	}
 	return get_list_of_vouchers_html($show_all = true, wp_get_current_user(), $atts);
+}
+
+/** redeem a specific card **/
+function landell_wordpress_redeem_loyalty_card($atts) {
+	echo "<h1>Skriv in kod</h1>";
+
 }
 
 /** render a specific card **/
@@ -371,17 +439,20 @@ add_action('register_form', 'landell_new_item_register_form');
 function get_voucher_design($code, $trophy_image) {
 
 	$forward_url = get_my_coupon_codes_url();
-
 	return '
  <div class="landell-modal fade show" id="myModal" role="dialog">
      <div class="modal-dialog">
          <div class="card">
              <div class="text-right cross"> <i class="fa fa-times"></i> </div>
              <div class="card-body text-center"> <img src="'.$trophy_image.'" style="float:left;">
-			 <div class="card-right text-center" style="float:right; max-width:50%;">
-			    <h4>GRATTIS!</h4>
-                 <p style="margin-bottom:18px;">Här är din unika inlösenkord: <strong>'.$code.'</strong></p> <a class="btn btn-out btn-square continue" style="pointer-events: initial!important;" href="'.$forward_url.'">Spara koden på mitt konto</a>
-             </div>
+				<div class="card-right text-center" style="float:right; max-width:50%;">
+					<h4>GRATTIS!</h4>
+					<p style="margin-bottom:18px;">Här är din unika inlösenkord: <strong>'.$code.'</strong></p>
+					<a class="btn btn-out btn-square continue" style="pointer-events: initial!important;" href="'.$forward_url.'">Spara koden på mitt konto</a><br/>
+					<a class="btn btn-out btn-square redeem" style="pointer-events: initial!important;background-color: rgb(235, 233, 235); color: #a45861;" href="'.$forward_url.'">Lös in direkt</a>
+
+				</div>
+			</div>
          </div>
      </div>
  </div>';
@@ -392,6 +463,7 @@ function get_voucher_design($code, $trophy_image) {
 ***/
 function register_scripts() {
     add_shortcode('visa-klippkort', 'landell_wordpress_render_loyalty_card');
+	add_shortcode('los-in-klippkort', 'landell_wordpress_redeem_loyalty_card');
 		add_shortcode('lista-egna-rabattkoder', 'landell_wordpress_render_my_voucher_codes');
 		add_shortcode('lista-egna-klippkort', 'landell_wordpress_render_my_loyalty_cards');
 		add_shortcode('lista-alla-klippkort', 'landell_wordpress_render_all_loyalty_cards');
@@ -757,3 +829,241 @@ function landell_register_form_errors( $errors, $sanitized_user_login, $user_ema
     return $errors;
 }
 add_filter( 'registration_errors', 'landell_register_form_errors', 10, 3 );
+
+
+/** LANDELL 2.0 **/
+
+// -----------------------------------------------------------------------------
+// add new tab in product
+// wc-frontend-manager/views/products-manager/wcfm-view-products-manage-tabs.php
+// -----------------------------------------------------------------------------
+function landell_product_add_kk( $product_id, $product_type = null) {
+
+
+	
+	global $WCFM, $WCFMmp;
+
+	$user            = wp_get_current_user();
+
+	if (empty($product_id)) {
+		$product_id = get_the_ID();
+	}
+
+	if (empty($product_type)) {
+		$product = wc_get_product( $product_id );
+		$product_type = $product->product_type;
+	}
+
+	if (strtolower(strval($product_type)) == 'klippkort') {
+		//do_action( 'add_pincode_field', $user);
+		return; // no need to show klippkort on klippkort
+	}
+
+	echo '<div class="options_group">';
+
+
+	/** LANDELL NEW START **/
+
+	$query =array(
+		'post_type' => 'product',
+		'post_status' => 'publish',
+		'tax_query' => array(
+				array(
+						'taxonomy' => 'product_type',
+						'field'    => 'slug',
+						'terms'    => 'klippkort',
+				),
+		)
+	);
+
+	$entries = get_posts($query);
+	$klippkort = [];
+
+	// reset so all slots have a value
+	for ($i=-2;$i<5; $i++) {
+		$klippkort[$i]  = ["id" => -1, "html" => '<div style="width:25vw">&nbsp;</div>'];
+	}
+
+	$klippkort[-2]["html"] = '<div class="card-wrap-outer" border="0"><a style="text-decoration:none;" href="#1" onClick="javascript:document.getElementById(\'product_selected_klippkort\').value = \'-2\';"><div class="card-wrap" style="background-image:none;background-color:white ;width: 32vw;"><h2 style="color:#303030;font-family:\'Glass Antiqua\',display;font-size: 100px;top: 50%;position: relative;left: 25%;border-bottom: 5px solid gold; line-height: 20px; display: table-cell; float: left; font-weight: 600; margin-top: 6px; margin-bottom: 15px; width: auto; padding: 0px; clear: none; font-style: italic;">KOPPLA<br/><small style="line-height: 100px;font-size: xxx-large;">Till befintligt klippkort</small></h2></div></a><h2 style="font-family: inherit; margin-left: 45%; font-size: 55px; color: green;">Valt</h2></div>';
+
+	$klippkort[-1]["html"] = '<div class="card-wrap-outer" border="0"><a style="text-decoration:none;" href="#2" onClick="javascript:document.getElementById(\'product_selected_klippkort\').value = \'-1\';"><div class="card-wrap" style="background-image:none;background-color:white ;width: 32vw;"><h2 style="color:cadetblue;font-family:\'Glass Antiqua\',display;font-size: 100px;top: 50%;position: relative;left: 25%;line-height: 20px; display: table-cell; float: left; font-weight: 600; margin-top: 6px; margin-bottom: 15px; width: auto; padding: 0px; clear: none; font-style: italic;">NYTT<br/><small style="line-height: 100px;font-size: xxx-large;">Beställ nytt klippkort</small></h2></div></a><h3>&nbsp;</h3></div>';
+	$klippkort[0]["html"] = '<div class="card-wrap-outer" border="0"><a style="text-decoration:none;" href="#3" onClick="javascript:document.getElementById(\'product_selected_klippkort\').value = \'0\';"><div class="card-wrap" style="background-image:none;background-color:white ;width: 32vw;"><h2 style="color:#a45861;font-family:\'Glass Antiqua\',display;font-size: 100px;top: 50%;position: relative;left: 25%;line-height: 20px; display: table-cell; float: left; font-weight: 600; margin-top: 6px; margin-bottom: 15px; width: auto; padding: 0px; clear: none; font-style: italic;">INGET<br/><small style="line-height: 100px;font-size: xxx-large;">Fortsätt utan klippkort</small></h2></div></a><h3>&nbsp;</h3></div>';
+
+
+	$j=1; // skip -1 and 0
+	foreach($entries as $key => $value) {
+		if (1==1 || !wcfm_is_vendor() || in_array($value->post_author, [$user->ID])) {
+
+			$klippkort[$j] = [
+				"id" => $value->ID,
+				"html" => get_voucher_html($value->ID, wp_get_current_user(), -1, [])
+			];					
+
+			$klippkort[$j]["html"] = str_ireplace("http://localhost:8080/", "https://sverigeshopping.se/", $klippkort[$j]["html"]);
+			$klippkort[$j]["html"] = str_ireplace("card_text", "card_text text-white hidden", $klippkort[$j]["html"]); // hack to hide text	
+			$klippkort[$j]["html"] = str_ireplace("<p>", '<p style="display:none">', $klippkort[$j]["html"]); // hack to hide text	
+			$klippkort[$j]["html"] = str_ireplace("card-body text-center", 'card-body text-center hidden', $klippkort[$j]["html"]); // hack to hide text	
+			$klippkort[$j]["html"] = str_ireplace("card-filler", 'hidden card-filler', $klippkort[$j]["html"]); // hack to hide text	
+			$klippkort[$j]["html"] = str_ireplace("<h2>", '<h2 style="display:none">', $klippkort[$j]["html"]); // hack to hide text	
+			$klippkort[$j]["html"] = str_ireplace("btn btn-primary", 'btn btn-primary hidden', $klippkort[$j]["html"]); // hack to hide text	
+			$klippkort[$j]["html"] = str_ireplace('<a href="', '<a href="#x" style="text-decoration:none;" onClick="javascript:document.getElementById(\'product_selected_klippkort\').value = \''.$klippkort[$j]["id"].'\';" data-href="', $klippkort[$j]["html"]); // hack to hide text	
+
+			
+			$j++;	
+		}	
+	}
+
+	//$selected_card = 1687;
+	$selected_card = get_post_meta($product_id, "product_selected_klippkort", true);
+	print_r(["current_val" => $selected_card, "product_type" => $product_type]);
+	if (strlen(strval($selected_card)) === 0) {
+		$selected_card = -2;
+	}
+	?>
+	<hr>
+		<!-- 
+	<h1>Koppla till klippkort</h1>
+<hr>
+	<label for="ja">Ja</label><input type="radio" id="ja" name="koppla_kk">
+	<label for="nej">Nej</label><input type="radio" id="nej" name="koppla_kk">
+-->
+	<div class="wcfm_clearfix"></div>
+
+	<div style="max-width:100vw;zoom:0.4;margin-top:50px">
+		<?php 
+		foreach($klippkort as $key => $kort) {
+			$_style = "min-height: 500px;float: left;";
+			if (strval($kort["id"]) == strval($selected_card)) {
+				$_style .= 'border-bottom: 5px solid gold;';
+			}
+			echo '<div data-key="'.$key.'" style="'.$_style.'">';
+			echo $kort["html"];
+			//echo (strval($kort["id"]) !== '-1' ? "<hr/>" : '');
+			echo (strval($kort["id"]) !== '-1' && strval($kort["id"]) == strval($selected_card) ? "<button style=\"font-size: xxx-large;color: green;text-decoration:none;border-bottom: 5px solid gold; border-top: none; border-left: none; border-right: none;\">VALT</button>" : '');
+			echo (strval($kort["id"]) !== '-1' && strval($kort["id"]) != strval($selected_card) ? "<button style=\"font-size: xxx-large;color: #a45861;text-decoration:none;\" onClick=\"javascript:document.getElementById('product_selected_klippkort').value = '{$kort['id']}'; return false;\">VÄLJ DETTA KORT</button>" : '');
+			echo "</div>";
+		}
+		?>
+		
+	</div>
+	<div class="wcfm_clearfix"></div>
+
+	<input type="text" name="product_selected_klippkort" id="product_selected_klippkort" class="form-control" value=<?php echo $selected_card; ?> />
+
+	
+<?php
+    echo '</div>';
+
+}
+
+
+add_action( 'wcfm_product_manager_left_panel_after', 'landell_product_add_kk' , 500, 4 );
+//add_action( 'woocommerce_product_meta_end', 'landell_product_add_kk' , 500, 4 ); // admin
+//add_action( 'add_meta_boxes', 'landell_product_add_kk' , 500, 4 ); // admin
+//add_action( 'add_meta_boxes_product', 'landell_product_add_kk' , 10, 4 ); // admin
+add_action( 'woocommerce_product_options_general_product_data', 'landell_product_add_kk' , 10, 4 ); // admin
+add_action('woocommerce_process_product_meta', 'save_kk_option_field'); // admin save
+add_action( 'after_wcfm_products_manage_meta_save', 'save_kk_option_field', 25);
+
+
+//add_action( 'woocommerce_product_after_variable_attributes', 'save_kk_option_field'  );
+
+
+
+
+/*
+* Save the custom fields.
+*/
+function save_kk_option_field( $post_id ) {
+
+	error_log(print_r($_POST, true));
+
+	// admin
+	if (isset($_POST["product_selected_klippkort"])) {
+		$post_data = $_POST;
+	} else if (!isset($_POST["wcfm_products_manage_form"])) {
+		return;
+	} else {
+		parse_str($_POST["wcfm_products_manage_form"], $post_data);
+	}
+
+
+ if ( isset( $post_data['product_selected_klippkort'] ) ) :
+   update_post_meta( $post_id, 'product_selected_klippkort', sanitize_text_field( $post_data['product_selected_klippkort'] ) );
+ endif;
+
+ 
+
+ error_log(">>>>>>>>>>>> save_kk_option_field <<<<<<<<<");
+
+
+ error_log(print_r(
+	["post_id" => $post_id,
+	 "in" => $post_data['product_selected_klippkort'],
+	  "mid" => sanitize_text_field( $post_data['product_selected_klippkort'] ),
+	  "out" => get_post_meta($post_id, "product_selected_klippkort", true)
+	], true)
+);
+
+}
+
+function add_text_below_order_received_title($thankyou_text, $order) {
+
+	if (empty($order)) {
+		return;
+	}
+	//$card_template_id = 
+	//$coupon = get_voucher_html($card_template_id, wp_get_current_user(), $distinct_session_key, $atts);
+
+	/*
+	$coupon = print_r([
+		"id" => get_the_ID(),
+		"order" => $order,
+	], 
+		true);
+		*/
+
+		$coupon = "";
+
+	   // Get order items
+	   $items = $order->get_items();
+	   $distinct_session_key = false;
+
+	   // Loop through order items
+	   foreach ($items as $item) {
+		   $product_id = $item->get_product_id();
+
+		   $klippkort = get_post_meta($product_id, "product_selected_klippkort", true);
+
+		   if (!empty($klippkort) && is_numeric($klippkort)) {
+			 $card_template_id = (int)$klippkort;
+			 $distinct_session_key = (!empty($order->order_key) && is_redeemable($order->order_key,wp_get_current_user(), $card_template_id));
+
+			 $coupon.=get_voucher_html($card_template_id, wp_get_current_user(), $distinct_session_key, $atts = []);
+			 $coupon = str_ireplace("http://localhost:8080/", "https://sverigeshopping.se/", $coupon);
+
+			}
+
+		   break;
+		   // Do something with the product ID
+		   //$thankyou_text .= '<p>Product ID: ' . $product_id . '</p>';
+	   }
+   
+
+	$thankyou_text = 'Grattis '.$distinct_session_key." !";
+    $thankyou_text .= '<p>' . $coupon . '</p>';
+    return $thankyou_text;
+}
+
+
+add_filter('woocommerce_thankyou_order_received_text', 'add_text_below_order_received_title', 10, 2);
+
+// Save the PIN code field value
+function save_pincode_field( $product_id ) {
+
+    if ( ! empty( $_POST['pin_code'] ) ) {
+        $pin_code = sanitize_text_field( $_POST['pin_code'] );
+        update_post_meta( $product_id , 'pin_code', $pin_code );
+    }
+}
+add_action( 'woocommerce_process_product_meta', 'save_pincode_field');

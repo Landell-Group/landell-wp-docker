@@ -84,6 +84,18 @@ function klippkort_options_product_tab_content() {
           $contacts[$id] = $value;
       }
 
+      // Add the PIN code field to the wooCommerce card
+  	  $pin_code = ( $pin_code = get_post_meta( $post->ID, 'pin_code', true ) ) ? $pin_code : '0000';
+    
+      woocommerce_form_field( 'pin_code', array(
+          'type'        => 'number',
+          'class'       => array('form-row-wide'),
+          'label'       => __('PIN Kod'),
+      'maxlength'		  => 5,
+          'placeholder' => __('0000'),
+          'required'    => false,
+      ), $pin_code);
+      
       woocommerce_wp_select( array(
         'id'			=> 'coupon_card_contacts',
         'label'			=> __( 'Select customer', 'woocommerce' ),

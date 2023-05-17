@@ -1,3 +1,3 @@
-U½Yd
+ Ždd
 <?php exit; ?>
 a:0:{}

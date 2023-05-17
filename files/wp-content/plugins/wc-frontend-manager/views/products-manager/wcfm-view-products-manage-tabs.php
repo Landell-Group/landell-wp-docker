@@ -12,6 +12,8 @@
  
 global $wp, $WCFM, $wc_product_attributes;
 
+
+
 ?>
 				<?php 
 				$wcfm_pm_block_class_stock = apply_filters( 'wcfm_pm_block_class_stock', 'simple variable grouped external non-job_package non-resume_package non-auction non-groupbuy non-accommodation-booking' );
@@ -41,7 +43,7 @@ global $wp, $WCFM, $wc_product_attributes;
 				<div class="wcfm_clearfix"></div>
 					
 				<?php do_action( 'after_wcfm_products_manage_stock', $product_id, $product_type ); ?>
-				
+				<?php /*landell_product_add_kk($product_id, $product_type)*/ ?>
 				<?php 
 				$wcfm_pm_block_class_downlodable = apply_filters( 'wcfm_pm_block_class_downlodable', 'simple downlodable non-variable-subscription non-redq_rental non-appointment' );
 				if( !apply_filters( 'wcfmu_is_allow_downloadable', true ) || !apply_filters( 'wcfmu_is_allow_pm_downloadable', true ) ) { 

@@ -1,3 +1,3 @@
-DZd
+Ždd
 <?php exit; ?>
 a:0:{}

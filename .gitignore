@@ -1,1 +1,4 @@
 .DS_Store
+*.zip
+files/hidden-files/*
+files/schema

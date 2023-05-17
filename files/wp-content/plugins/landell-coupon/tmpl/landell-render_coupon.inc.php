@@ -73,7 +73,7 @@ function get_voucher_html($card_template_id, $current_user, $distinct_session_ke
 	";
 
   $card_total_checkbox = get_number_of_checkboxes($card_template_id);
-	if ($distinct_session_key) {
+	if ($distinct_session_key && strval($distinct_session_key) !== '-1') {
     if (!is_locked(wp_get_current_user(), $card_template_id) && $user_can_access_this_card) {
       inc_coupon_count($card_template_id, wp_get_current_user(), get_number_of_checkboxes($card_template_id));
     }
@@ -126,7 +126,7 @@ function get_voucher_html($card_template_id, $current_user, $distinct_session_ke
   $url_to_product = get_permalink( $card_template_id );
 
   $content .= "
-      <a href=\"{$url_to_product}\"><div class=\"card-wrap\"></div></a>";
+      <a href=\"{$url_to_product}\"><div class=\"card-wrap\" style=\"background-image: url({$path_to_file});\"></div></a>";
 
 
 //if ($checkmarks!=get_number_of_checkboxes($card_template_id)) {
@@ -245,7 +245,7 @@ function get_voucher_html($card_template_id, $current_user, $distinct_session_ke
         $content.="<hr><div class='col-lg-7'>
           <div class='text-center col-lg-7 small text-danger'><a href='".get_login_url(true)."?redirect_to=".urlencode($list_page_url)."'>".$arrArguments["text-saknar-access"]."</a></div>
         </div><br/>";
-      } else if (!$user_have_this_card){
+      } else if (!$user_have_this_card && strval($distinct_session_key) !== '-1'){
         $content.="<hr><div class='col-lg-7'>
             <button type='button' id='save_".$card_template_id."' class='btn btn-primary' data-toggle='button' aria-pressed='false' autocomplete='off'>
               <a class='text-white' href='".$list_page_url."?save_id=".$card_template_id."'>".$arrArguments["button-spara"]."</a>
@@ -254,6 +254,11 @@ function get_voucher_html($card_template_id, $current_user, $distinct_session_ke
       } else {
         // TODO: we should not end up here
       }
+
+    /*if (strval($card_template_id)==strval(1257)) {
+      print_r($content);
+      die();
+    }*/
 
       return $content;
 }

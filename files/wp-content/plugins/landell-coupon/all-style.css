@@ -717,3 +717,12 @@ body:not(.et-tb) #main-content .container, body:not(.et-tb-has-header) #main-con
 .text-black {
   color:black !important;
 }
+
+
+input#pin_code, input.pin_code {
+    max-width: 127px;
+    text-align: center;
+    margin-left: 24vw;
+    font-size: xx-large;
+    color: #a45861;
+}

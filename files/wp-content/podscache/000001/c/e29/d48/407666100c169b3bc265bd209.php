@@ -1,3 +1,3 @@
-Ú[Yd
+{Ðbd
 <?php exit; ?>
 1

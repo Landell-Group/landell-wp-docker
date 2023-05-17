@@ -1,3 +1,3 @@
-f®bd
+{ld
 <?php exit; ?>
 a:0:{}
